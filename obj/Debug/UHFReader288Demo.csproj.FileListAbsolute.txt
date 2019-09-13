@@ -1,0 +1,13 @@
+D:\GitHub\RFID\bin\Debug\UHFReader288Demo.exe
+D:\GitHub\RFID\bin\Debug\UHFReader288Demo.pdb
+D:\GitHub\RFID\bin\Debug\CustomControl.dll
+D:\GitHub\RFID\obj\Debug\UHFReader288Demo.csprojAssemblyReference.cache
+D:\GitHub\RFID\obj\Debug\UHFReader288Demo.ConfigForm.resources
+D:\GitHub\RFID\obj\Debug\UHFReader288Demo.Form1.resources
+D:\GitHub\RFID\obj\Debug\UHFReader288Demo.LoginForm.resources
+D:\GitHub\RFID\obj\Debug\UHFReader288Demo.Properties.Resources.resources
+D:\GitHub\RFID\obj\Debug\UHFReader288Demo.csproj.GenerateResource.cache
+D:\GitHub\RFID\obj\Debug\UHFReader288Demo.csproj.CoreCompileInputs.cache
+D:\GitHub\RFID\obj\Debug\UHFReader288Demo.csproj.CopyComplete
+D:\GitHub\RFID\obj\Debug\UHFReader288Demo.exe
+D:\GitHub\RFID\obj\Debug\UHFReader288Demo.pdb
