@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\bin\x86\Release\UHFReader288Demo.exe
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\bin\x86\Release\UHFReader288Demo.pdb
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\bin\x86\Release\CustomControl.dll
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.csprojAssemblyReference.cache
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.ConfigForm.resources
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.Form1.resources
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.LoginForm.resources
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.Properties.Resources.resources
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.csproj.GenerateResource.cache
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.csproj.CopyComplete
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.exe
+C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.pdb

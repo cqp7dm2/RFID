@@ -131,6 +131,7 @@
             this.ComboBox_PowerDbm = new System.Windows.Forms.ComboBox();
             this.BT_DBM = new System.Windows.Forms.Button();
             this.gpb_Freq = new System.Windows.Forms.GroupBox();
+            this.radioButton_band12 = new System.Windows.Forms.RadioButton();
             this.radioButton_band8 = new System.Windows.Forms.RadioButton();
             this.CheckBox_SameFre = new System.Windows.Forms.CheckBox();
             this.radioButton_band4 = new System.Windows.Forms.RadioButton();
@@ -506,11 +507,11 @@
             this.text_6BUID = new System.Windows.Forms.TextBox();
             this.label29 = new System.Windows.Forms.Label();
             this.ListView_ID_6B = new System.Windows.Forms.ListView();
-            this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox19 = new System.Windows.Forms.GroupBox();
             this.rb_mutiple = new System.Windows.Forms.RadioButton();
             this.rb_single = new System.Windows.Forms.RadioButton();
@@ -519,9 +520,9 @@
             this.tabControl3 = new System.Windows.Forms.TabControl();
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.DeviceListView = new System.Windows.Forms.ListView();
-            this.deviceName = new System.Windows.Forms.ColumnHeader();
-            this.deviceIP = new System.Windows.Forms.ColumnHeader();
-            this.deviceMac = new System.Windows.Forms.ColumnHeader();
+            this.deviceName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.deviceIP = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.deviceMac = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.menuStrip = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.searchToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -623,7 +624,6 @@
             this.timer_Buff = new System.Windows.Forms.Timer(this.components);
             this.timer_RealTime = new System.Windows.Forms.Timer(this.components);
             this.ckClearOperationRec = new System.Windows.Forms.CheckBox();
-            this.radioButton_band12 = new System.Windows.Forms.RadioButton();
             this.Maintab.SuspendLayout();
             this.Main_Page1.SuspendLayout();
             this.tabControl1.SuspendLayout();
@@ -765,18 +765,18 @@
             // 
             this.lrtxtLog.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.lrtxtLog.EnableAutoDragDrop = true;
-            this.lrtxtLog.Location = new System.Drawing.Point(-1, 632);
+            this.lrtxtLog.Location = new System.Drawing.Point(-1, 685);
             this.lrtxtLog.Name = "lrtxtLog";
-            this.lrtxtLog.Size = new System.Drawing.Size(1080, 89);
+            this.lrtxtLog.Size = new System.Drawing.Size(1080, 96);
             this.lrtxtLog.TabIndex = 0;
             this.lrtxtLog.Text = "";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(15, 608);
+            this.label1.Location = new System.Drawing.Point(15, 659);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(113, 12);
+            this.label1.Size = new System.Drawing.Size(94, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Operation records:";
             // 
@@ -792,7 +792,7 @@
             this.Maintab.Multiline = true;
             this.Maintab.Name = "Maintab";
             this.Maintab.SelectedIndex = 0;
-            this.Maintab.Size = new System.Drawing.Size(1079, 602);
+            this.Maintab.Size = new System.Drawing.Size(1079, 652);
             this.Maintab.TabIndex = 3;
             this.Maintab.SelectedIndexChanged += new System.EventHandler(this.Maintab_SelectedIndexChanged);
             // 
@@ -803,7 +803,7 @@
             this.Main_Page1.Location = new System.Drawing.Point(4, 27);
             this.Main_Page1.Name = "Main_Page1";
             this.Main_Page1.Padding = new System.Windows.Forms.Padding(3);
-            this.Main_Page1.Size = new System.Drawing.Size(1071, 571);
+            this.Main_Page1.Size = new System.Drawing.Size(1071, 621);
             this.Main_Page1.TabIndex = 0;
             this.Main_Page1.Text = "   Command  ";
             this.Main_Page1.UseVisualStyleBackColor = true;
@@ -818,7 +818,7 @@
             this.tabControl1.Location = new System.Drawing.Point(1, 4);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(1065, 568);
+            this.tabControl1.Size = new System.Drawing.Size(1065, 615);
             this.tabControl1.TabIndex = 0;
             this.tabControl1.SelectedIndexChanged += new System.EventHandler(this.Maintab_SelectedIndexChanged);
             // 
@@ -854,7 +854,7 @@
             this.tabPage_Basic.Location = new System.Drawing.Point(4, 27);
             this.tabPage_Basic.Name = "tabPage_Basic";
             this.tabPage_Basic.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Basic.Size = new System.Drawing.Size(1057, 537);
+            this.tabPage_Basic.Size = new System.Drawing.Size(1057, 584);
             this.tabPage_Basic.TabIndex = 0;
             this.tabPage_Basic.Text = "  Basic  ";
             this.tabPage_Basic.UseVisualStyleBackColor = true;
@@ -870,9 +870,9 @@
             this.gbReturnLoss.Controls.Add(this.textReturnLoss);
             this.gbReturnLoss.Controls.Add(this.btReturnLoss);
             this.gbReturnLoss.ForeColor = System.Drawing.Color.Black;
-            this.gbReturnLoss.Location = new System.Drawing.Point(704, 337);
+            this.gbReturnLoss.Location = new System.Drawing.Point(704, 365);
             this.gbReturnLoss.Name = "gbReturnLoss";
-            this.gbReturnLoss.Size = new System.Drawing.Size(341, 46);
+            this.gbReturnLoss.Size = new System.Drawing.Size(341, 50);
             this.gbReturnLoss.TabIndex = 77;
             this.gbReturnLoss.TabStop = false;
             this.gbReturnLoss.Text = "Measuring antenna ports Return Loss";
@@ -886,26 +886,26 @@
             "Ant2",
             "Ant3",
             "Ant4"});
-            this.cbbAnt.Location = new System.Drawing.Point(198, 18);
+            this.cbbAnt.Location = new System.Drawing.Point(198, 20);
             this.cbbAnt.Name = "cbbAnt";
-            this.cbbAnt.Size = new System.Drawing.Size(70, 20);
+            this.cbbAnt.Size = new System.Drawing.Size(70, 21);
             this.cbbAnt.TabIndex = 16;
             // 
             // label120
             // 
             this.label120.AutoSize = true;
-            this.label120.Location = new System.Drawing.Point(86, 22);
+            this.label120.Location = new System.Drawing.Point(86, 24);
             this.label120.Name = "label120";
-            this.label120.Size = new System.Drawing.Size(11, 12);
+            this.label120.Size = new System.Drawing.Size(18, 13);
             this.label120.TabIndex = 15;
             this.label120.Text = "@";
             // 
             // label121
             // 
             this.label121.AutoSize = true;
-            this.label121.Location = new System.Drawing.Point(170, 22);
+            this.label121.Location = new System.Drawing.Point(170, 24);
             this.label121.Name = "label121";
-            this.label121.Size = new System.Drawing.Size(23, 12);
+            this.label121.Size = new System.Drawing.Size(29, 13);
             this.label121.TabIndex = 14;
             this.label121.Text = "MHz";
             // 
@@ -913,34 +913,34 @@
             // 
             this.cmbReturnLossFreq.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbReturnLossFreq.FormattingEnabled = true;
-            this.cmbReturnLossFreq.Location = new System.Drawing.Point(97, 18);
+            this.cmbReturnLossFreq.Location = new System.Drawing.Point(97, 20);
             this.cmbReturnLossFreq.Name = "cmbReturnLossFreq";
-            this.cmbReturnLossFreq.Size = new System.Drawing.Size(71, 20);
+            this.cmbReturnLossFreq.Size = new System.Drawing.Size(71, 21);
             this.cmbReturnLossFreq.TabIndex = 13;
             // 
             // label122
             // 
             this.label122.AutoSize = true;
-            this.label122.Location = new System.Drawing.Point(11, 22);
+            this.label122.Location = new System.Drawing.Point(11, 24);
             this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(23, 12);
+            this.label122.Size = new System.Drawing.Size(24, 13);
             this.label122.TabIndex = 12;
             this.label122.Text = "RL:";
             // 
             // textReturnLoss
             // 
-            this.textReturnLoss.Location = new System.Drawing.Point(40, 18);
+            this.textReturnLoss.Location = new System.Drawing.Point(40, 20);
             this.textReturnLoss.Name = "textReturnLoss";
             this.textReturnLoss.ReadOnly = true;
-            this.textReturnLoss.Size = new System.Drawing.Size(44, 21);
+            this.textReturnLoss.Size = new System.Drawing.Size(44, 20);
             this.textReturnLoss.TabIndex = 11;
             this.textReturnLoss.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // btReturnLoss
             // 
-            this.btReturnLoss.Location = new System.Drawing.Point(276, 15);
+            this.btReturnLoss.Location = new System.Drawing.Point(276, 16);
             this.btReturnLoss.Name = "btReturnLoss";
-            this.btReturnLoss.Size = new System.Drawing.Size(55, 23);
+            this.btReturnLoss.Size = new System.Drawing.Size(55, 25);
             this.btReturnLoss.TabIndex = 10;
             this.btReturnLoss.Text = "Get";
             this.btReturnLoss.UseVisualStyleBackColor = true;
@@ -951,18 +951,18 @@
             this.gbCmdTemperature.Controls.Add(this.btnGetReaderTemperature);
             this.gbCmdTemperature.Controls.Add(this.txtReaderTemperature);
             this.gbCmdTemperature.ForeColor = System.Drawing.Color.Black;
-            this.gbCmdTemperature.Location = new System.Drawing.Point(702, 279);
+            this.gbCmdTemperature.Location = new System.Drawing.Point(702, 302);
             this.gbCmdTemperature.Name = "gbCmdTemperature";
-            this.gbCmdTemperature.Size = new System.Drawing.Size(342, 49);
+            this.gbCmdTemperature.Size = new System.Drawing.Size(342, 53);
             this.gbCmdTemperature.TabIndex = 76;
             this.gbCmdTemperature.TabStop = false;
             this.gbCmdTemperature.Text = "Working temperature monitoring";
             // 
             // btnGetReaderTemperature
             // 
-            this.btnGetReaderTemperature.Location = new System.Drawing.Point(233, 18);
+            this.btnGetReaderTemperature.Location = new System.Drawing.Point(233, 20);
             this.btnGetReaderTemperature.Name = "btnGetReaderTemperature";
-            this.btnGetReaderTemperature.Size = new System.Drawing.Size(90, 23);
+            this.btnGetReaderTemperature.Size = new System.Drawing.Size(90, 25);
             this.btnGetReaderTemperature.TabIndex = 0;
             this.btnGetReaderTemperature.Text = "Get";
             this.btnGetReaderTemperature.UseVisualStyleBackColor = true;
@@ -970,10 +970,10 @@
             // 
             // txtReaderTemperature
             // 
-            this.txtReaderTemperature.Location = new System.Drawing.Point(6, 20);
+            this.txtReaderTemperature.Location = new System.Drawing.Point(6, 22);
             this.txtReaderTemperature.Name = "txtReaderTemperature";
             this.txtReaderTemperature.ReadOnly = true;
-            this.txtReaderTemperature.Size = new System.Drawing.Size(120, 21);
+            this.txtReaderTemperature.Size = new System.Drawing.Size(120, 20);
             this.txtReaderTemperature.TabIndex = 1;
             this.txtReaderTemperature.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
@@ -983,9 +983,9 @@
             this.gbp_DRM.Controls.Add(this.DRM_OPEN);
             this.gbp_DRM.Controls.Add(this.bt_GetDRM);
             this.gbp_DRM.Controls.Add(this.bt_setDRM);
-            this.gbp_DRM.Location = new System.Drawing.Point(355, 431);
+            this.gbp_DRM.Location = new System.Drawing.Point(355, 467);
             this.gbp_DRM.Name = "gbp_DRM";
-            this.gbp_DRM.Size = new System.Drawing.Size(343, 48);
+            this.gbp_DRM.Size = new System.Drawing.Size(343, 52);
             this.gbp_DRM.TabIndex = 75;
             this.gbp_DRM.TabStop = false;
             this.gbp_DRM.Text = "DRM status";
@@ -993,9 +993,9 @@
             // DRM_CLOSE
             // 
             this.DRM_CLOSE.AutoSize = true;
-            this.DRM_CLOSE.Location = new System.Drawing.Point(103, 20);
+            this.DRM_CLOSE.Location = new System.Drawing.Point(103, 22);
             this.DRM_CLOSE.Name = "DRM_CLOSE";
-            this.DRM_CLOSE.Size = new System.Drawing.Size(53, 16);
+            this.DRM_CLOSE.Size = new System.Drawing.Size(51, 17);
             this.DRM_CLOSE.TabIndex = 12;
             this.DRM_CLOSE.Text = "Close";
             this.DRM_CLOSE.UseVisualStyleBackColor = true;
@@ -1003,18 +1003,18 @@
             // DRM_OPEN
             // 
             this.DRM_OPEN.AutoSize = true;
-            this.DRM_OPEN.Location = new System.Drawing.Point(13, 20);
+            this.DRM_OPEN.Location = new System.Drawing.Point(13, 22);
             this.DRM_OPEN.Name = "DRM_OPEN";
-            this.DRM_OPEN.Size = new System.Drawing.Size(47, 16);
+            this.DRM_OPEN.Size = new System.Drawing.Size(51, 17);
             this.DRM_OPEN.TabIndex = 11;
             this.DRM_OPEN.Text = "Open";
             this.DRM_OPEN.UseVisualStyleBackColor = true;
             // 
             // bt_GetDRM
             // 
-            this.bt_GetDRM.Location = new System.Drawing.Point(247, 17);
+            this.bt_GetDRM.Location = new System.Drawing.Point(247, 18);
             this.bt_GetDRM.Name = "bt_GetDRM";
-            this.bt_GetDRM.Size = new System.Drawing.Size(77, 23);
+            this.bt_GetDRM.Size = new System.Drawing.Size(77, 25);
             this.bt_GetDRM.TabIndex = 9;
             this.bt_GetDRM.Text = "Get";
             this.bt_GetDRM.UseVisualStyleBackColor = true;
@@ -1022,9 +1022,9 @@
             // 
             // bt_setDRM
             // 
-            this.bt_setDRM.Location = new System.Drawing.Point(158, 17);
+            this.bt_setDRM.Location = new System.Drawing.Point(158, 18);
             this.bt_setDRM.Name = "bt_setDRM";
-            this.bt_setDRM.Size = new System.Drawing.Size(77, 23);
+            this.bt_setDRM.Size = new System.Drawing.Size(77, 25);
             this.bt_setDRM.TabIndex = 8;
             this.bt_setDRM.Text = "Set";
             this.bt_setDRM.UseVisualStyleBackColor = true;
@@ -1035,9 +1035,9 @@
             this.gbp_Retry.Controls.Add(this.com_retrytimes);
             this.gbp_Retry.Controls.Add(this.bt_Getretry);
             this.gbp_Retry.Controls.Add(this.bt_Setretry);
-            this.gbp_Retry.Location = new System.Drawing.Point(354, 378);
+            this.gbp_Retry.Location = new System.Drawing.Point(354, 410);
             this.gbp_Retry.Name = "gbp_Retry";
-            this.gbp_Retry.Size = new System.Drawing.Size(343, 48);
+            this.gbp_Retry.Size = new System.Drawing.Size(343, 52);
             this.gbp_Retry.TabIndex = 74;
             this.gbp_Retry.TabStop = false;
             this.gbp_Retry.Text = "Retry write times set and get";
@@ -1055,16 +1055,16 @@
             "5",
             "6",
             "7"});
-            this.com_retrytimes.Location = new System.Drawing.Point(14, 19);
+            this.com_retrytimes.Location = new System.Drawing.Point(14, 21);
             this.com_retrytimes.Name = "com_retrytimes";
-            this.com_retrytimes.Size = new System.Drawing.Size(100, 20);
+            this.com_retrytimes.Size = new System.Drawing.Size(100, 21);
             this.com_retrytimes.TabIndex = 26;
             // 
             // bt_Getretry
             // 
-            this.bt_Getretry.Location = new System.Drawing.Point(247, 17);
+            this.bt_Getretry.Location = new System.Drawing.Point(247, 18);
             this.bt_Getretry.Name = "bt_Getretry";
-            this.bt_Getretry.Size = new System.Drawing.Size(77, 23);
+            this.bt_Getretry.Size = new System.Drawing.Size(77, 25);
             this.bt_Getretry.TabIndex = 9;
             this.bt_Getretry.Text = "Get";
             this.bt_Getretry.UseVisualStyleBackColor = true;
@@ -1072,9 +1072,9 @@
             // 
             // bt_Setretry
             // 
-            this.bt_Setretry.Location = new System.Drawing.Point(158, 17);
+            this.bt_Setretry.Location = new System.Drawing.Point(158, 18);
             this.bt_Setretry.Name = "bt_Setretry";
-            this.bt_Setretry.Size = new System.Drawing.Size(77, 23);
+            this.bt_Setretry.Size = new System.Drawing.Size(77, 25);
             this.bt_Setretry.TabIndex = 8;
             this.bt_Setretry.Text = "Set";
             this.bt_Setretry.UseVisualStyleBackColor = true;
@@ -1088,9 +1088,9 @@
             this.gbp_wpower.Controls.Add(this.rb_wp1);
             this.gbp_wpower.Controls.Add(this.bt_GetWpower);
             this.gbp_wpower.Controls.Add(this.bt_SetWpower);
-            this.gbp_wpower.Location = new System.Drawing.Point(6, 392);
+            this.gbp_wpower.Location = new System.Drawing.Point(6, 425);
             this.gbp_wpower.Name = "gbp_wpower";
-            this.gbp_wpower.Size = new System.Drawing.Size(343, 68);
+            this.gbp_wpower.Size = new System.Drawing.Size(343, 74);
             this.gbp_wpower.TabIndex = 73;
             this.gbp_wpower.TabStop = false;
             this.gbp_wpower.Text = "Write Power Set and get";
@@ -1098,9 +1098,9 @@
             // label112
             // 
             this.label112.AutoSize = true;
-            this.label112.Location = new System.Drawing.Point(120, 44);
+            this.label112.Location = new System.Drawing.Point(120, 48);
             this.label112.Name = "label112";
-            this.label112.Size = new System.Drawing.Size(23, 12);
+            this.label112.Size = new System.Drawing.Size(28, 13);
             this.label112.TabIndex = 27;
             this.label112.Text = "dBm";
             // 
@@ -1140,17 +1140,17 @@
             "28",
             "29",
             "30"});
-            this.com_wpower.Location = new System.Drawing.Point(14, 41);
+            this.com_wpower.Location = new System.Drawing.Point(14, 44);
             this.com_wpower.Name = "com_wpower";
-            this.com_wpower.Size = new System.Drawing.Size(100, 20);
+            this.com_wpower.Size = new System.Drawing.Size(100, 21);
             this.com_wpower.TabIndex = 26;
             // 
             // rb_wp2
             // 
             this.rb_wp2.AutoSize = true;
-            this.rb_wp2.Location = new System.Drawing.Point(157, 18);
+            this.rb_wp2.Location = new System.Drawing.Point(157, 20);
             this.rb_wp2.Name = "rb_wp2";
-            this.rb_wp2.Size = new System.Drawing.Size(59, 16);
+            this.rb_wp2.Size = new System.Drawing.Size(58, 17);
             this.rb_wp2.TabIndex = 11;
             this.rb_wp2.Text = "Enable";
             this.rb_wp2.UseVisualStyleBackColor = true;
@@ -1159,9 +1159,9 @@
             // 
             this.rb_wp1.AutoSize = true;
             this.rb_wp1.Checked = true;
-            this.rb_wp1.Location = new System.Drawing.Point(15, 18);
+            this.rb_wp1.Location = new System.Drawing.Point(15, 20);
             this.rb_wp1.Name = "rb_wp1";
-            this.rb_wp1.Size = new System.Drawing.Size(65, 16);
+            this.rb_wp1.Size = new System.Drawing.Size(60, 17);
             this.rb_wp1.TabIndex = 10;
             this.rb_wp1.TabStop = true;
             this.rb_wp1.Text = "Disable";
@@ -1169,9 +1169,9 @@
             // 
             // bt_GetWpower
             // 
-            this.bt_GetWpower.Location = new System.Drawing.Point(247, 39);
+            this.bt_GetWpower.Location = new System.Drawing.Point(247, 42);
             this.bt_GetWpower.Name = "bt_GetWpower";
-            this.bt_GetWpower.Size = new System.Drawing.Size(77, 23);
+            this.bt_GetWpower.Size = new System.Drawing.Size(77, 25);
             this.bt_GetWpower.TabIndex = 9;
             this.bt_GetWpower.Text = "Get";
             this.bt_GetWpower.UseVisualStyleBackColor = true;
@@ -1179,9 +1179,9 @@
             // 
             // bt_SetWpower
             // 
-            this.bt_SetWpower.Location = new System.Drawing.Point(158, 39);
+            this.bt_SetWpower.Location = new System.Drawing.Point(158, 42);
             this.bt_SetWpower.Name = "bt_SetWpower";
-            this.bt_SetWpower.Size = new System.Drawing.Size(77, 23);
+            this.bt_SetWpower.Size = new System.Drawing.Size(77, 25);
             this.bt_SetWpower.TabIndex = 8;
             this.bt_SetWpower.Text = "Set";
             this.bt_SetWpower.UseVisualStyleBackColor = true;
@@ -1191,9 +1191,9 @@
             // 
             this.group_maxtime.Controls.Add(this.comboBox_maxtime);
             this.group_maxtime.Controls.Add(this.btSetMaxtime);
-            this.group_maxtime.Location = new System.Drawing.Point(6, 290);
+            this.group_maxtime.Location = new System.Drawing.Point(6, 314);
             this.group_maxtime.Name = "group_maxtime";
-            this.group_maxtime.Size = new System.Drawing.Size(342, 41);
+            this.group_maxtime.Size = new System.Drawing.Size(342, 44);
             this.group_maxtime.TabIndex = 72;
             this.group_maxtime.TabStop = false;
             this.group_maxtime.Text = "Max inventory time";
@@ -1202,16 +1202,16 @@
             // 
             this.comboBox_maxtime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_maxtime.FormattingEnabled = true;
-            this.comboBox_maxtime.Location = new System.Drawing.Point(94, 15);
+            this.comboBox_maxtime.Location = new System.Drawing.Point(94, 16);
             this.comboBox_maxtime.Name = "comboBox_maxtime";
-            this.comboBox_maxtime.Size = new System.Drawing.Size(122, 20);
+            this.comboBox_maxtime.Size = new System.Drawing.Size(122, 21);
             this.comboBox_maxtime.TabIndex = 26;
             // 
             // btSetMaxtime
             // 
-            this.btSetMaxtime.Location = new System.Drawing.Point(233, 14);
+            this.btSetMaxtime.Location = new System.Drawing.Point(233, 15);
             this.btSetMaxtime.Name = "btSetMaxtime";
-            this.btSetMaxtime.Size = new System.Drawing.Size(90, 23);
+            this.btSetMaxtime.Size = new System.Drawing.Size(90, 25);
             this.btSetMaxtime.TabIndex = 23;
             this.btSetMaxtime.Text = "Set";
             this.btSetMaxtime.UseVisualStyleBackColor = true;
@@ -1223,9 +1223,9 @@
             this.gbp_buff.Controls.Add(this.rb128);
             this.gbp_buff.Controls.Add(this.btGetEPCandTIDLen);
             this.gbp_buff.Controls.Add(this.btSetEPCandTIDLen);
-            this.gbp_buff.Location = new System.Drawing.Point(5, 335);
+            this.gbp_buff.Location = new System.Drawing.Point(5, 363);
             this.gbp_buff.Name = "gbp_buff";
-            this.gbp_buff.Size = new System.Drawing.Size(343, 55);
+            this.gbp_buff.Size = new System.Drawing.Size(343, 60);
             this.gbp_buff.TabIndex = 71;
             this.gbp_buff.TabStop = false;
             this.gbp_buff.Text = "Saved EPC/TID length";
@@ -1233,9 +1233,9 @@
             // rb496
             // 
             this.rb496.AutoSize = true;
-            this.rb496.Location = new System.Drawing.Point(93, 25);
+            this.rb496.Location = new System.Drawing.Point(93, 27);
             this.rb496.Name = "rb496";
-            this.rb496.Size = new System.Drawing.Size(59, 16);
+            this.rb496.Size = new System.Drawing.Size(54, 17);
             this.rb496.TabIndex = 11;
             this.rb496.Text = "496bit";
             this.rb496.UseVisualStyleBackColor = true;
@@ -1244,9 +1244,9 @@
             // 
             this.rb128.AutoSize = true;
             this.rb128.Checked = true;
-            this.rb128.Location = new System.Drawing.Point(15, 25);
+            this.rb128.Location = new System.Drawing.Point(15, 27);
             this.rb128.Name = "rb128";
-            this.rb128.Size = new System.Drawing.Size(59, 16);
+            this.rb128.Size = new System.Drawing.Size(54, 17);
             this.rb128.TabIndex = 10;
             this.rb128.TabStop = true;
             this.rb128.Text = "128bit";
@@ -1254,9 +1254,9 @@
             // 
             // btGetEPCandTIDLen
             // 
-            this.btGetEPCandTIDLen.Location = new System.Drawing.Point(247, 22);
+            this.btGetEPCandTIDLen.Location = new System.Drawing.Point(247, 24);
             this.btGetEPCandTIDLen.Name = "btGetEPCandTIDLen";
-            this.btGetEPCandTIDLen.Size = new System.Drawing.Size(77, 23);
+            this.btGetEPCandTIDLen.Size = new System.Drawing.Size(77, 25);
             this.btGetEPCandTIDLen.TabIndex = 9;
             this.btGetEPCandTIDLen.Text = "Get";
             this.btGetEPCandTIDLen.UseVisualStyleBackColor = true;
@@ -1264,9 +1264,9 @@
             // 
             // btSetEPCandTIDLen
             // 
-            this.btSetEPCandTIDLen.Location = new System.Drawing.Point(158, 22);
+            this.btSetEPCandTIDLen.Location = new System.Drawing.Point(158, 24);
             this.btSetEPCandTIDLen.Name = "btSetEPCandTIDLen";
-            this.btSetEPCandTIDLen.Size = new System.Drawing.Size(77, 23);
+            this.btSetEPCandTIDLen.Size = new System.Drawing.Size(77, 25);
             this.btSetEPCandTIDLen.TabIndex = 8;
             this.btSetEPCandTIDLen.Text = "Set";
             this.btSetEPCandTIDLen.UseVisualStyleBackColor = true;
@@ -1274,9 +1274,9 @@
             // 
             // btGetInformation
             // 
-            this.btGetInformation.Location = new System.Drawing.Point(538, 488);
+            this.btGetInformation.Location = new System.Drawing.Point(538, 529);
             this.btGetInformation.Name = "btGetInformation";
-            this.btGetInformation.Size = new System.Drawing.Size(169, 43);
+            this.btGetInformation.Size = new System.Drawing.Size(169, 47);
             this.btGetInformation.TabIndex = 58;
             this.btGetInformation.Text = "Get reader information";
             this.btGetInformation.UseVisualStyleBackColor = true;
@@ -1284,9 +1284,9 @@
             // 
             // btDefault
             // 
-            this.btDefault.Location = new System.Drawing.Point(717, 488);
+            this.btDefault.Location = new System.Drawing.Point(717, 529);
             this.btDefault.Name = "btDefault";
-            this.btDefault.Size = new System.Drawing.Size(169, 43);
+            this.btDefault.Size = new System.Drawing.Size(169, 47);
             this.btDefault.TabIndex = 57;
             this.btDefault.Text = "Default setting";
             this.btDefault.UseVisualStyleBackColor = true;
@@ -1294,9 +1294,9 @@
             // 
             // btFlashROM
             // 
-            this.btFlashROM.Location = new System.Drawing.Point(355, 488);
+            this.btFlashROM.Location = new System.Drawing.Point(355, 529);
             this.btFlashROM.Name = "btFlashROM";
-            this.btFlashROM.Size = new System.Drawing.Size(169, 43);
+            this.btFlashROM.Size = new System.Drawing.Size(169, 47);
             this.btFlashROM.TabIndex = 56;
             this.btFlashROM.Text = "Change to update mode";
             this.btFlashROM.UseVisualStyleBackColor = true;
@@ -1320,17 +1320,17 @@
             this.gpb_clock.Controls.Add(this.label42);
             this.gpb_clock.Controls.Add(this.label45);
             this.gpb_clock.Controls.Add(this.label46);
-            this.gpb_clock.Location = new System.Drawing.Point(706, 389);
+            this.gpb_clock.Location = new System.Drawing.Point(706, 421);
             this.gpb_clock.Name = "gpb_clock";
-            this.gpb_clock.Size = new System.Drawing.Size(342, 94);
+            this.gpb_clock.Size = new System.Drawing.Size(342, 102);
             this.gpb_clock.TabIndex = 55;
             this.gpb_clock.TabStop = false;
             this.gpb_clock.Text = "Real time clock setting";
             // 
             // textBox1
             // 
-            this.textBox1.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.textBox1.Location = new System.Drawing.Point(3, 27);
+            this.textBox1.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.textBox1.Location = new System.Drawing.Point(3, 29);
             this.textBox1.MaxLength = 2;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
@@ -1341,9 +1341,9 @@
             // 
             // Text_sec
             // 
-            this.Text_sec.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Text_sec.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Text_sec.ForeColor = System.Drawing.Color.Crimson;
-            this.Text_sec.Location = new System.Drawing.Point(290, 28);
+            this.Text_sec.Location = new System.Drawing.Point(290, 30);
             this.Text_sec.MaxLength = 2;
             this.Text_sec.Name = "Text_sec";
             this.Text_sec.Size = new System.Drawing.Size(46, 35);
@@ -1354,9 +1354,9 @@
             // 
             // Text_min
             // 
-            this.Text_min.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Text_min.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Text_min.ForeColor = System.Drawing.Color.Crimson;
-            this.Text_min.Location = new System.Drawing.Point(242, 28);
+            this.Text_min.Location = new System.Drawing.Point(242, 30);
             this.Text_min.MaxLength = 2;
             this.Text_min.Name = "Text_min";
             this.Text_min.Size = new System.Drawing.Size(46, 35);
@@ -1367,9 +1367,9 @@
             // 
             // Text_hour
             // 
-            this.Text_hour.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Text_hour.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Text_hour.ForeColor = System.Drawing.Color.Crimson;
-            this.Text_hour.Location = new System.Drawing.Point(194, 28);
+            this.Text_hour.Location = new System.Drawing.Point(194, 30);
             this.Text_hour.MaxLength = 2;
             this.Text_hour.Name = "Text_hour";
             this.Text_hour.Size = new System.Drawing.Size(46, 35);
@@ -1380,9 +1380,9 @@
             // 
             // Text_day
             // 
-            this.Text_day.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Text_day.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Text_day.ForeColor = System.Drawing.Color.Crimson;
-            this.Text_day.Location = new System.Drawing.Point(145, 27);
+            this.Text_day.Location = new System.Drawing.Point(145, 29);
             this.Text_day.MaxLength = 2;
             this.Text_day.Name = "Text_day";
             this.Text_day.Size = new System.Drawing.Size(46, 35);
@@ -1393,9 +1393,9 @@
             // 
             // Text_month
             // 
-            this.Text_month.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Text_month.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Text_month.ForeColor = System.Drawing.Color.Crimson;
-            this.Text_month.Location = new System.Drawing.Point(97, 27);
+            this.Text_month.Location = new System.Drawing.Point(97, 29);
             this.Text_month.MaxLength = 2;
             this.Text_month.Name = "Text_month";
             this.Text_month.Size = new System.Drawing.Size(46, 35);
@@ -1406,9 +1406,9 @@
             // 
             // Text_year
             // 
-            this.Text_year.Font = new System.Drawing.Font("宋体", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Text_year.Font = new System.Drawing.Font("SimSun", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.Text_year.ForeColor = System.Drawing.Color.Crimson;
-            this.Text_year.Location = new System.Drawing.Point(49, 27);
+            this.Text_year.Location = new System.Drawing.Point(49, 29);
             this.Text_year.MaxLength = 2;
             this.Text_year.Name = "Text_year";
             this.Text_year.Size = new System.Drawing.Size(46, 35);
@@ -1419,9 +1419,9 @@
             // 
             // ClockCMD
             // 
-            this.ClockCMD.Location = new System.Drawing.Point(233, 65);
+            this.ClockCMD.Location = new System.Drawing.Point(233, 70);
             this.ClockCMD.Name = "ClockCMD";
-            this.ClockCMD.Size = new System.Drawing.Size(90, 28);
+            this.ClockCMD.Size = new System.Drawing.Size(90, 30);
             this.ClockCMD.TabIndex = 15;
             this.ClockCMD.Text = "Do";
             this.ClockCMD.UseVisualStyleBackColor = true;
@@ -1431,9 +1431,9 @@
             // 
             this.GetClock.AutoSize = true;
             this.GetClock.Checked = true;
-            this.GetClock.Location = new System.Drawing.Point(131, 72);
+            this.GetClock.Location = new System.Drawing.Point(131, 78);
             this.GetClock.Name = "GetClock";
-            this.GetClock.Size = new System.Drawing.Size(53, 16);
+            this.GetClock.Size = new System.Drawing.Size(53, 17);
             this.GetClock.TabIndex = 14;
             this.GetClock.TabStop = true;
             this.GetClock.Text = "Query";
@@ -1442,9 +1442,9 @@
             // SetClock
             // 
             this.SetClock.AutoSize = true;
-            this.SetClock.Location = new System.Drawing.Point(17, 72);
+            this.SetClock.Location = new System.Drawing.Point(17, 78);
             this.SetClock.Name = "SetClock";
-            this.SetClock.Size = new System.Drawing.Size(65, 16);
+            this.SetClock.Size = new System.Drawing.Size(58, 17);
             this.SetClock.TabIndex = 13;
             this.SetClock.Text = "Setting";
             this.SetClock.UseVisualStyleBackColor = true;
@@ -1452,54 +1452,54 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(302, 13);
+            this.label11.Location = new System.Drawing.Point(302, 14);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(23, 12);
+            this.label11.Size = new System.Drawing.Size(26, 13);
             this.label11.TabIndex = 12;
             this.label11.Text = "Sec";
             // 
             // label40
             // 
             this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(253, 13);
+            this.label40.Location = new System.Drawing.Point(253, 14);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(23, 12);
+            this.label40.Size = new System.Drawing.Size(24, 13);
             this.label40.TabIndex = 11;
             this.label40.Text = "Min";
             // 
             // label41
             // 
             this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(204, 13);
+            this.label41.Location = new System.Drawing.Point(204, 14);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(29, 12);
+            this.label41.Size = new System.Drawing.Size(30, 13);
             this.label41.TabIndex = 10;
             this.label41.Text = "Hour";
             // 
             // label42
             // 
             this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(157, 14);
+            this.label42.Location = new System.Drawing.Point(157, 15);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(23, 12);
+            this.label42.Size = new System.Drawing.Size(26, 13);
             this.label42.TabIndex = 9;
             this.label42.Text = "Day";
             // 
             // label45
             // 
             this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(106, 14);
+            this.label45.Location = new System.Drawing.Point(106, 15);
             this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(35, 12);
+            this.label45.Size = new System.Drawing.Size(37, 13);
             this.label45.TabIndex = 8;
             this.label45.Text = "Month";
             // 
             // label46
             // 
             this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(62, 14);
+            this.label46.Location = new System.Drawing.Point(62, 15);
             this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(29, 12);
+            this.label46.Size = new System.Drawing.Size(29, 13);
             this.label46.TabIndex = 2;
             this.label46.Text = "Year";
             // 
@@ -1510,18 +1510,18 @@
             this.gpb_antconfig.Controls.Add(this.checkant3);
             this.gpb_antconfig.Controls.Add(this.checkant2);
             this.gpb_antconfig.Controls.Add(this.checkant1);
-            this.gpb_antconfig.Location = new System.Drawing.Point(354, 331);
+            this.gpb_antconfig.Location = new System.Drawing.Point(354, 359);
             this.gpb_antconfig.Name = "gpb_antconfig";
-            this.gpb_antconfig.Size = new System.Drawing.Size(342, 42);
+            this.gpb_antconfig.Size = new System.Drawing.Size(342, 46);
             this.gpb_antconfig.TabIndex = 54;
             this.gpb_antconfig.TabStop = false;
             this.gpb_antconfig.Text = "Antenna config";
             // 
             // Button_Ant
             // 
-            this.Button_Ant.Location = new System.Drawing.Point(233, 12);
+            this.Button_Ant.Location = new System.Drawing.Point(233, 13);
             this.Button_Ant.Name = "Button_Ant";
-            this.Button_Ant.Size = new System.Drawing.Size(90, 23);
+            this.Button_Ant.Size = new System.Drawing.Size(90, 25);
             this.Button_Ant.TabIndex = 5;
             this.Button_Ant.Text = "Set";
             this.Button_Ant.UseVisualStyleBackColor = true;
@@ -1530,9 +1530,9 @@
             // checkant4
             // 
             this.checkant4.AutoSize = true;
-            this.checkant4.Location = new System.Drawing.Point(177, 15);
+            this.checkant4.Location = new System.Drawing.Point(177, 16);
             this.checkant4.Name = "checkant4";
-            this.checkant4.Size = new System.Drawing.Size(48, 16);
+            this.checkant4.Size = new System.Drawing.Size(54, 17);
             this.checkant4.TabIndex = 4;
             this.checkant4.Text = "ANT4";
             this.checkant4.UseVisualStyleBackColor = true;
@@ -1540,9 +1540,9 @@
             // checkant3
             // 
             this.checkant3.AutoSize = true;
-            this.checkant3.Location = new System.Drawing.Point(120, 15);
+            this.checkant3.Location = new System.Drawing.Point(120, 16);
             this.checkant3.Name = "checkant3";
-            this.checkant3.Size = new System.Drawing.Size(48, 16);
+            this.checkant3.Size = new System.Drawing.Size(54, 17);
             this.checkant3.TabIndex = 3;
             this.checkant3.Text = "ANT3";
             this.checkant3.UseVisualStyleBackColor = true;
@@ -1550,9 +1550,9 @@
             // checkant2
             // 
             this.checkant2.AutoSize = true;
-            this.checkant2.Location = new System.Drawing.Point(62, 15);
+            this.checkant2.Location = new System.Drawing.Point(62, 16);
             this.checkant2.Name = "checkant2";
-            this.checkant2.Size = new System.Drawing.Size(48, 16);
+            this.checkant2.Size = new System.Drawing.Size(54, 17);
             this.checkant2.TabIndex = 2;
             this.checkant2.Text = "ANT2";
             this.checkant2.UseVisualStyleBackColor = true;
@@ -1560,9 +1560,9 @@
             // checkant1
             // 
             this.checkant1.AutoSize = true;
-            this.checkant1.Location = new System.Drawing.Point(8, 15);
+            this.checkant1.Location = new System.Drawing.Point(8, 16);
             this.checkant1.Name = "checkant1";
-            this.checkant1.Size = new System.Drawing.Size(48, 16);
+            this.checkant1.Size = new System.Drawing.Size(54, 17);
             this.checkant1.TabIndex = 1;
             this.checkant1.Text = "ANT1";
             this.checkant1.UseVisualStyleBackColor = true;
@@ -1572,18 +1572,18 @@
             this.gpb_checkant.Controls.Add(this.btSetcheckant);
             this.gpb_checkant.Controls.Add(this.rb_Closecheckant);
             this.gpb_checkant.Controls.Add(this.rb_Opencheckant);
-            this.gpb_checkant.Location = new System.Drawing.Point(354, 278);
+            this.gpb_checkant.Location = new System.Drawing.Point(354, 301);
             this.gpb_checkant.Name = "gpb_checkant";
-            this.gpb_checkant.Size = new System.Drawing.Size(342, 51);
+            this.gpb_checkant.Size = new System.Drawing.Size(342, 55);
             this.gpb_checkant.TabIndex = 53;
             this.gpb_checkant.TabStop = false;
             this.gpb_checkant.Text = "Antenna checked";
             // 
             // btSetcheckant
             // 
-            this.btSetcheckant.Location = new System.Drawing.Point(233, 19);
+            this.btSetcheckant.Location = new System.Drawing.Point(233, 21);
             this.btSetcheckant.Name = "btSetcheckant";
-            this.btSetcheckant.Size = new System.Drawing.Size(90, 23);
+            this.btSetcheckant.Size = new System.Drawing.Size(90, 25);
             this.btSetcheckant.TabIndex = 2;
             this.btSetcheckant.Text = "Set";
             this.btSetcheckant.UseVisualStyleBackColor = true;
@@ -1592,9 +1592,9 @@
             // rb_Closecheckant
             // 
             this.rb_Closecheckant.AutoSize = true;
-            this.rb_Closecheckant.Location = new System.Drawing.Point(7, 32);
+            this.rb_Closecheckant.Location = new System.Drawing.Point(7, 35);
             this.rb_Closecheckant.Name = "rb_Closecheckant";
-            this.rb_Closecheckant.Size = new System.Drawing.Size(173, 16);
+            this.rb_Closecheckant.Size = new System.Drawing.Size(149, 17);
             this.rb_Closecheckant.TabIndex = 1;
             this.rb_Closecheckant.Text = "Disable antenna detection";
             this.rb_Closecheckant.UseVisualStyleBackColor = true;
@@ -1603,9 +1603,9 @@
             // 
             this.rb_Opencheckant.AutoSize = true;
             this.rb_Opencheckant.Checked = true;
-            this.rb_Opencheckant.Location = new System.Drawing.Point(7, 14);
+            this.rb_Opencheckant.Location = new System.Drawing.Point(7, 15);
             this.rb_Opencheckant.Name = "rb_Opencheckant";
-            this.rb_Opencheckant.Size = new System.Drawing.Size(167, 16);
+            this.rb_Opencheckant.Size = new System.Drawing.Size(147, 17);
             this.rb_Opencheckant.TabIndex = 0;
             this.rb_Opencheckant.TabStop = true;
             this.rb_Opencheckant.Text = "Enable antenna detection";
@@ -1623,18 +1623,18 @@
             this.gpb_GPIO.Controls.Add(this.check_out3);
             this.gpb_GPIO.Controls.Add(this.check_out2);
             this.gpb_GPIO.Controls.Add(this.check_out1);
-            this.gpb_GPIO.Location = new System.Drawing.Point(354, 233);
+            this.gpb_GPIO.Location = new System.Drawing.Point(354, 252);
             this.gpb_GPIO.Name = "gpb_GPIO";
-            this.gpb_GPIO.Size = new System.Drawing.Size(693, 43);
+            this.gpb_GPIO.Size = new System.Drawing.Size(693, 47);
             this.gpb_GPIO.TabIndex = 49;
             this.gpb_GPIO.TabStop = false;
             this.gpb_GPIO.Text = "GPIO Operation";
             // 
             // Button_GetGPIO
             // 
-            this.Button_GetGPIO.Location = new System.Drawing.Point(585, 14);
+            this.Button_GetGPIO.Location = new System.Drawing.Point(585, 15);
             this.Button_GetGPIO.Name = "Button_GetGPIO";
-            this.Button_GetGPIO.Size = new System.Drawing.Size(90, 23);
+            this.Button_GetGPIO.Size = new System.Drawing.Size(90, 25);
             this.Button_GetGPIO.TabIndex = 9;
             this.Button_GetGPIO.Text = "Get";
             this.Button_GetGPIO.UseVisualStyleBackColor = true;
@@ -1642,9 +1642,9 @@
             // 
             // Button_SetGPIO
             // 
-            this.Button_SetGPIO.Location = new System.Drawing.Point(483, 14);
+            this.Button_SetGPIO.Location = new System.Drawing.Point(483, 15);
             this.Button_SetGPIO.Name = "Button_SetGPIO";
-            this.Button_SetGPIO.Size = new System.Drawing.Size(90, 23);
+            this.Button_SetGPIO.Size = new System.Drawing.Size(90, 25);
             this.Button_SetGPIO.TabIndex = 8;
             this.Button_SetGPIO.Text = "Set";
             this.Button_SetGPIO.UseVisualStyleBackColor = true;
@@ -1654,9 +1654,9 @@
             // 
             this.check_int4.AutoSize = true;
             this.check_int4.Enabled = false;
-            this.check_int4.Location = new System.Drawing.Point(392, 18);
+            this.check_int4.Location = new System.Drawing.Point(392, 20);
             this.check_int4.Name = "check_int4";
-            this.check_int4.Size = new System.Drawing.Size(42, 16);
+            this.check_int4.Size = new System.Drawing.Size(43, 17);
             this.check_int4.TabIndex = 7;
             this.check_int4.Text = "IN4";
             this.check_int4.UseVisualStyleBackColor = true;
@@ -1665,9 +1665,9 @@
             // 
             this.check_int3.AutoSize = true;
             this.check_int3.Enabled = false;
-            this.check_int3.Location = new System.Drawing.Point(338, 18);
+            this.check_int3.Location = new System.Drawing.Point(338, 20);
             this.check_int3.Name = "check_int3";
-            this.check_int3.Size = new System.Drawing.Size(42, 16);
+            this.check_int3.Size = new System.Drawing.Size(43, 17);
             this.check_int3.TabIndex = 6;
             this.check_int3.Text = "IN3";
             this.check_int3.UseVisualStyleBackColor = true;
@@ -1676,9 +1676,9 @@
             // 
             this.check_int2.AutoSize = true;
             this.check_int2.Enabled = false;
-            this.check_int2.Location = new System.Drawing.Point(281, 18);
+            this.check_int2.Location = new System.Drawing.Point(281, 20);
             this.check_int2.Name = "check_int2";
-            this.check_int2.Size = new System.Drawing.Size(42, 16);
+            this.check_int2.Size = new System.Drawing.Size(43, 17);
             this.check_int2.TabIndex = 5;
             this.check_int2.Text = "IN2";
             this.check_int2.UseVisualStyleBackColor = true;
@@ -1688,9 +1688,9 @@
             // 
             this.check_int1.AutoSize = true;
             this.check_int1.Enabled = false;
-            this.check_int1.Location = new System.Drawing.Point(227, 18);
+            this.check_int1.Location = new System.Drawing.Point(227, 20);
             this.check_int1.Name = "check_int1";
-            this.check_int1.Size = new System.Drawing.Size(42, 16);
+            this.check_int1.Size = new System.Drawing.Size(43, 17);
             this.check_int1.TabIndex = 4;
             this.check_int1.Text = "IN1";
             this.check_int1.UseVisualStyleBackColor = true;
@@ -1698,9 +1698,9 @@
             // check_out4
             // 
             this.check_out4.AutoSize = true;
-            this.check_out4.Location = new System.Drawing.Point(170, 18);
+            this.check_out4.Location = new System.Drawing.Point(170, 20);
             this.check_out4.Name = "check_out4";
-            this.check_out4.Size = new System.Drawing.Size(48, 16);
+            this.check_out4.Size = new System.Drawing.Size(55, 17);
             this.check_out4.TabIndex = 3;
             this.check_out4.Text = "OUT4";
             this.check_out4.UseVisualStyleBackColor = true;
@@ -1708,9 +1708,9 @@
             // check_out3
             // 
             this.check_out3.AutoSize = true;
-            this.check_out3.Location = new System.Drawing.Point(116, 18);
+            this.check_out3.Location = new System.Drawing.Point(116, 20);
             this.check_out3.Name = "check_out3";
-            this.check_out3.Size = new System.Drawing.Size(48, 16);
+            this.check_out3.Size = new System.Drawing.Size(55, 17);
             this.check_out3.TabIndex = 2;
             this.check_out3.Text = "OUT3";
             this.check_out3.UseVisualStyleBackColor = true;
@@ -1718,9 +1718,9 @@
             // check_out2
             // 
             this.check_out2.AutoSize = true;
-            this.check_out2.Location = new System.Drawing.Point(62, 18);
+            this.check_out2.Location = new System.Drawing.Point(62, 20);
             this.check_out2.Name = "check_out2";
-            this.check_out2.Size = new System.Drawing.Size(48, 16);
+            this.check_out2.Size = new System.Drawing.Size(55, 17);
             this.check_out2.TabIndex = 1;
             this.check_out2.Text = "OUT2";
             this.check_out2.UseVisualStyleBackColor = true;
@@ -1728,9 +1728,9 @@
             // check_out1
             // 
             this.check_out1.AutoSize = true;
-            this.check_out1.Location = new System.Drawing.Point(8, 18);
+            this.check_out1.Location = new System.Drawing.Point(8, 20);
             this.check_out1.Name = "check_out1";
-            this.check_out1.Size = new System.Drawing.Size(48, 16);
+            this.check_out1.Size = new System.Drawing.Size(55, 17);
             this.check_out1.TabIndex = 0;
             this.check_out1.Text = "OUT1";
             this.check_out1.UseVisualStyleBackColor = true;
@@ -1742,18 +1742,18 @@
             this.gpb_OutputRep.Controls.Add(this.check_OutputRep3);
             this.gpb_OutputRep.Controls.Add(this.check_OutputRep2);
             this.gpb_OutputRep.Controls.Add(this.check_OutputRep1);
-            this.gpb_OutputRep.Location = new System.Drawing.Point(705, 189);
+            this.gpb_OutputRep.Location = new System.Drawing.Point(705, 205);
             this.gpb_OutputRep.Name = "gpb_OutputRep";
-            this.gpb_OutputRep.Size = new System.Drawing.Size(342, 42);
+            this.gpb_OutputRep.Size = new System.Drawing.Size(342, 46);
             this.gpb_OutputRep.TabIndex = 48;
             this.gpb_OutputRep.TabStop = false;
             this.gpb_OutputRep.Text = "Set notification pluse output";
             // 
             // btOutputRep
             // 
-            this.btOutputRep.Location = new System.Drawing.Point(234, 13);
+            this.btOutputRep.Location = new System.Drawing.Point(234, 14);
             this.btOutputRep.Name = "btOutputRep";
-            this.btOutputRep.Size = new System.Drawing.Size(90, 23);
+            this.btOutputRep.Size = new System.Drawing.Size(90, 25);
             this.btOutputRep.TabIndex = 5;
             this.btOutputRep.Text = "Set";
             this.btOutputRep.UseVisualStyleBackColor = true;
@@ -1762,9 +1762,9 @@
             // check_OutputRep4
             // 
             this.check_OutputRep4.AutoSize = true;
-            this.check_OutputRep4.Location = new System.Drawing.Point(184, 16);
+            this.check_OutputRep4.Location = new System.Drawing.Point(184, 17);
             this.check_OutputRep4.Name = "check_OutputRep4";
-            this.check_OutputRep4.Size = new System.Drawing.Size(48, 16);
+            this.check_OutputRep4.Size = new System.Drawing.Size(55, 17);
             this.check_OutputRep4.TabIndex = 4;
             this.check_OutputRep4.Text = "OUT4";
             this.check_OutputRep4.UseVisualStyleBackColor = true;
@@ -1772,9 +1772,9 @@
             // check_OutputRep3
             // 
             this.check_OutputRep3.AutoSize = true;
-            this.check_OutputRep3.Location = new System.Drawing.Point(125, 16);
+            this.check_OutputRep3.Location = new System.Drawing.Point(125, 17);
             this.check_OutputRep3.Name = "check_OutputRep3";
-            this.check_OutputRep3.Size = new System.Drawing.Size(48, 16);
+            this.check_OutputRep3.Size = new System.Drawing.Size(55, 17);
             this.check_OutputRep3.TabIndex = 3;
             this.check_OutputRep3.Text = "OUT3";
             this.check_OutputRep3.UseVisualStyleBackColor = true;
@@ -1782,9 +1782,9 @@
             // check_OutputRep2
             // 
             this.check_OutputRep2.AutoSize = true;
-            this.check_OutputRep2.Location = new System.Drawing.Point(66, 16);
+            this.check_OutputRep2.Location = new System.Drawing.Point(66, 17);
             this.check_OutputRep2.Name = "check_OutputRep2";
-            this.check_OutputRep2.Size = new System.Drawing.Size(48, 16);
+            this.check_OutputRep2.Size = new System.Drawing.Size(55, 17);
             this.check_OutputRep2.TabIndex = 2;
             this.check_OutputRep2.Text = "OUT2";
             this.check_OutputRep2.UseVisualStyleBackColor = true;
@@ -1792,9 +1792,9 @@
             // check_OutputRep1
             // 
             this.check_OutputRep1.AutoSize = true;
-            this.check_OutputRep1.Location = new System.Drawing.Point(8, 16);
+            this.check_OutputRep1.Location = new System.Drawing.Point(8, 17);
             this.check_OutputRep1.Name = "check_OutputRep1";
-            this.check_OutputRep1.Size = new System.Drawing.Size(48, 16);
+            this.check_OutputRep1.Size = new System.Drawing.Size(55, 17);
             this.check_OutputRep1.TabIndex = 1;
             this.check_OutputRep1.Text = "OUT1";
             this.check_OutputRep1.UseVisualStyleBackColor = true;
@@ -1805,9 +1805,9 @@
             this.gpb_Relay.Controls.Add(this.ComboBox_RelayTime);
             this.gpb_Relay.Controls.Add(this.label37);
             this.gpb_Relay.Controls.Add(this.btRelay);
-            this.gpb_Relay.Location = new System.Drawing.Point(354, 189);
+            this.gpb_Relay.Location = new System.Drawing.Point(354, 205);
             this.gpb_Relay.Name = "gpb_Relay";
-            this.gpb_Relay.Size = new System.Drawing.Size(342, 42);
+            this.gpb_Relay.Size = new System.Drawing.Size(342, 46);
             this.gpb_Relay.TabIndex = 31;
             this.gpb_Relay.TabStop = false;
             this.gpb_Relay.Text = "Relay control";
@@ -1815,9 +1815,9 @@
             // label38
             // 
             this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(182, 18);
+            this.label38.Location = new System.Drawing.Point(182, 20);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(35, 12);
+            this.label38.Size = new System.Drawing.Size(36, 13);
             this.label38.TabIndex = 26;
             this.label38.Text = "*50ms";
             // 
@@ -1825,25 +1825,25 @@
             // 
             this.ComboBox_RelayTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboBox_RelayTime.FormattingEnabled = true;
-            this.ComboBox_RelayTime.Location = new System.Drawing.Point(82, 15);
+            this.ComboBox_RelayTime.Location = new System.Drawing.Point(82, 16);
             this.ComboBox_RelayTime.Name = "ComboBox_RelayTime";
-            this.ComboBox_RelayTime.Size = new System.Drawing.Size(96, 20);
+            this.ComboBox_RelayTime.Size = new System.Drawing.Size(96, 21);
             this.ComboBox_RelayTime.TabIndex = 25;
             // 
             // label37
             // 
             this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(4, 19);
+            this.label37.Location = new System.Drawing.Point(4, 21);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(83, 12);
+            this.label37.Size = new System.Drawing.Size(71, 13);
             this.label37.TabIndex = 24;
             this.label37.Text = "Release time:";
             // 
             // btRelay
             // 
-            this.btRelay.Location = new System.Drawing.Point(233, 13);
+            this.btRelay.Location = new System.Drawing.Point(233, 14);
             this.btRelay.Name = "btRelay";
-            this.btRelay.Size = new System.Drawing.Size(90, 23);
+            this.btRelay.Size = new System.Drawing.Size(90, 25);
             this.btRelay.TabIndex = 23;
             this.btRelay.Text = "Set";
             this.btRelay.UseVisualStyleBackColor = true;
@@ -1853,9 +1853,9 @@
             // 
             this.gpb_baud.Controls.Add(this.ComboBox_baud);
             this.gpb_baud.Controls.Add(this.btBaudRate);
-            this.gpb_baud.Location = new System.Drawing.Point(706, 123);
+            this.gpb_baud.Location = new System.Drawing.Point(706, 133);
             this.gpb_baud.Name = "gpb_baud";
-            this.gpb_baud.Size = new System.Drawing.Size(342, 60);
+            this.gpb_baud.Size = new System.Drawing.Size(342, 65);
             this.gpb_baud.TabIndex = 30;
             this.gpb_baud.TabStop = false;
             this.gpb_baud.Text = "RS232/485 baud rate";
@@ -1870,16 +1870,16 @@
             "38400bps",
             "57600bps",
             "115200bps"});
-            this.ComboBox_baud.Location = new System.Drawing.Point(69, 25);
+            this.ComboBox_baud.Location = new System.Drawing.Point(69, 27);
             this.ComboBox_baud.Name = "ComboBox_baud";
-            this.ComboBox_baud.Size = new System.Drawing.Size(121, 20);
+            this.ComboBox_baud.Size = new System.Drawing.Size(121, 21);
             this.ComboBox_baud.TabIndex = 24;
             // 
             // btBaudRate
             // 
-            this.btBaudRate.Location = new System.Drawing.Point(233, 22);
+            this.btBaudRate.Location = new System.Drawing.Point(233, 24);
             this.btBaudRate.Name = "btBaudRate";
-            this.btBaudRate.Size = new System.Drawing.Size(90, 23);
+            this.btBaudRate.Size = new System.Drawing.Size(90, 25);
             this.btBaudRate.TabIndex = 23;
             this.btBaudRate.Text = "Set";
             this.btBaudRate.UseVisualStyleBackColor = true;
@@ -1890,9 +1890,9 @@
             this.gpb_DBM.Controls.Add(this.label10);
             this.gpb_DBM.Controls.Add(this.ComboBox_PowerDbm);
             this.gpb_DBM.Controls.Add(this.BT_DBM);
-            this.gpb_DBM.Location = new System.Drawing.Point(354, 123);
+            this.gpb_DBM.Location = new System.Drawing.Point(354, 133);
             this.gpb_DBM.Name = "gpb_DBM";
-            this.gpb_DBM.Size = new System.Drawing.Size(342, 62);
+            this.gpb_DBM.Size = new System.Drawing.Size(342, 67);
             this.gpb_DBM.TabIndex = 29;
             this.gpb_DBM.TabStop = false;
             this.gpb_DBM.Text = "Power";
@@ -1900,9 +1900,9 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(157, 26);
+            this.label10.Location = new System.Drawing.Point(157, 28);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(23, 12);
+            this.label10.Size = new System.Drawing.Size(28, 13);
             this.label10.TabIndex = 25;
             this.label10.Text = "dBm";
             // 
@@ -1942,16 +1942,16 @@
             "28",
             "29",
             "30"});
-            this.ComboBox_PowerDbm.Location = new System.Drawing.Point(51, 23);
+            this.ComboBox_PowerDbm.Location = new System.Drawing.Point(51, 25);
             this.ComboBox_PowerDbm.Name = "ComboBox_PowerDbm";
-            this.ComboBox_PowerDbm.Size = new System.Drawing.Size(100, 20);
+            this.ComboBox_PowerDbm.Size = new System.Drawing.Size(100, 21);
             this.ComboBox_PowerDbm.TabIndex = 24;
             // 
             // BT_DBM
             // 
-            this.BT_DBM.Location = new System.Drawing.Point(233, 23);
+            this.BT_DBM.Location = new System.Drawing.Point(233, 25);
             this.BT_DBM.Name = "BT_DBM";
-            this.BT_DBM.Size = new System.Drawing.Size(90, 23);
+            this.BT_DBM.Size = new System.Drawing.Size(90, 25);
             this.BT_DBM.TabIndex = 23;
             this.BT_DBM.Text = "Set";
             this.BT_DBM.UseVisualStyleBackColor = true;
@@ -1971,19 +1971,31 @@
             this.gpb_Freq.Controls.Add(this.label15);
             this.gpb_Freq.Controls.Add(this.ComboBox_dminfre);
             this.gpb_Freq.Controls.Add(this.label14);
-            this.gpb_Freq.Location = new System.Drawing.Point(354, 51);
+            this.gpb_Freq.Location = new System.Drawing.Point(354, 55);
             this.gpb_Freq.Name = "gpb_Freq";
-            this.gpb_Freq.Size = new System.Drawing.Size(695, 70);
+            this.gpb_Freq.Size = new System.Drawing.Size(695, 76);
             this.gpb_Freq.TabIndex = 28;
             this.gpb_Freq.TabStop = false;
             this.gpb_Freq.Text = "Region";
             // 
+            // radioButton_band12
+            // 
+            this.radioButton_band12.AutoSize = true;
+            this.radioButton_band12.Location = new System.Drawing.Point(248, 48);
+            this.radioButton_band12.Name = "radioButton_band12";
+            this.radioButton_band12.Size = new System.Drawing.Size(73, 17);
+            this.radioButton_band12.TabIndex = 18;
+            this.radioButton_band12.TabStop = true;
+            this.radioButton_band12.Text = "US band3";
+            this.radioButton_band12.UseVisualStyleBackColor = true;
+            this.radioButton_band12.CheckedChanged += new System.EventHandler(this.radioButton_band12_CheckedChanged);
+            // 
             // radioButton_band8
             // 
             this.radioButton_band8.AutoSize = true;
-            this.radioButton_band8.Location = new System.Drawing.Point(10, 17);
+            this.radioButton_band8.Location = new System.Drawing.Point(10, 18);
             this.radioButton_band8.Name = "radioButton_band8";
-            this.radioButton_band8.Size = new System.Drawing.Size(101, 16);
+            this.radioButton_band8.Size = new System.Drawing.Size(96, 17);
             this.radioButton_band8.TabIndex = 17;
             this.radioButton_band8.TabStop = true;
             this.radioButton_band8.Text = "Chinese band1";
@@ -1993,9 +2005,9 @@
             // CheckBox_SameFre
             // 
             this.CheckBox_SameFre.AutoSize = true;
-            this.CheckBox_SameFre.Location = new System.Drawing.Point(585, 16);
+            this.CheckBox_SameFre.Location = new System.Drawing.Point(585, 17);
             this.CheckBox_SameFre.Name = "CheckBox_SameFre";
-            this.CheckBox_SameFre.Size = new System.Drawing.Size(60, 16);
+            this.CheckBox_SameFre.Size = new System.Drawing.Size(55, 17);
             this.CheckBox_SameFre.TabIndex = 16;
             this.CheckBox_SameFre.Text = "Single";
             this.CheckBox_SameFre.UseVisualStyleBackColor = true;
@@ -2004,9 +2016,9 @@
             // radioButton_band4
             // 
             this.radioButton_band4.AutoSize = true;
-            this.radioButton_band4.Location = new System.Drawing.Point(127, 44);
+            this.radioButton_band4.Location = new System.Drawing.Point(127, 48);
             this.radioButton_band4.Name = "radioButton_band4";
-            this.radioButton_band4.Size = new System.Drawing.Size(65, 16);
+            this.radioButton_band4.Size = new System.Drawing.Size(67, 17);
             this.radioButton_band4.TabIndex = 15;
             this.radioButton_band4.TabStop = true;
             this.radioButton_band4.Text = "EU band";
@@ -2016,9 +2028,9 @@
             // radioButton_band3
             // 
             this.radioButton_band3.AutoSize = true;
-            this.radioButton_band3.Location = new System.Drawing.Point(10, 43);
+            this.radioButton_band3.Location = new System.Drawing.Point(10, 47);
             this.radioButton_band3.Name = "radioButton_band3";
-            this.radioButton_band3.Size = new System.Drawing.Size(89, 16);
+            this.radioButton_band3.Size = new System.Drawing.Size(86, 17);
             this.radioButton_band3.TabIndex = 14;
             this.radioButton_band3.TabStop = true;
             this.radioButton_band3.Text = "Korean band";
@@ -2028,9 +2040,9 @@
             // radioButton_band2
             // 
             this.radioButton_band2.AutoSize = true;
-            this.radioButton_band2.Location = new System.Drawing.Point(248, 17);
+            this.radioButton_band2.Location = new System.Drawing.Point(248, 18);
             this.radioButton_band2.Name = "radioButton_band2";
-            this.radioButton_band2.Size = new System.Drawing.Size(65, 16);
+            this.radioButton_band2.Size = new System.Drawing.Size(67, 17);
             this.radioButton_band2.TabIndex = 13;
             this.radioButton_band2.TabStop = true;
             this.radioButton_band2.Text = "US band";
@@ -2040,9 +2052,9 @@
             // radioButton_band1
             // 
             this.radioButton_band1.AutoSize = true;
-            this.radioButton_band1.Location = new System.Drawing.Point(127, 17);
+            this.radioButton_band1.Location = new System.Drawing.Point(127, 18);
             this.radioButton_band1.Name = "radioButton_band1";
-            this.radioButton_band1.Size = new System.Drawing.Size(101, 16);
+            this.radioButton_band1.Size = new System.Drawing.Size(96, 17);
             this.radioButton_band1.TabIndex = 12;
             this.radioButton_band1.TabStop = true;
             this.radioButton_band1.Text = "Chinese band2";
@@ -2051,9 +2063,9 @@
             // 
             // btFreq
             // 
-            this.btFreq.Location = new System.Drawing.Point(585, 37);
+            this.btFreq.Location = new System.Drawing.Point(585, 40);
             this.btFreq.Name = "btFreq";
-            this.btFreq.Size = new System.Drawing.Size(90, 23);
+            this.btFreq.Size = new System.Drawing.Size(90, 25);
             this.btFreq.TabIndex = 11;
             this.btFreq.Text = "Set";
             this.btFreq.UseVisualStyleBackColor = true;
@@ -2063,17 +2075,17 @@
             // 
             this.ComboBox_dmaxfre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboBox_dmaxfre.FormattingEnabled = true;
-            this.ComboBox_dmaxfre.Location = new System.Drawing.Point(421, 42);
+            this.ComboBox_dmaxfre.Location = new System.Drawing.Point(421, 46);
             this.ComboBox_dmaxfre.Name = "ComboBox_dmaxfre";
-            this.ComboBox_dmaxfre.Size = new System.Drawing.Size(100, 20);
+            this.ComboBox_dmaxfre.Size = new System.Drawing.Size(100, 21);
             this.ComboBox_dmaxfre.TabIndex = 10;
             // 
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(332, 46);
+            this.label15.Location = new System.Drawing.Point(332, 50);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(47, 12);
+            this.label15.Size = new System.Drawing.Size(42, 13);
             this.label15.TabIndex = 9;
             this.label15.Text = "Maxfre:";
             // 
@@ -2081,17 +2093,17 @@
             // 
             this.ComboBox_dminfre.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ComboBox_dminfre.FormattingEnabled = true;
-            this.ComboBox_dminfre.Location = new System.Drawing.Point(421, 13);
+            this.ComboBox_dminfre.Location = new System.Drawing.Point(421, 14);
             this.ComboBox_dminfre.Name = "ComboBox_dminfre";
-            this.ComboBox_dminfre.Size = new System.Drawing.Size(100, 20);
+            this.ComboBox_dminfre.Size = new System.Drawing.Size(100, 21);
             this.ComboBox_dminfre.TabIndex = 8;
             // 
             // label14
             // 
             this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(332, 17);
+            this.label14.Location = new System.Drawing.Point(332, 18);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(47, 12);
+            this.label14.Size = new System.Drawing.Size(39, 13);
             this.label14.TabIndex = 7;
             this.label14.Text = "Minfre:";
             // 
@@ -2102,7 +2114,7 @@
             this.gpb_beep.Controls.Add(this.Button_Beep);
             this.gpb_beep.Location = new System.Drawing.Point(707, 5);
             this.gpb_beep.Name = "gpb_beep";
-            this.gpb_beep.Size = new System.Drawing.Size(342, 44);
+            this.gpb_beep.Size = new System.Drawing.Size(342, 48);
             this.gpb_beep.TabIndex = 27;
             this.gpb_beep.TabStop = false;
             this.gpb_beep.Text = "Beep";
@@ -2111,9 +2123,9 @@
             // 
             this.Radio_beepDis.AutoSize = true;
             this.Radio_beepDis.Checked = true;
-            this.Radio_beepDis.Location = new System.Drawing.Point(123, 18);
+            this.Radio_beepDis.Location = new System.Drawing.Point(123, 20);
             this.Radio_beepDis.Name = "Radio_beepDis";
-            this.Radio_beepDis.Size = new System.Drawing.Size(53, 16);
+            this.Radio_beepDis.Size = new System.Drawing.Size(51, 17);
             this.Radio_beepDis.TabIndex = 10;
             this.Radio_beepDis.TabStop = true;
             this.Radio_beepDis.Text = "Close";
@@ -2122,18 +2134,18 @@
             // Radio_beepEn
             // 
             this.Radio_beepEn.AutoSize = true;
-            this.Radio_beepEn.Location = new System.Drawing.Point(33, 18);
+            this.Radio_beepEn.Location = new System.Drawing.Point(33, 20);
             this.Radio_beepEn.Name = "Radio_beepEn";
-            this.Radio_beepEn.Size = new System.Drawing.Size(47, 16);
+            this.Radio_beepEn.Size = new System.Drawing.Size(51, 17);
             this.Radio_beepEn.TabIndex = 9;
             this.Radio_beepEn.Text = "Open";
             this.Radio_beepEn.UseVisualStyleBackColor = true;
             // 
             // Button_Beep
             // 
-            this.Button_Beep.Location = new System.Drawing.Point(232, 14);
+            this.Button_Beep.Location = new System.Drawing.Point(232, 15);
             this.Button_Beep.Name = "Button_Beep";
-            this.Button_Beep.Size = new System.Drawing.Size(90, 23);
+            this.Button_Beep.Size = new System.Drawing.Size(90, 25);
             this.Button_Beep.TabIndex = 8;
             this.Button_Beep.Text = "Set";
             this.Button_Beep.UseVisualStyleBackColor = true;
@@ -2144,45 +2156,45 @@
             this.gpb_RDVersion.Controls.Add(this.text_RDVersion);
             this.gpb_RDVersion.Location = new System.Drawing.Point(354, 5);
             this.gpb_RDVersion.Name = "gpb_RDVersion";
-            this.gpb_RDVersion.Size = new System.Drawing.Size(342, 44);
+            this.gpb_RDVersion.Size = new System.Drawing.Size(342, 48);
             this.gpb_RDVersion.TabIndex = 26;
             this.gpb_RDVersion.TabStop = false;
             this.gpb_RDVersion.Text = "Firmware version";
             // 
             // text_RDVersion
             // 
-            this.text_RDVersion.Location = new System.Drawing.Point(95, 15);
+            this.text_RDVersion.Location = new System.Drawing.Point(95, 16);
             this.text_RDVersion.MaxLength = 2;
             this.text_RDVersion.Name = "text_RDVersion";
             this.text_RDVersion.ReadOnly = true;
-            this.text_RDVersion.Size = new System.Drawing.Size(160, 21);
+            this.text_RDVersion.Size = new System.Drawing.Size(160, 20);
             this.text_RDVersion.TabIndex = 24;
             // 
             // gpb_MDVersion
             // 
             this.gpb_MDVersion.Controls.Add(this.text_MDVersion);
             this.gpb_MDVersion.Controls.Add(this.btMDVersion);
-            this.gpb_MDVersion.Location = new System.Drawing.Point(6, 467);
+            this.gpb_MDVersion.Location = new System.Drawing.Point(6, 506);
             this.gpb_MDVersion.Name = "gpb_MDVersion";
-            this.gpb_MDVersion.Size = new System.Drawing.Size(342, 59);
+            this.gpb_MDVersion.Size = new System.Drawing.Size(342, 64);
             this.gpb_MDVersion.TabIndex = 25;
             this.gpb_MDVersion.TabStop = false;
             this.gpb_MDVersion.Text = "R2000 Module version";
             // 
             // text_MDVersion
             // 
-            this.text_MDVersion.Location = new System.Drawing.Point(95, 23);
+            this.text_MDVersion.Location = new System.Drawing.Point(95, 25);
             this.text_MDVersion.MaxLength = 2;
             this.text_MDVersion.Name = "text_MDVersion";
             this.text_MDVersion.ReadOnly = true;
-            this.text_MDVersion.Size = new System.Drawing.Size(121, 21);
+            this.text_MDVersion.Size = new System.Drawing.Size(121, 20);
             this.text_MDVersion.TabIndex = 24;
             // 
             // btMDVersion
             // 
-            this.btMDVersion.Location = new System.Drawing.Point(233, 23);
+            this.btMDVersion.Location = new System.Drawing.Point(233, 25);
             this.btMDVersion.Name = "btMDVersion";
-            this.btMDVersion.Size = new System.Drawing.Size(90, 23);
+            this.btMDVersion.Size = new System.Drawing.Size(90, 25);
             this.btMDVersion.TabIndex = 23;
             this.btMDVersion.Text = "Get";
             this.btMDVersion.UseVisualStyleBackColor = true;
@@ -2192,27 +2204,27 @@
             // 
             this.gpb_Serial.Controls.Add(this.text_Serial);
             this.gpb_Serial.Controls.Add(this.btSerial);
-            this.gpb_Serial.Location = new System.Drawing.Point(6, 243);
+            this.gpb_Serial.Location = new System.Drawing.Point(6, 263);
             this.gpb_Serial.Name = "gpb_Serial";
-            this.gpb_Serial.Size = new System.Drawing.Size(342, 43);
+            this.gpb_Serial.Size = new System.Drawing.Size(342, 47);
             this.gpb_Serial.TabIndex = 6;
             this.gpb_Serial.TabStop = false;
             this.gpb_Serial.Text = "Reader serial number\n";
             // 
             // text_Serial
             // 
-            this.text_Serial.Location = new System.Drawing.Point(95, 13);
+            this.text_Serial.Location = new System.Drawing.Point(95, 14);
             this.text_Serial.MaxLength = 8;
             this.text_Serial.Name = "text_Serial";
             this.text_Serial.ReadOnly = true;
-            this.text_Serial.Size = new System.Drawing.Size(121, 21);
+            this.text_Serial.Size = new System.Drawing.Size(121, 20);
             this.text_Serial.TabIndex = 24;
             // 
             // btSerial
             // 
-            this.btSerial.Location = new System.Drawing.Point(233, 13);
+            this.btSerial.Location = new System.Drawing.Point(233, 14);
             this.btSerial.Name = "btSerial";
-            this.btSerial.Size = new System.Drawing.Size(90, 23);
+            this.btSerial.Size = new System.Drawing.Size(90, 25);
             this.btSerial.TabIndex = 23;
             this.btSerial.Text = "Get";
             this.btSerial.UseVisualStyleBackColor = true;
@@ -2222,28 +2234,28 @@
             // 
             this.gpb_address.Controls.Add(this.text_address);
             this.gpb_address.Controls.Add(this.btaddress);
-            this.gpb_address.Location = new System.Drawing.Point(6, 196);
+            this.gpb_address.Location = new System.Drawing.Point(6, 212);
             this.gpb_address.Name = "gpb_address";
-            this.gpb_address.Size = new System.Drawing.Size(342, 45);
+            this.gpb_address.Size = new System.Drawing.Size(342, 49);
             this.gpb_address.TabIndex = 5;
             this.gpb_address.TabStop = false;
             this.gpb_address.Text = "Reader address";
             // 
             // text_address
             // 
-            this.text_address.Location = new System.Drawing.Point(95, 14);
+            this.text_address.Location = new System.Drawing.Point(95, 15);
             this.text_address.MaxLength = 2;
             this.text_address.Name = "text_address";
-            this.text_address.Size = new System.Drawing.Size(121, 21);
+            this.text_address.Size = new System.Drawing.Size(121, 20);
             this.text_address.TabIndex = 24;
             this.text_address.Text = "00";
             this.text_address.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
             // 
             // btaddress
             // 
-            this.btaddress.Location = new System.Drawing.Point(233, 14);
+            this.btaddress.Location = new System.Drawing.Point(233, 15);
             this.btaddress.Name = "btaddress";
-            this.btaddress.Size = new System.Drawing.Size(90, 23);
+            this.btaddress.Size = new System.Drawing.Size(90, 25);
             this.btaddress.TabIndex = 23;
             this.btaddress.Text = "Set";
             this.btaddress.UseVisualStyleBackColor = true;
@@ -2257,18 +2269,18 @@
             this.gpb_tcp.Controls.Add(this.btConnectTcp);
             this.gpb_tcp.Controls.Add(this.label2);
             this.gpb_tcp.Controls.Add(this.label4);
-            this.gpb_tcp.Location = new System.Drawing.Point(5, 123);
+            this.gpb_tcp.Location = new System.Drawing.Point(5, 133);
             this.gpb_tcp.Name = "gpb_tcp";
-            this.gpb_tcp.Size = new System.Drawing.Size(343, 71);
+            this.gpb_tcp.Size = new System.Drawing.Size(343, 77);
             this.gpb_tcp.TabIndex = 4;
             this.gpb_tcp.TabStop = false;
             this.gpb_tcp.Text = "TCP/IP";
             // 
             // tb_Port
             // 
-            this.tb_Port.Location = new System.Drawing.Point(96, 40);
+            this.tb_Port.Location = new System.Drawing.Point(96, 43);
             this.tb_Port.Name = "tb_Port";
-            this.tb_Port.Size = new System.Drawing.Size(121, 21);
+            this.tb_Port.Size = new System.Drawing.Size(121, 20);
             this.tb_Port.TabIndex = 22;
             this.tb_Port.Text = "27011";
             this.tb_Port.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_Port_KeyPress);
@@ -2276,18 +2288,18 @@
             // ipServerIP
             // 
             this.ipServerIP.IpAddressStr = "192.168.0.250";
-            this.ipServerIP.Location = new System.Drawing.Point(96, 15);
+            this.ipServerIP.Location = new System.Drawing.Point(96, 16);
             this.ipServerIP.Name = "ipServerIP";
-            this.ipServerIP.Size = new System.Drawing.Size(121, 21);
+            this.ipServerIP.Size = new System.Drawing.Size(121, 23);
             this.ipServerIP.TabIndex = 21;
             this.ipServerIP.Tag = "";
             // 
             // btDisConnectTcp
             // 
             this.btDisConnectTcp.Enabled = false;
-            this.btDisConnectTcp.Location = new System.Drawing.Point(234, 40);
+            this.btDisConnectTcp.Location = new System.Drawing.Point(234, 43);
             this.btDisConnectTcp.Name = "btDisConnectTcp";
-            this.btDisConnectTcp.Size = new System.Drawing.Size(90, 23);
+            this.btDisConnectTcp.Size = new System.Drawing.Size(90, 25);
             this.btDisConnectTcp.TabIndex = 20;
             this.btDisConnectTcp.Text = "Disconnect";
             this.btDisConnectTcp.UseVisualStyleBackColor = true;
@@ -2295,9 +2307,9 @@
             // 
             // btConnectTcp
             // 
-            this.btConnectTcp.Location = new System.Drawing.Point(234, 13);
+            this.btConnectTcp.Location = new System.Drawing.Point(234, 14);
             this.btConnectTcp.Name = "btConnectTcp";
-            this.btConnectTcp.Size = new System.Drawing.Size(90, 23);
+            this.btConnectTcp.Size = new System.Drawing.Size(90, 25);
             this.btConnectTcp.TabIndex = 19;
             this.btConnectTcp.Text = "Connect";
             this.btConnectTcp.UseVisualStyleBackColor = true;
@@ -2306,18 +2318,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(45, 45);
+            this.label2.Location = new System.Drawing.Point(45, 49);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(35, 12);
+            this.label2.Size = new System.Drawing.Size(29, 13);
             this.label2.TabIndex = 17;
             this.label2.Text = "Port:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(27, 23);
+            this.label4.Location = new System.Drawing.Point(27, 25);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 12);
+            this.label4.Size = new System.Drawing.Size(45, 13);
             this.label4.TabIndex = 13;
             this.label4.Text = "IP Addr:";
             // 
@@ -2329,9 +2341,9 @@
             this.gpb_rs232.Controls.Add(this.label47);
             this.gpb_rs232.Controls.Add(this.ComboBox_COM);
             this.gpb_rs232.Controls.Add(this.label3);
-            this.gpb_rs232.Location = new System.Drawing.Point(5, 51);
+            this.gpb_rs232.Location = new System.Drawing.Point(5, 55);
             this.gpb_rs232.Name = "gpb_rs232";
-            this.gpb_rs232.Size = new System.Drawing.Size(343, 70);
+            this.gpb_rs232.Size = new System.Drawing.Size(343, 76);
             this.gpb_rs232.TabIndex = 3;
             this.gpb_rs232.TabStop = false;
             this.gpb_rs232.Text = "RS232";
@@ -2339,9 +2351,9 @@
             // btDisConnect232
             // 
             this.btDisConnect232.Enabled = false;
-            this.btDisConnect232.Location = new System.Drawing.Point(234, 41);
+            this.btDisConnect232.Location = new System.Drawing.Point(234, 44);
             this.btDisConnect232.Name = "btDisConnect232";
-            this.btDisConnect232.Size = new System.Drawing.Size(90, 23);
+            this.btDisConnect232.Size = new System.Drawing.Size(90, 25);
             this.btDisConnect232.TabIndex = 20;
             this.btDisConnect232.Text = "Disconnect";
             this.btDisConnect232.UseVisualStyleBackColor = true;
@@ -2349,9 +2361,9 @@
             // 
             // btConnect232
             // 
-            this.btConnect232.Location = new System.Drawing.Point(234, 13);
+            this.btConnect232.Location = new System.Drawing.Point(234, 14);
             this.btConnect232.Name = "btConnect232";
-            this.btConnect232.Size = new System.Drawing.Size(90, 23);
+            this.btConnect232.Size = new System.Drawing.Size(90, 25);
             this.btConnect232.TabIndex = 19;
             this.btConnect232.Text = "Connect";
             this.btConnect232.UseVisualStyleBackColor = true;
@@ -2367,17 +2379,17 @@
             "38400bps",
             "57600bps",
             "115200bps"});
-            this.ComboBox_baud2.Location = new System.Drawing.Point(96, 43);
+            this.ComboBox_baud2.Location = new System.Drawing.Point(96, 47);
             this.ComboBox_baud2.Name = "ComboBox_baud2";
-            this.ComboBox_baud2.Size = new System.Drawing.Size(121, 20);
+            this.ComboBox_baud2.Size = new System.Drawing.Size(121, 21);
             this.ComboBox_baud2.TabIndex = 18;
             // 
             // label47
             // 
             this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(21, 48);
+            this.label47.Location = new System.Drawing.Point(21, 52);
             this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(65, 12);
+            this.label47.Size = new System.Drawing.Size(56, 13);
             this.label47.TabIndex = 17;
             this.label47.Text = "Baud rate:";
             // 
@@ -2395,17 +2407,17 @@
             "COM7",
             "COM8",
             "COM9"});
-            this.ComboBox_COM.Location = new System.Drawing.Point(96, 15);
+            this.ComboBox_COM.Location = new System.Drawing.Point(96, 16);
             this.ComboBox_COM.Name = "ComboBox_COM";
-            this.ComboBox_COM.Size = new System.Drawing.Size(121, 20);
+            this.ComboBox_COM.Size = new System.Drawing.Size(121, 21);
             this.ComboBox_COM.TabIndex = 14;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 23);
+            this.label3.Location = new System.Drawing.Point(9, 25);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 12);
+            this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 13;
             this.label3.Text = "Serial Port:";
             // 
@@ -2415,7 +2427,7 @@
             this.groupBox1.Controls.Add(this.rb_rs232);
             this.groupBox1.Location = new System.Drawing.Point(5, 5);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(343, 44);
+            this.groupBox1.Size = new System.Drawing.Size(343, 48);
             this.groupBox1.TabIndex = 2;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Connect Type";
@@ -2423,9 +2435,9 @@
             // rb_tcp
             // 
             this.rb_tcp.AutoSize = true;
-            this.rb_tcp.Location = new System.Drawing.Point(190, 18);
+            this.rb_tcp.Location = new System.Drawing.Point(190, 20);
             this.rb_tcp.Name = "rb_tcp";
-            this.rb_tcp.Size = new System.Drawing.Size(59, 16);
+            this.rb_tcp.Size = new System.Drawing.Size(61, 17);
             this.rb_tcp.TabIndex = 1;
             this.rb_tcp.Text = "TCP/IP";
             this.rb_tcp.UseVisualStyleBackColor = true;
@@ -2434,9 +2446,9 @@
             // rb_rs232
             // 
             this.rb_rs232.AutoSize = true;
-            this.rb_rs232.Location = new System.Drawing.Point(33, 18);
+            this.rb_rs232.Location = new System.Drawing.Point(33, 20);
             this.rb_rs232.Name = "rb_rs232";
-            this.rb_rs232.Size = new System.Drawing.Size(53, 16);
+            this.rb_rs232.Size = new System.Drawing.Size(58, 17);
             this.rb_rs232.TabIndex = 0;
             this.rb_rs232.Text = "RS232";
             this.rb_rs232.UseVisualStyleBackColor = true;
@@ -2448,7 +2460,7 @@
             this.tabPage_Mx.Location = new System.Drawing.Point(4, 27);
             this.tabPage_Mx.Name = "tabPage_Mx";
             this.tabPage_Mx.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_Mx.Size = new System.Drawing.Size(1057, 537);
+            this.tabPage_Mx.Size = new System.Drawing.Size(1057, 584);
             this.tabPage_Mx.TabIndex = 1;
             this.tabPage_Mx.Text = "Auto-running setting";
             this.tabPage_Mx.UseVisualStyleBackColor = true;
@@ -2467,7 +2479,7 @@
             this.panel2.Controls.Add(this.gbp_EASAcc);
             this.panel2.Location = new System.Drawing.Point(-3, 1);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1063, 563);
+            this.panel2.Size = new System.Drawing.Size(1063, 610);
             this.panel2.TabIndex = 0;
             // 
             // gbp_trigger
@@ -2476,9 +2488,9 @@
             this.gbp_trigger.Controls.Add(this.bttrigger);
             this.gbp_trigger.Controls.Add(this.comboBox_trigger);
             this.gbp_trigger.Controls.Add(this.label85);
-            this.gbp_trigger.Location = new System.Drawing.Point(709, 99);
+            this.gbp_trigger.Location = new System.Drawing.Point(709, 107);
             this.gbp_trigger.Name = "gbp_trigger";
-            this.gbp_trigger.Size = new System.Drawing.Size(340, 67);
+            this.gbp_trigger.Size = new System.Drawing.Size(340, 73);
             this.gbp_trigger.TabIndex = 84;
             this.gbp_trigger.TabStop = false;
             this.gbp_trigger.Text = "Set Trigger-Time";
@@ -2486,17 +2498,17 @@
             // label84
             // 
             this.label84.AutoSize = true;
-            this.label84.Location = new System.Drawing.Point(183, 34);
+            this.label84.Location = new System.Drawing.Point(183, 37);
             this.label84.Name = "label84";
-            this.label84.Size = new System.Drawing.Size(23, 12);
+            this.label84.Size = new System.Drawing.Size(22, 13);
             this.label84.TabIndex = 5;
             this.label84.Text = "*1s";
             // 
             // bttrigger
             // 
-            this.bttrigger.Location = new System.Drawing.Point(244, 29);
+            this.bttrigger.Location = new System.Drawing.Point(244, 31);
             this.bttrigger.Name = "bttrigger";
-            this.bttrigger.Size = new System.Drawing.Size(90, 23);
+            this.bttrigger.Size = new System.Drawing.Size(90, 25);
             this.bttrigger.TabIndex = 2;
             this.bttrigger.Text = "Set";
             this.bttrigger.UseVisualStyleBackColor = true;
@@ -2506,17 +2518,17 @@
             // 
             this.comboBox_trigger.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_trigger.FormattingEnabled = true;
-            this.comboBox_trigger.Location = new System.Drawing.Point(90, 29);
+            this.comboBox_trigger.Location = new System.Drawing.Point(90, 31);
             this.comboBox_trigger.Name = "comboBox_trigger";
-            this.comboBox_trigger.Size = new System.Drawing.Size(91, 20);
+            this.comboBox_trigger.Size = new System.Drawing.Size(91, 21);
             this.comboBox_trigger.TabIndex = 1;
             // 
             // label85
             // 
             this.label85.AutoSize = true;
-            this.label85.Location = new System.Drawing.Point(5, 32);
+            this.label85.Location = new System.Drawing.Point(5, 35);
             this.label85.Name = "label85";
-            this.label85.Size = new System.Drawing.Size(83, 12);
+            this.label85.Size = new System.Drawing.Size(69, 13);
             this.label85.TabIndex = 0;
             this.label85.Text = "Trigger Time:";
             // 
@@ -2528,18 +2540,18 @@
             this.groupBox43.Controls.Add(this.label65);
             this.groupBox43.Controls.Add(this.com_acQ);
             this.groupBox43.Controls.Add(this.label64);
-            this.groupBox43.Location = new System.Drawing.Point(444, 172);
+            this.groupBox43.Location = new System.Drawing.Point(444, 186);
             this.groupBox43.Name = "groupBox43";
-            this.groupBox43.Size = new System.Drawing.Size(606, 56);
+            this.groupBox43.Size = new System.Drawing.Size(606, 61);
             this.groupBox43.TabIndex = 83;
             this.groupBox43.TabStop = false;
             this.groupBox43.Text = "Mutiple query parameter";
             // 
             // btGetQS
             // 
-            this.btGetQS.Location = new System.Drawing.Point(509, 20);
+            this.btGetQS.Location = new System.Drawing.Point(509, 22);
             this.btGetQS.Name = "btGetQS";
-            this.btGetQS.Size = new System.Drawing.Size(90, 23);
+            this.btGetQS.Size = new System.Drawing.Size(90, 25);
             this.btGetQS.TabIndex = 7;
             this.btGetQS.Text = "Get";
             this.btGetQS.UseVisualStyleBackColor = true;
@@ -2547,9 +2559,9 @@
             // 
             // btSetQS
             // 
-            this.btSetQS.Location = new System.Drawing.Point(397, 20);
+            this.btSetQS.Location = new System.Drawing.Point(397, 22);
             this.btSetQS.Name = "btSetQS";
-            this.btSetQS.Size = new System.Drawing.Size(90, 23);
+            this.btSetQS.Size = new System.Drawing.Size(90, 25);
             this.btSetQS.TabIndex = 6;
             this.btSetQS.Text = "Set";
             this.btSetQS.UseVisualStyleBackColor = true;
@@ -2564,17 +2576,17 @@
             "1",
             "2",
             "3"});
-            this.com_acS.Location = new System.Drawing.Point(269, 22);
+            this.com_acS.Location = new System.Drawing.Point(269, 24);
             this.com_acS.Name = "com_acS";
-            this.com_acS.Size = new System.Drawing.Size(91, 20);
+            this.com_acS.Size = new System.Drawing.Size(91, 21);
             this.com_acS.TabIndex = 5;
             // 
             // label65
             // 
             this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(187, 26);
+            this.label65.Location = new System.Drawing.Point(187, 28);
             this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(59, 12);
+            this.label65.Size = new System.Drawing.Size(50, 13);
             this.label65.TabIndex = 4;
             this.label65.Text = "Session：";
             // 
@@ -2599,17 +2611,17 @@
             "13",
             "14",
             "15"});
-            this.com_acQ.Location = new System.Drawing.Point(67, 23);
+            this.com_acQ.Location = new System.Drawing.Point(67, 25);
             this.com_acQ.Name = "com_acQ";
-            this.com_acQ.Size = new System.Drawing.Size(91, 20);
+            this.com_acQ.Size = new System.Drawing.Size(91, 21);
             this.com_acQ.TabIndex = 3;
             // 
             // label64
             // 
             this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(18, 26);
+            this.label64.Location = new System.Drawing.Point(18, 28);
             this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(23, 12);
+            this.label64.Size = new System.Drawing.Size(21, 13);
             this.label64.TabIndex = 2;
             this.label64.Text = "Q：";
             // 
@@ -2620,19 +2632,19 @@
             this.groupBox44.Controls.Add(this.text_tidaddr);
             this.groupBox44.Controls.Add(this.btTIDpara);
             this.groupBox44.Controls.Add(this.label66);
-            this.groupBox44.Location = new System.Drawing.Point(8, 172);
+            this.groupBox44.Location = new System.Drawing.Point(8, 186);
             this.groupBox44.Name = "groupBox44";
-            this.groupBox44.Size = new System.Drawing.Size(430, 56);
+            this.groupBox44.Size = new System.Drawing.Size(430, 61);
             this.groupBox44.TabIndex = 82;
             this.groupBox44.TabStop = false;
             this.groupBox44.Text = "TID Parameter Setting";
             // 
             // text_tidlen
             // 
-            this.text_tidlen.Location = new System.Drawing.Point(238, 23);
+            this.text_tidlen.Location = new System.Drawing.Point(238, 25);
             this.text_tidlen.MaxLength = 2;
             this.text_tidlen.Name = "text_tidlen";
-            this.text_tidlen.Size = new System.Drawing.Size(69, 21);
+            this.text_tidlen.Size = new System.Drawing.Size(69, 20);
             this.text_tidlen.TabIndex = 5;
             this.text_tidlen.Text = "04";
             this.text_tidlen.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -2640,27 +2652,27 @@
             // label67
             // 
             this.label67.AutoSize = true;
-            this.label67.Location = new System.Drawing.Point(167, 26);
+            this.label67.Location = new System.Drawing.Point(167, 28);
             this.label67.Name = "label67";
-            this.label67.Size = new System.Drawing.Size(47, 12);
+            this.label67.Size = new System.Drawing.Size(43, 13);
             this.label67.TabIndex = 4;
             this.label67.Text = "Length:";
             // 
             // text_tidaddr
             // 
-            this.text_tidaddr.Location = new System.Drawing.Point(87, 23);
+            this.text_tidaddr.Location = new System.Drawing.Point(87, 25);
             this.text_tidaddr.MaxLength = 2;
             this.text_tidaddr.Name = "text_tidaddr";
-            this.text_tidaddr.Size = new System.Drawing.Size(69, 21);
+            this.text_tidaddr.Size = new System.Drawing.Size(69, 20);
             this.text_tidaddr.TabIndex = 3;
             this.text_tidaddr.Text = "02";
             this.text_tidaddr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
             // 
             // btTIDpara
             // 
-            this.btTIDpara.Location = new System.Drawing.Point(321, 22);
+            this.btTIDpara.Location = new System.Drawing.Point(321, 24);
             this.btTIDpara.Name = "btTIDpara";
-            this.btTIDpara.Size = new System.Drawing.Size(90, 23);
+            this.btTIDpara.Size = new System.Drawing.Size(90, 25);
             this.btTIDpara.TabIndex = 2;
             this.btTIDpara.Text = "Set";
             this.btTIDpara.UseVisualStyleBackColor = true;
@@ -2669,17 +2681,17 @@
             // label66
             // 
             this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(0, 26);
+            this.label66.Location = new System.Drawing.Point(0, 28);
             this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(89, 12);
+            this.label66.Size = new System.Drawing.Size(73, 13);
             this.label66.TabIndex = 0;
             this.label66.Text = "Start Address:";
             // 
             // btGetWorkmodepara
             // 
-            this.btGetWorkmodepara.Location = new System.Drawing.Point(732, 242);
+            this.btGetWorkmodepara.Location = new System.Drawing.Point(732, 262);
             this.btGetWorkmodepara.Name = "btGetWorkmodepara";
-            this.btGetWorkmodepara.Size = new System.Drawing.Size(320, 40);
+            this.btGetWorkmodepara.Size = new System.Drawing.Size(320, 43);
             this.btGetWorkmodepara.TabIndex = 80;
             this.btGetWorkmodepara.Text = "Get System Parameter";
             this.btGetWorkmodepara.UseVisualStyleBackColor = true;
@@ -2690,18 +2702,18 @@
             this.groupBox37.Controls.Add(this.btworkmode);
             this.groupBox37.Controls.Add(this.comboBox_mode);
             this.groupBox37.Controls.Add(this.label59);
-            this.groupBox37.Location = new System.Drawing.Point(345, 230);
+            this.groupBox37.Location = new System.Drawing.Point(345, 249);
             this.groupBox37.Name = "groupBox37";
-            this.groupBox37.Size = new System.Drawing.Size(380, 56);
+            this.groupBox37.Size = new System.Drawing.Size(380, 61);
             this.groupBox37.TabIndex = 79;
             this.groupBox37.TabStop = false;
             this.groupBox37.Text = "Work Mode";
             // 
             // btworkmode
             // 
-            this.btworkmode.Location = new System.Drawing.Point(273, 20);
+            this.btworkmode.Location = new System.Drawing.Point(273, 22);
             this.btworkmode.Name = "btworkmode";
-            this.btworkmode.Size = new System.Drawing.Size(90, 23);
+            this.btworkmode.Size = new System.Drawing.Size(90, 25);
             this.btworkmode.TabIndex = 2;
             this.btworkmode.Text = "Set";
             this.btworkmode.UseVisualStyleBackColor = true;
@@ -2716,17 +2728,17 @@
             "Auto_running mode",
             "Trigger mode(Low)",
             "Trigger mode(High)"});
-            this.comboBox_mode.Location = new System.Drawing.Point(92, 23);
+            this.comboBox_mode.Location = new System.Drawing.Point(92, 25);
             this.comboBox_mode.Name = "comboBox_mode";
-            this.comboBox_mode.Size = new System.Drawing.Size(168, 20);
+            this.comboBox_mode.Size = new System.Drawing.Size(168, 21);
             this.comboBox_mode.TabIndex = 1;
             // 
             // label59
             // 
             this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(7, 26);
+            this.label59.Location = new System.Drawing.Point(7, 28);
             this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(77, 12);
+            this.label59.Size = new System.Drawing.Size(70, 13);
             this.label59.TabIndex = 0;
             this.label59.Text = "Mode Select:";
             // 
@@ -2735,18 +2747,18 @@
             this.groupBox36.Controls.Add(this.btInterval);
             this.groupBox36.Controls.Add(this.comboBox_intervalT);
             this.groupBox36.Controls.Add(this.label58);
-            this.groupBox36.Location = new System.Drawing.Point(8, 230);
+            this.groupBox36.Location = new System.Drawing.Point(8, 249);
             this.groupBox36.Name = "groupBox36";
-            this.groupBox36.Size = new System.Drawing.Size(331, 56);
+            this.groupBox36.Size = new System.Drawing.Size(331, 61);
             this.groupBox36.TabIndex = 78;
             this.groupBox36.TabStop = false;
             this.groupBox36.Text = "Pulse interval";
             // 
             // btInterval
             // 
-            this.btInterval.Location = new System.Drawing.Point(217, 20);
+            this.btInterval.Location = new System.Drawing.Point(217, 22);
             this.btInterval.Name = "btInterval";
-            this.btInterval.Size = new System.Drawing.Size(90, 23);
+            this.btInterval.Size = new System.Drawing.Size(90, 25);
             this.btInterval.TabIndex = 2;
             this.btInterval.Text = "Set";
             this.btInterval.UseVisualStyleBackColor = true;
@@ -2762,17 +2774,17 @@
             "30ms",
             "50ms",
             "100ms"});
-            this.comboBox_intervalT.Location = new System.Drawing.Point(73, 23);
+            this.comboBox_intervalT.Location = new System.Drawing.Point(73, 25);
             this.comboBox_intervalT.Name = "comboBox_intervalT";
-            this.comboBox_intervalT.Size = new System.Drawing.Size(131, 20);
+            this.comboBox_intervalT.Size = new System.Drawing.Size(131, 21);
             this.comboBox_intervalT.TabIndex = 1;
             // 
             // label58
             // 
             this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(7, 26);
+            this.label58.Location = new System.Drawing.Point(7, 28);
             this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(71, 12);
+            this.label58.Size = new System.Drawing.Size(62, 13);
             this.label58.TabIndex = 0;
             this.label58.Text = "Pulse Time:";
             // 
@@ -2783,9 +2795,9 @@
             this.gbp_tagType.Controls.Add(this.rb_EAS);
             this.gbp_tagType.Controls.Add(this.rb_G2);
             this.gbp_tagType.Controls.Add(this.groupBox35);
-            this.gbp_tagType.Location = new System.Drawing.Point(8, 97);
+            this.gbp_tagType.Location = new System.Drawing.Point(8, 105);
             this.gbp_tagType.Name = "gbp_tagType";
-            this.gbp_tagType.Size = new System.Drawing.Size(695, 69);
+            this.gbp_tagType.Size = new System.Drawing.Size(695, 75);
             this.gbp_tagType.TabIndex = 77;
             this.gbp_tagType.TabStop = false;
             this.gbp_tagType.Text = "Query Tag Type";
@@ -2793,18 +2805,18 @@
             // rb_G2TID
             // 
             this.rb_G2TID.AutoSize = true;
-            this.rb_G2TID.Location = new System.Drawing.Point(460, 31);
+            this.rb_G2TID.Location = new System.Drawing.Point(460, 34);
             this.rb_G2TID.Name = "rb_G2TID";
-            this.rb_G2TID.Size = new System.Drawing.Size(131, 16);
+            this.rb_G2TID.Size = new System.Drawing.Size(120, 17);
             this.rb_G2TID.TabIndex = 5;
             this.rb_G2TID.Text = "Query G2 Tag\'s TID";
             this.rb_G2TID.UseVisualStyleBackColor = true;
             // 
             // bt_typeTag
             // 
-            this.bt_typeTag.Location = new System.Drawing.Point(599, 28);
+            this.bt_typeTag.Location = new System.Drawing.Point(599, 30);
             this.bt_typeTag.Name = "bt_typeTag";
-            this.bt_typeTag.Size = new System.Drawing.Size(90, 23);
+            this.bt_typeTag.Size = new System.Drawing.Size(90, 25);
             this.bt_typeTag.TabIndex = 4;
             this.bt_typeTag.Text = "Set";
             this.bt_typeTag.UseVisualStyleBackColor = true;
@@ -2813,9 +2825,9 @@
             // rb_EAS
             // 
             this.rb_EAS.AutoSize = true;
-            this.rb_EAS.Location = new System.Drawing.Point(358, 31);
+            this.rb_EAS.Location = new System.Drawing.Point(358, 34);
             this.rb_EAS.Name = "rb_EAS";
-            this.rb_EAS.Size = new System.Drawing.Size(83, 16);
+            this.rb_EAS.Size = new System.Drawing.Size(81, 17);
             this.rb_EAS.TabIndex = 3;
             this.rb_EAS.Text = "Detect EAS";
             this.rb_EAS.UseVisualStyleBackColor = true;
@@ -2824,9 +2836,9 @@
             // 
             this.rb_G2.AutoSize = true;
             this.rb_G2.Checked = true;
-            this.rb_G2.Location = new System.Drawing.Point(247, 31);
+            this.rb_G2.Location = new System.Drawing.Point(247, 34);
             this.rb_G2.Name = "rb_G2";
-            this.rb_G2.Size = new System.Drawing.Size(95, 16);
+            this.rb_G2.Size = new System.Drawing.Size(92, 17);
             this.rb_G2.TabIndex = 1;
             this.rb_G2.TabStop = true;
             this.rb_G2.Text = "Query G2 Tag";
@@ -2836,9 +2848,9 @@
             // 
             this.groupBox35.Controls.Add(this.rb_180006B);
             this.groupBox35.Controls.Add(this.rb_180006c);
-            this.groupBox35.Location = new System.Drawing.Point(6, 14);
+            this.groupBox35.Location = new System.Drawing.Point(6, 15);
             this.groupBox35.Name = "groupBox35";
-            this.groupBox35.Size = new System.Drawing.Size(200, 48);
+            this.groupBox35.Size = new System.Drawing.Size(200, 52);
             this.groupBox35.TabIndex = 0;
             this.groupBox35.TabStop = false;
             this.groupBox35.Text = "Protocl";
@@ -2846,9 +2858,9 @@
             // rb_180006B
             // 
             this.rb_180006B.AutoSize = true;
-            this.rb_180006B.Location = new System.Drawing.Point(106, 20);
+            this.rb_180006B.Location = new System.Drawing.Point(106, 22);
             this.rb_180006B.Name = "rb_180006B";
-            this.rb_180006B.Size = new System.Drawing.Size(71, 16);
+            this.rb_180006B.Size = new System.Drawing.Size(71, 17);
             this.rb_180006B.TabIndex = 1;
             this.rb_180006B.Text = "18000-6B";
             this.rb_180006B.UseVisualStyleBackColor = true;
@@ -2857,9 +2869,9 @@
             // 
             this.rb_180006c.AutoSize = true;
             this.rb_180006c.Checked = true;
-            this.rb_180006c.Location = new System.Drawing.Point(10, 20);
+            this.rb_180006c.Location = new System.Drawing.Point(10, 22);
             this.rb_180006c.Name = "rb_180006c";
-            this.rb_180006c.Size = new System.Drawing.Size(71, 16);
+            this.rb_180006c.Size = new System.Drawing.Size(76, 17);
             this.rb_180006c.TabIndex = 0;
             this.rb_180006c.TabStop = true;
             this.rb_180006c.Text = "EPCC1-G2";
@@ -2875,16 +2887,16 @@
             this.gbp_Response.Controls.Add(this.label55);
             this.gbp_Response.Location = new System.Drawing.Point(746, 4);
             this.gbp_Response.Name = "gbp_Response";
-            this.gbp_Response.Size = new System.Drawing.Size(305, 87);
+            this.gbp_Response.Size = new System.Drawing.Size(305, 94);
             this.gbp_Response.TabIndex = 76;
             this.gbp_Response.TabStop = false;
             this.gbp_Response.Text = "Response conditions  Setting";
             // 
             // btResponse
             // 
-            this.btResponse.Location = new System.Drawing.Point(207, 50);
+            this.btResponse.Location = new System.Drawing.Point(207, 54);
             this.btResponse.Name = "btResponse";
-            this.btResponse.Size = new System.Drawing.Size(90, 23);
+            this.btResponse.Size = new System.Drawing.Size(90, 25);
             this.btResponse.TabIndex = 5;
             this.btResponse.Text = "Set";
             this.btResponse.UseVisualStyleBackColor = true;
@@ -2893,9 +2905,9 @@
             // label57
             // 
             this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(173, 58);
+            this.label57.Location = new System.Drawing.Point(173, 63);
             this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(23, 12);
+            this.label57.Size = new System.Drawing.Size(22, 13);
             this.label57.TabIndex = 4;
             this.label57.Text = "*1s";
             // 
@@ -2903,17 +2915,17 @@
             // 
             this.comboBox_RespTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_RespTime.FormattingEnabled = true;
-            this.comboBox_RespTime.Location = new System.Drawing.Point(95, 51);
+            this.comboBox_RespTime.Location = new System.Drawing.Point(95, 55);
             this.comboBox_RespTime.Name = "comboBox_RespTime";
-            this.comboBox_RespTime.Size = new System.Drawing.Size(77, 20);
+            this.comboBox_RespTime.Size = new System.Drawing.Size(77, 21);
             this.comboBox_RespTime.TabIndex = 3;
             // 
             // label56
             // 
             this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(8, 58);
+            this.label56.Location = new System.Drawing.Point(8, 63);
             this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(83, 12);
+            this.label56.Size = new System.Drawing.Size(83, 13);
             this.label56.TabIndex = 2;
             this.label56.Text = "RepPauseTime:";
             // 
@@ -2927,18 +2939,18 @@
             "Add-in notify",
             "Delete notify",
             "Change notify"});
-            this.comboBox_Resp.Location = new System.Drawing.Point(95, 22);
+            this.comboBox_Resp.Location = new System.Drawing.Point(95, 24);
             this.comboBox_Resp.Name = "comboBox_Resp";
-            this.comboBox_Resp.Size = new System.Drawing.Size(202, 20);
+            this.comboBox_Resp.Size = new System.Drawing.Size(202, 21);
             this.comboBox_Resp.TabIndex = 1;
             this.comboBox_Resp.SelectedIndexChanged += new System.EventHandler(this.comboBox_Resp_SelectedIndexChanged);
             // 
             // label55
             // 
             this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(6, 26);
+            this.label55.Location = new System.Drawing.Point(6, 28);
             this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(83, 12);
+            this.label55.Size = new System.Drawing.Size(74, 13);
             this.label55.TabIndex = 0;
             this.label55.Text = "RepCondition:";
             // 
@@ -2956,16 +2968,16 @@
             this.gbp_mask.Controls.Add(this.rb_MaskEPC);
             this.gbp_mask.Location = new System.Drawing.Point(346, 4);
             this.gbp_mask.Name = "gbp_mask";
-            this.gbp_mask.Size = new System.Drawing.Size(384, 87);
+            this.gbp_mask.Size = new System.Drawing.Size(384, 94);
             this.gbp_mask.TabIndex = 75;
             this.gbp_mask.TabStop = false;
             this.gbp_mask.Text = "Mask setting";
             // 
             // btMaskSet
             // 
-            this.btMaskSet.Location = new System.Drawing.Point(285, 59);
+            this.btMaskSet.Location = new System.Drawing.Point(285, 64);
             this.btMaskSet.Name = "btMaskSet";
-            this.btMaskSet.Size = new System.Drawing.Size(90, 23);
+            this.btMaskSet.Size = new System.Drawing.Size(90, 25);
             this.btMaskSet.TabIndex = 9;
             this.btMaskSet.Text = "Set";
             this.btMaskSet.UseVisualStyleBackColor = true;
@@ -2974,28 +2986,28 @@
             // text_mdata
             // 
             this.text_mdata.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_mdata.Location = new System.Drawing.Point(94, 61);
+            this.text_mdata.Location = new System.Drawing.Point(94, 66);
             this.text_mdata.Name = "text_mdata";
-            this.text_mdata.Size = new System.Drawing.Size(177, 21);
+            this.text_mdata.Size = new System.Drawing.Size(177, 20);
             this.text_mdata.TabIndex = 8;
             this.text_mdata.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
             // 
             // label54
             // 
             this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(6, 67);
+            this.label54.Location = new System.Drawing.Point(6, 73);
             this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(95, 12);
+            this.label54.Size = new System.Drawing.Size(85, 13);
             this.label54.TabIndex = 7;
             this.label54.Text = "Mask data(Hex):";
             // 
             // text_mlen
             // 
             this.text_mlen.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_mlen.Location = new System.Drawing.Point(313, 33);
+            this.text_mlen.Location = new System.Drawing.Point(313, 36);
             this.text_mlen.MaxLength = 2;
             this.text_mlen.Name = "text_mlen";
-            this.text_mlen.Size = new System.Drawing.Size(62, 21);
+            this.text_mlen.Size = new System.Drawing.Size(62, 20);
             this.text_mlen.TabIndex = 6;
             this.text_mlen.Text = "00";
             this.text_mlen.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -3003,19 +3015,19 @@
             // label53
             // 
             this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(204, 40);
+            this.label53.Location = new System.Drawing.Point(204, 43);
             this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(107, 12);
+            this.label53.Size = new System.Drawing.Size(93, 13);
             this.label53.TabIndex = 5;
             this.label53.Text = "Mask length(Hex):";
             // 
             // text_madds
             // 
             this.text_madds.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_madds.Location = new System.Drawing.Point(137, 33);
+            this.text_madds.Location = new System.Drawing.Point(137, 36);
             this.text_madds.MaxLength = 4;
             this.text_madds.Name = "text_madds";
-            this.text_madds.Size = new System.Drawing.Size(55, 21);
+            this.text_madds.Size = new System.Drawing.Size(55, 20);
             this.text_madds.TabIndex = 4;
             this.text_madds.Text = "0000";
             this.text_madds.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -3023,18 +3035,18 @@
             // label81
             // 
             this.label81.AutoSize = true;
-            this.label81.Location = new System.Drawing.Point(6, 40);
+            this.label81.Location = new System.Drawing.Point(6, 43);
             this.label81.Name = "label81";
-            this.label81.Size = new System.Drawing.Size(113, 12);
+            this.label81.Size = new System.Drawing.Size(101, 13);
             this.label81.TabIndex = 3;
             this.label81.Text = "Mask address(Hex):";
             // 
             // rb_MaskUser
             // 
             this.rb_MaskUser.AutoSize = true;
-            this.rb_MaskUser.Location = new System.Drawing.Point(214, 14);
+            this.rb_MaskUser.Location = new System.Drawing.Point(214, 15);
             this.rb_MaskUser.Name = "rb_MaskUser";
-            this.rb_MaskUser.Size = new System.Drawing.Size(47, 16);
+            this.rb_MaskUser.Size = new System.Drawing.Size(47, 17);
             this.rb_MaskUser.TabIndex = 2;
             this.rb_MaskUser.Text = "User";
             this.rb_MaskUser.UseVisualStyleBackColor = true;
@@ -3042,9 +3054,9 @@
             // rb_MaskTID
             // 
             this.rb_MaskTID.AutoSize = true;
-            this.rb_MaskTID.Location = new System.Drawing.Point(110, 14);
+            this.rb_MaskTID.Location = new System.Drawing.Point(110, 15);
             this.rb_MaskTID.Name = "rb_MaskTID";
-            this.rb_MaskTID.Size = new System.Drawing.Size(41, 16);
+            this.rb_MaskTID.Size = new System.Drawing.Size(43, 17);
             this.rb_MaskTID.TabIndex = 1;
             this.rb_MaskTID.Text = "TID";
             this.rb_MaskTID.UseVisualStyleBackColor = true;
@@ -3053,9 +3065,9 @@
             // 
             this.rb_MaskEPC.AutoSize = true;
             this.rb_MaskEPC.Checked = true;
-            this.rb_MaskEPC.Location = new System.Drawing.Point(6, 14);
+            this.rb_MaskEPC.Location = new System.Drawing.Point(6, 15);
             this.rb_MaskEPC.Name = "rb_MaskEPC";
-            this.rb_MaskEPC.Size = new System.Drawing.Size(41, 16);
+            this.rb_MaskEPC.Size = new System.Drawing.Size(46, 17);
             this.rb_MaskEPC.TabIndex = 0;
             this.rb_MaskEPC.TabStop = true;
             this.rb_MaskEPC.Text = "EPC";
@@ -3070,16 +3082,16 @@
             this.gbp_EASAcc.Controls.Add(this.rbEASAcc);
             this.gbp_EASAcc.Location = new System.Drawing.Point(8, 4);
             this.gbp_EASAcc.Name = "gbp_EASAcc";
-            this.gbp_EASAcc.Size = new System.Drawing.Size(330, 87);
+            this.gbp_EASAcc.Size = new System.Drawing.Size(330, 94);
             this.gbp_EASAcc.TabIndex = 74;
             this.gbp_EASAcc.TabStop = false;
             this.gbp_EASAcc.Text = "EAS Sensitivity ";
             // 
             // btAccuracy
             // 
-            this.btAccuracy.Location = new System.Drawing.Point(217, 49);
+            this.btAccuracy.Location = new System.Drawing.Point(217, 53);
             this.btAccuracy.Name = "btAccuracy";
-            this.btAccuracy.Size = new System.Drawing.Size(90, 23);
+            this.btAccuracy.Size = new System.Drawing.Size(90, 25);
             this.btAccuracy.TabIndex = 4;
             this.btAccuracy.Text = "Set";
             this.btAccuracy.UseVisualStyleBackColor = true;
@@ -3099,26 +3111,26 @@
             "6",
             "7",
             "8"});
-            this.ComboBox_Accuracy.Location = new System.Drawing.Point(94, 52);
+            this.ComboBox_Accuracy.Location = new System.Drawing.Point(94, 56);
             this.ComboBox_Accuracy.Name = "ComboBox_Accuracy";
-            this.ComboBox_Accuracy.Size = new System.Drawing.Size(79, 20);
+            this.ComboBox_Accuracy.Size = new System.Drawing.Size(79, 21);
             this.ComboBox_Accuracy.TabIndex = 3;
             // 
             // label82
             // 
             this.label82.AutoSize = true;
-            this.label82.Location = new System.Drawing.Point(12, 55);
+            this.label82.Location = new System.Drawing.Point(12, 60);
             this.label82.Name = "label82";
-            this.label82.Size = new System.Drawing.Size(83, 12);
+            this.label82.Size = new System.Drawing.Size(79, 13);
             this.label82.TabIndex = 2;
             this.label82.Text = "EAS Accuracy:";
             // 
             // rbNone
             // 
             this.rbNone.AutoSize = true;
-            this.rbNone.Location = new System.Drawing.Point(244, 22);
+            this.rbNone.Location = new System.Drawing.Point(244, 24);
             this.rbNone.Name = "rbNone";
-            this.rbNone.Size = new System.Drawing.Size(47, 16);
+            this.rbNone.Size = new System.Drawing.Size(51, 17);
             this.rbNone.TabIndex = 1;
             this.rbNone.Text = "None";
             this.rbNone.UseVisualStyleBackColor = true;
@@ -3127,9 +3139,9 @@
             // 
             this.rbEASAcc.AutoSize = true;
             this.rbEASAcc.Checked = true;
-            this.rbEASAcc.Location = new System.Drawing.Point(12, 22);
+            this.rbEASAcc.Location = new System.Drawing.Point(12, 24);
             this.rbEASAcc.Name = "rbEASAcc";
-            this.rbEASAcc.Size = new System.Drawing.Size(227, 16);
+            this.rbEASAcc.Size = new System.Drawing.Size(201, 17);
             this.rbEASAcc.TabIndex = 0;
             this.rbEASAcc.TabStop = true;
             this.rbEASAcc.Text = "Relay release 3s when detected EAS";
@@ -3140,7 +3152,7 @@
             this.tabPage_Module.Controls.Add(this.panel9);
             this.tabPage_Module.Location = new System.Drawing.Point(4, 27);
             this.tabPage_Module.Name = "tabPage_Module";
-            this.tabPage_Module.Size = new System.Drawing.Size(1057, 537);
+            this.tabPage_Module.Size = new System.Drawing.Size(1057, 584);
             this.tabPage_Module.TabIndex = 2;
             this.tabPage_Module.Text = "Real-time-inventory setting";
             this.tabPage_Module.UseVisualStyleBackColor = true;
@@ -3158,15 +3170,15 @@
             this.panel9.Controls.Add(this.groupBox3);
             this.panel9.Location = new System.Drawing.Point(0, 0);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(1059, 506);
+            this.panel9.Size = new System.Drawing.Size(1059, 548);
             this.panel9.TabIndex = 0;
             this.panel9.Paint += new System.Windows.Forms.PaintEventHandler(this.panel9_Paint);
             // 
             // btMSetParameter
             // 
-            this.btMSetParameter.Location = new System.Drawing.Point(928, 118);
+            this.btMSetParameter.Location = new System.Drawing.Point(928, 128);
             this.btMSetParameter.Name = "btMSetParameter";
-            this.btMSetParameter.Size = new System.Drawing.Size(119, 33);
+            this.btMSetParameter.Size = new System.Drawing.Size(119, 36);
             this.btMSetParameter.TabIndex = 86;
             this.btMSetParameter.Text = "Set Parameter";
             this.btMSetParameter.UseVisualStyleBackColor = true;
@@ -3174,9 +3186,9 @@
             // 
             // btMGetParameter
             // 
-            this.btMGetParameter.Location = new System.Drawing.Point(928, 74);
+            this.btMGetParameter.Location = new System.Drawing.Point(928, 80);
             this.btMGetParameter.Name = "btMGetParameter";
-            this.btMGetParameter.Size = new System.Drawing.Size(119, 33);
+            this.btMGetParameter.Size = new System.Drawing.Size(119, 36);
             this.btMGetParameter.TabIndex = 85;
             this.btMGetParameter.Text = "Get Parameter";
             this.btMGetParameter.UseVisualStyleBackColor = true;
@@ -3187,18 +3199,18 @@
             this.groupBox39.Controls.Add(this.btSetMmode);
             this.groupBox39.Controls.Add(this.com_Mmode);
             this.groupBox39.Controls.Add(this.label111);
-            this.groupBox39.Location = new System.Drawing.Point(656, 69);
+            this.groupBox39.Location = new System.Drawing.Point(656, 75);
             this.groupBox39.Name = "groupBox39";
-            this.groupBox39.Size = new System.Drawing.Size(265, 87);
+            this.groupBox39.Size = new System.Drawing.Size(265, 94);
             this.groupBox39.TabIndex = 84;
             this.groupBox39.TabStop = false;
             this.groupBox39.Text = "Work Mode";
             // 
             // btSetMmode
             // 
-            this.btSetMmode.Location = new System.Drawing.Point(170, 56);
+            this.btSetMmode.Location = new System.Drawing.Point(170, 61);
             this.btSetMmode.Name = "btSetMmode";
-            this.btSetMmode.Size = new System.Drawing.Size(90, 23);
+            this.btSetMmode.Size = new System.Drawing.Size(90, 25);
             this.btSetMmode.TabIndex = 2;
             this.btSetMmode.Text = "Set";
             this.btSetMmode.UseVisualStyleBackColor = true;
@@ -3212,17 +3224,17 @@
             "Answer mode",
             "Real-time-inventory mode",
             "trigger-mode"});
-            this.com_Mmode.Location = new System.Drawing.Point(92, 23);
+            this.com_Mmode.Location = new System.Drawing.Point(92, 25);
             this.com_Mmode.Name = "com_Mmode";
-            this.com_Mmode.Size = new System.Drawing.Size(168, 20);
+            this.com_Mmode.Size = new System.Drawing.Size(168, 21);
             this.com_Mmode.TabIndex = 1;
             // 
             // label111
             // 
             this.label111.AutoSize = true;
-            this.label111.Location = new System.Drawing.Point(7, 26);
+            this.label111.Location = new System.Drawing.Point(7, 28);
             this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(77, 12);
+            this.label111.Size = new System.Drawing.Size(70, 13);
             this.label111.TabIndex = 0;
             this.label111.Text = "Mode Select:";
             // 
@@ -3233,9 +3245,9 @@
             this.groupBox38.Controls.Add(this.label103);
             this.groupBox38.Controls.Add(this.txt_mtidaddr);
             this.groupBox38.Controls.Add(this.label104);
-            this.groupBox38.Location = new System.Drawing.Point(436, 69);
+            this.groupBox38.Location = new System.Drawing.Point(436, 75);
             this.groupBox38.Name = "groupBox38";
-            this.groupBox38.Size = new System.Drawing.Size(214, 87);
+            this.groupBox38.Size = new System.Drawing.Size(214, 94);
             this.groupBox38.TabIndex = 83;
             this.groupBox38.TabStop = false;
             this.groupBox38.Text = "TID Parameter Setting";
@@ -3243,46 +3255,46 @@
             // checkBox_tid
             // 
             this.checkBox_tid.AutoSize = true;
-            this.checkBox_tid.Location = new System.Drawing.Point(160, 60);
+            this.checkBox_tid.Location = new System.Drawing.Point(160, 65);
             this.checkBox_tid.Name = "checkBox_tid";
-            this.checkBox_tid.Size = new System.Drawing.Size(60, 16);
+            this.checkBox_tid.Size = new System.Drawing.Size(59, 17);
             this.checkBox_tid.TabIndex = 10;
             this.checkBox_tid.Text = "Enable";
             this.checkBox_tid.UseVisualStyleBackColor = true;
             // 
             // txt_Mtidlen
             // 
-            this.txt_Mtidlen.Location = new System.Drawing.Point(87, 58);
+            this.txt_Mtidlen.Location = new System.Drawing.Point(87, 63);
             this.txt_Mtidlen.MaxLength = 2;
             this.txt_Mtidlen.Name = "txt_Mtidlen";
-            this.txt_Mtidlen.Size = new System.Drawing.Size(60, 21);
+            this.txt_Mtidlen.Size = new System.Drawing.Size(60, 20);
             this.txt_Mtidlen.TabIndex = 5;
             this.txt_Mtidlen.Text = "04";
             // 
             // label103
             // 
             this.label103.AutoSize = true;
-            this.label103.Location = new System.Drawing.Point(13, 61);
+            this.label103.Location = new System.Drawing.Point(13, 66);
             this.label103.Name = "label103";
-            this.label103.Size = new System.Drawing.Size(77, 12);
+            this.label103.Size = new System.Drawing.Size(68, 13);
             this.label103.TabIndex = 4;
             this.label103.Text = "Length(Hex):";
             // 
             // txt_mtidaddr
             // 
-            this.txt_mtidaddr.Location = new System.Drawing.Point(138, 23);
+            this.txt_mtidaddr.Location = new System.Drawing.Point(138, 25);
             this.txt_mtidaddr.MaxLength = 2;
             this.txt_mtidaddr.Name = "txt_mtidaddr";
-            this.txt_mtidaddr.Size = new System.Drawing.Size(64, 21);
+            this.txt_mtidaddr.Size = new System.Drawing.Size(64, 20);
             this.txt_mtidaddr.TabIndex = 3;
             this.txt_mtidaddr.Text = "02";
             // 
             // label104
             // 
             this.label104.AutoSize = true;
-            this.label104.Location = new System.Drawing.Point(13, 26);
+            this.label104.Location = new System.Drawing.Point(13, 28);
             this.label104.Name = "label104";
-            this.label104.Size = new System.Drawing.Size(119, 12);
+            this.label104.Size = new System.Drawing.Size(97, 13);
             this.label104.TabIndex = 0;
             this.label104.Text = "Start address(Hex):";
             // 
@@ -3298,9 +3310,9 @@
             this.groupBox34.Controls.Add(this.RBM_USER);
             this.groupBox34.Controls.Add(this.RBM_TID);
             this.groupBox34.Controls.Add(this.RBM_EPC);
-            this.groupBox34.Location = new System.Drawing.Point(8, 69);
+            this.groupBox34.Location = new System.Drawing.Point(8, 75);
             this.groupBox34.Name = "groupBox34";
-            this.groupBox34.Size = new System.Drawing.Size(420, 87);
+            this.groupBox34.Size = new System.Drawing.Size(420, 94);
             this.groupBox34.TabIndex = 82;
             this.groupBox34.TabStop = false;
             this.groupBox34.Text = "Mask setting";
@@ -3308,9 +3320,9 @@
             // checkBox_mask
             // 
             this.checkBox_mask.AutoSize = true;
-            this.checkBox_mask.Location = new System.Drawing.Point(323, 13);
+            this.checkBox_mask.Location = new System.Drawing.Point(323, 14);
             this.checkBox_mask.Name = "checkBox_mask";
-            this.checkBox_mask.Size = new System.Drawing.Size(60, 16);
+            this.checkBox_mask.Size = new System.Drawing.Size(59, 17);
             this.checkBox_mask.TabIndex = 9;
             this.checkBox_mask.Text = "Enable";
             this.checkBox_mask.UseVisualStyleBackColor = true;
@@ -3318,64 +3330,64 @@
             // txt_Mdata
             // 
             this.txt_Mdata.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txt_Mdata.Location = new System.Drawing.Point(94, 61);
+            this.txt_Mdata.Location = new System.Drawing.Point(94, 66);
             this.txt_Mdata.Name = "txt_Mdata";
-            this.txt_Mdata.Size = new System.Drawing.Size(316, 21);
+            this.txt_Mdata.Size = new System.Drawing.Size(316, 20);
             this.txt_Mdata.TabIndex = 8;
             // 
             // label100
             // 
             this.label100.AutoSize = true;
-            this.label100.Location = new System.Drawing.Point(6, 67);
+            this.label100.Location = new System.Drawing.Point(6, 73);
             this.label100.Name = "label100";
-            this.label100.Size = new System.Drawing.Size(65, 12);
+            this.label100.Size = new System.Drawing.Size(58, 13);
             this.label100.TabIndex = 7;
             this.label100.Text = "Data(Hex):";
             // 
             // txt_Mlen
             // 
             this.txt_Mlen.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txt_Mlen.Location = new System.Drawing.Point(348, 33);
+            this.txt_Mlen.Location = new System.Drawing.Point(348, 36);
             this.txt_Mlen.MaxLength = 2;
             this.txt_Mlen.Name = "txt_Mlen";
-            this.txt_Mlen.Size = new System.Drawing.Size(62, 21);
+            this.txt_Mlen.Size = new System.Drawing.Size(62, 20);
             this.txt_Mlen.TabIndex = 6;
             this.txt_Mlen.Text = "00";
             // 
             // label101
             // 
             this.label101.AutoSize = true;
-            this.label101.Location = new System.Drawing.Point(247, 40);
+            this.label101.Location = new System.Drawing.Point(247, 43);
             this.label101.Name = "label101";
-            this.label101.Size = new System.Drawing.Size(77, 12);
+            this.label101.Size = new System.Drawing.Size(68, 13);
             this.label101.TabIndex = 5;
             this.label101.Text = "Length(Hex):";
             // 
             // txt_Maddr
             // 
             this.txt_Maddr.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txt_Maddr.Location = new System.Drawing.Point(137, 33);
+            this.txt_Maddr.Location = new System.Drawing.Point(137, 36);
             this.txt_Maddr.MaxLength = 4;
             this.txt_Maddr.Name = "txt_Maddr";
-            this.txt_Maddr.Size = new System.Drawing.Size(55, 21);
+            this.txt_Maddr.Size = new System.Drawing.Size(55, 20);
             this.txt_Maddr.TabIndex = 4;
             this.txt_Maddr.Text = "0000";
             // 
             // label102
             // 
             this.label102.AutoSize = true;
-            this.label102.Location = new System.Drawing.Point(6, 40);
+            this.label102.Location = new System.Drawing.Point(6, 43);
             this.label102.Name = "label102";
-            this.label102.Size = new System.Drawing.Size(119, 12);
+            this.label102.Size = new System.Drawing.Size(97, 13);
             this.label102.TabIndex = 3;
             this.label102.Text = "Start address(Hex):";
             // 
             // RBM_USER
             // 
             this.RBM_USER.AutoSize = true;
-            this.RBM_USER.Location = new System.Drawing.Point(247, 14);
+            this.RBM_USER.Location = new System.Drawing.Point(247, 15);
             this.RBM_USER.Name = "RBM_USER";
-            this.RBM_USER.Size = new System.Drawing.Size(47, 16);
+            this.RBM_USER.Size = new System.Drawing.Size(47, 17);
             this.RBM_USER.TabIndex = 2;
             this.RBM_USER.Text = "User";
             this.RBM_USER.UseVisualStyleBackColor = true;
@@ -3383,9 +3395,9 @@
             // RBM_TID
             // 
             this.RBM_TID.AutoSize = true;
-            this.RBM_TID.Location = new System.Drawing.Point(136, 14);
+            this.RBM_TID.Location = new System.Drawing.Point(136, 15);
             this.RBM_TID.Name = "RBM_TID";
-            this.RBM_TID.Size = new System.Drawing.Size(41, 16);
+            this.RBM_TID.Size = new System.Drawing.Size(43, 17);
             this.RBM_TID.TabIndex = 1;
             this.RBM_TID.Text = "TID";
             this.RBM_TID.UseVisualStyleBackColor = true;
@@ -3394,9 +3406,9 @@
             // 
             this.RBM_EPC.AutoSize = true;
             this.RBM_EPC.Checked = true;
-            this.RBM_EPC.Location = new System.Drawing.Point(20, 14);
+            this.RBM_EPC.Location = new System.Drawing.Point(20, 15);
             this.RBM_EPC.Name = "RBM_EPC";
-            this.RBM_EPC.Size = new System.Drawing.Size(41, 16);
+            this.RBM_EPC.Size = new System.Drawing.Size(46, 17);
             this.RBM_EPC.TabIndex = 0;
             this.RBM_EPC.TabStop = true;
             this.RBM_EPC.Text = "EPC";
@@ -3408,9 +3420,9 @@
             this.groupBox33.Controls.Add(this.label99);
             this.groupBox33.Controls.Add(this.com_MQ);
             this.groupBox33.Controls.Add(this.label98);
-            this.groupBox33.Location = new System.Drawing.Point(656, 6);
+            this.groupBox33.Location = new System.Drawing.Point(656, 7);
             this.groupBox33.Name = "groupBox33";
-            this.groupBox33.Size = new System.Drawing.Size(394, 56);
+            this.groupBox33.Size = new System.Drawing.Size(394, 61);
             this.groupBox33.TabIndex = 81;
             this.groupBox33.TabStop = false;
             this.groupBox33.Text = "Mutiple query parameter";
@@ -3425,17 +3437,17 @@
             "S2",
             "S3",
             "AUTO"});
-            this.com_MS.Location = new System.Drawing.Point(267, 23);
+            this.com_MS.Location = new System.Drawing.Point(267, 25);
             this.com_MS.Name = "com_MS";
-            this.com_MS.Size = new System.Drawing.Size(117, 20);
+            this.com_MS.Size = new System.Drawing.Size(117, 21);
             this.com_MS.TabIndex = 3;
             // 
             // label99
             // 
             this.label99.AutoSize = true;
-            this.label99.Location = new System.Drawing.Point(194, 26);
+            this.label99.Location = new System.Drawing.Point(194, 28);
             this.label99.Name = "label99";
-            this.label99.Size = new System.Drawing.Size(59, 12);
+            this.label99.Size = new System.Drawing.Size(50, 13);
             this.label99.TabIndex = 2;
             this.label99.Text = "Session：";
             // 
@@ -3460,17 +3472,17 @@
             "13",
             "14",
             "15"});
-            this.com_MQ.Location = new System.Drawing.Point(47, 23);
+            this.com_MQ.Location = new System.Drawing.Point(47, 25);
             this.com_MQ.Name = "com_MQ";
-            this.com_MQ.Size = new System.Drawing.Size(117, 20);
+            this.com_MQ.Size = new System.Drawing.Size(117, 21);
             this.com_MQ.TabIndex = 1;
             // 
             // label98
             // 
             this.label98.AutoSize = true;
-            this.label98.Location = new System.Drawing.Point(7, 26);
+            this.label98.Location = new System.Drawing.Point(7, 28);
             this.label98.Name = "label98";
-            this.label98.Size = new System.Drawing.Size(23, 12);
+            this.label98.Size = new System.Drawing.Size(21, 13);
             this.label98.TabIndex = 0;
             this.label98.Text = "Q：";
             // 
@@ -3478,9 +3490,9 @@
             // 
             this.groupBox32.Controls.Add(this.com_MFliterTime);
             this.groupBox32.Controls.Add(this.label97);
-            this.groupBox32.Location = new System.Drawing.Point(436, 6);
+            this.groupBox32.Location = new System.Drawing.Point(436, 7);
             this.groupBox32.Name = "groupBox32";
-            this.groupBox32.Size = new System.Drawing.Size(214, 56);
+            this.groupBox32.Size = new System.Drawing.Size(214, 61);
             this.groupBox32.TabIndex = 80;
             this.groupBox32.TabStop = false;
             this.groupBox32.Text = "Tag Filter";
@@ -3489,17 +3501,17 @@
             // 
             this.com_MFliterTime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.com_MFliterTime.FormattingEnabled = true;
-            this.com_MFliterTime.Location = new System.Drawing.Point(87, 23);
+            this.com_MFliterTime.Location = new System.Drawing.Point(87, 25);
             this.com_MFliterTime.Name = "com_MFliterTime";
-            this.com_MFliterTime.Size = new System.Drawing.Size(117, 20);
+            this.com_MFliterTime.Size = new System.Drawing.Size(117, 21);
             this.com_MFliterTime.TabIndex = 1;
             // 
             // label97
             // 
             this.label97.AutoSize = true;
-            this.label97.Location = new System.Drawing.Point(7, 26);
+            this.label97.Location = new System.Drawing.Point(7, 28);
             this.label97.Name = "label97";
-            this.label97.Size = new System.Drawing.Size(77, 12);
+            this.label97.Size = new System.Drawing.Size(54, 13);
             this.label97.TabIndex = 0;
             this.label97.Text = "Filter time:";
             // 
@@ -3507,9 +3519,9 @@
             // 
             this.groupBox28.Controls.Add(this.COM_MRPTime);
             this.groupBox28.Controls.Add(this.label96);
-            this.groupBox28.Location = new System.Drawing.Point(214, 6);
+            this.groupBox28.Location = new System.Drawing.Point(214, 7);
             this.groupBox28.Name = "groupBox28";
-            this.groupBox28.Size = new System.Drawing.Size(214, 56);
+            this.groupBox28.Size = new System.Drawing.Size(214, 61);
             this.groupBox28.TabIndex = 79;
             this.groupBox28.TabStop = false;
             this.groupBox28.Text = "Pulse interval";
@@ -3524,17 +3536,17 @@
             "30ms",
             "50ms",
             "100ms"});
-            this.COM_MRPTime.Location = new System.Drawing.Point(73, 23);
+            this.COM_MRPTime.Location = new System.Drawing.Point(73, 25);
             this.COM_MRPTime.Name = "COM_MRPTime";
-            this.COM_MRPTime.Size = new System.Drawing.Size(131, 20);
+            this.COM_MRPTime.Size = new System.Drawing.Size(131, 21);
             this.COM_MRPTime.TabIndex = 1;
             // 
             // label96
             // 
             this.label96.AutoSize = true;
-            this.label96.Location = new System.Drawing.Point(7, 26);
+            this.label96.Location = new System.Drawing.Point(7, 28);
             this.label96.Name = "label96";
-            this.label96.Size = new System.Drawing.Size(71, 12);
+            this.label96.Size = new System.Drawing.Size(62, 13);
             this.label96.TabIndex = 0;
             this.label96.Text = "Pulse Time:";
             // 
@@ -3542,9 +3554,9 @@
             // 
             this.groupBox3.Controls.Add(this.MRB_6B);
             this.groupBox3.Controls.Add(this.MRB_G2);
-            this.groupBox3.Location = new System.Drawing.Point(8, 6);
+            this.groupBox3.Location = new System.Drawing.Point(8, 7);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(200, 56);
+            this.groupBox3.Size = new System.Drawing.Size(200, 61);
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Protocl";
@@ -3552,9 +3564,9 @@
             // MRB_6B
             // 
             this.MRB_6B.AutoSize = true;
-            this.MRB_6B.Location = new System.Drawing.Point(106, 20);
+            this.MRB_6B.Location = new System.Drawing.Point(106, 22);
             this.MRB_6B.Name = "MRB_6B";
-            this.MRB_6B.Size = new System.Drawing.Size(71, 16);
+            this.MRB_6B.Size = new System.Drawing.Size(71, 17);
             this.MRB_6B.TabIndex = 1;
             this.MRB_6B.Text = "18000-6B";
             this.MRB_6B.UseVisualStyleBackColor = true;
@@ -3563,9 +3575,9 @@
             // 
             this.MRB_G2.AutoSize = true;
             this.MRB_G2.Checked = true;
-            this.MRB_G2.Location = new System.Drawing.Point(10, 20);
+            this.MRB_G2.Location = new System.Drawing.Point(10, 22);
             this.MRB_G2.Name = "MRB_G2";
-            this.MRB_G2.Size = new System.Drawing.Size(71, 16);
+            this.MRB_G2.Size = new System.Drawing.Size(76, 17);
             this.MRB_G2.TabIndex = 0;
             this.MRB_G2.TabStop = true;
             this.MRB_G2.Text = "EPCC1-G2";
@@ -3578,7 +3590,7 @@
             this.Main_Page2.Location = new System.Drawing.Point(4, 27);
             this.Main_Page2.Name = "Main_Page2";
             this.Main_Page2.Padding = new System.Windows.Forms.Padding(3);
-            this.Main_Page2.Size = new System.Drawing.Size(1071, 571);
+            this.Main_Page2.Size = new System.Drawing.Size(1071, 621);
             this.Main_Page2.TabIndex = 1;
             this.Main_Page2.Text = "EPCC1-G2 Test";
             this.Main_Page2.UseVisualStyleBackColor = true;
@@ -3591,10 +3603,10 @@
             this.tabControl2.Controls.Add(this.tabPage_Buff);
             this.tabControl2.Controls.Add(this.tabPage_RW);
             this.tabControl2.ItemSize = new System.Drawing.Size(120, 23);
-            this.tabControl2.Location = new System.Drawing.Point(-1, 6);
+            this.tabControl2.Location = new System.Drawing.Point(-1, 7);
             this.tabControl2.Name = "tabControl2";
             this.tabControl2.SelectedIndex = 0;
-            this.tabControl2.Size = new System.Drawing.Size(1071, 565);
+            this.tabControl2.Size = new System.Drawing.Size(1071, 612);
             this.tabControl2.TabIndex = 0;
             this.tabControl2.SelectedIndexChanged += new System.EventHandler(this.Maintab_SelectedIndexChanged);
             // 
@@ -3604,7 +3616,7 @@
             this.tabPage_answer.Location = new System.Drawing.Point(4, 27);
             this.tabPage_answer.Name = "tabPage_answer";
             this.tabPage_answer.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_answer.Size = new System.Drawing.Size(1063, 534);
+            this.tabPage_answer.Size = new System.Drawing.Size(1063, 581);
             this.tabPage_answer.TabIndex = 0;
             this.tabPage_answer.Text = "Answer Mode";
             this.tabPage_answer.UseVisualStyleBackColor = true;
@@ -3631,7 +3643,7 @@
             this.panel1.Enabled = false;
             this.panel1.Location = new System.Drawing.Point(2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1066, 530);
+            this.panel1.Size = new System.Drawing.Size(1066, 574);
             this.panel1.TabIndex = 0;
             // 
             // lxLedControl6
@@ -3646,11 +3658,11 @@
             this.lxLedControl6.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLedControl6.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLedControl6.HighlightOpaque = ((byte)(50));
-            this.lxLedControl6.Location = new System.Drawing.Point(712, 228);
+            this.lxLedControl6.Location = new System.Drawing.Point(712, 247);
             this.lxLedControl6.Name = "lxLedControl6";
             this.lxLedControl6.RoundCorner = true;
             this.lxLedControl6.ShowHighlight = true;
-            this.lxLedControl6.Size = new System.Drawing.Size(313, 85);
+            this.lxLedControl6.Size = new System.Drawing.Size(313, 92);
             this.lxLedControl6.TabIndex = 31;
             this.lxLedControl6.Text = "0";
             this.lxLedControl6.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -3659,9 +3671,9 @@
             // label119
             // 
             this.label119.AutoSize = true;
-            this.label119.Location = new System.Drawing.Point(709, 209);
+            this.label119.Location = new System.Drawing.Point(709, 226);
             this.label119.Name = "label119";
-            this.label119.Size = new System.Drawing.Size(71, 12);
+            this.label119.Size = new System.Drawing.Size(68, 13);
             this.label119.TabIndex = 30;
             this.label119.Text = "TID Number:";
             // 
@@ -3678,17 +3690,17 @@
             this.gbp_MixRead.Enabled = false;
             this.gbp_MixRead.Location = new System.Drawing.Point(396, 1);
             this.gbp_MixRead.Name = "gbp_MixRead";
-            this.gbp_MixRead.Size = new System.Drawing.Size(222, 71);
+            this.gbp_MixRead.Size = new System.Drawing.Size(222, 77);
             this.gbp_MixRead.TabIndex = 29;
             this.gbp_MixRead.TabStop = false;
             this.gbp_MixRead.Text = "Mix";
             // 
             // text_readpsd
             // 
-            this.text_readpsd.Location = new System.Drawing.Point(64, 42);
+            this.text_readpsd.Location = new System.Drawing.Point(64, 46);
             this.text_readpsd.MaxLength = 8;
             this.text_readpsd.Name = "text_readpsd";
-            this.text_readpsd.Size = new System.Drawing.Size(65, 21);
+            this.text_readpsd.Size = new System.Drawing.Size(65, 20);
             this.text_readpsd.TabIndex = 7;
             this.text_readpsd.Text = "00000000";
             this.text_readpsd.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -3696,18 +3708,18 @@
             // label118
             // 
             this.label118.AutoSize = true;
-            this.label118.Location = new System.Drawing.Point(6, 46);
+            this.label118.Location = new System.Drawing.Point(6, 50);
             this.label118.Name = "label118";
-            this.label118.Size = new System.Drawing.Size(59, 12);
+            this.label118.Size = new System.Drawing.Size(56, 13);
             this.label118.TabIndex = 6;
             this.label118.Text = "Password:";
             // 
             // text_readLen
             // 
-            this.text_readLen.Location = new System.Drawing.Point(176, 44);
+            this.text_readLen.Location = new System.Drawing.Point(176, 48);
             this.text_readLen.MaxLength = 2;
             this.text_readLen.Name = "text_readLen";
-            this.text_readLen.Size = new System.Drawing.Size(41, 21);
+            this.text_readLen.Size = new System.Drawing.Size(41, 20);
             this.text_readLen.TabIndex = 5;
             this.text_readLen.Text = "04";
             this.text_readLen.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -3715,18 +3727,18 @@
             // label117
             // 
             this.label117.AutoSize = true;
-            this.label117.Location = new System.Drawing.Point(136, 48);
+            this.label117.Location = new System.Drawing.Point(136, 52);
             this.label117.Name = "label117";
-            this.label117.Size = new System.Drawing.Size(29, 12);
+            this.label117.Size = new System.Drawing.Size(28, 13);
             this.label117.TabIndex = 4;
             this.label117.Text = "Len:";
             // 
             // text_readadr
             // 
-            this.text_readadr.Location = new System.Drawing.Point(176, 13);
+            this.text_readadr.Location = new System.Drawing.Point(176, 14);
             this.text_readadr.MaxLength = 4;
             this.text_readadr.Name = "text_readadr";
-            this.text_readadr.Size = new System.Drawing.Size(41, 21);
+            this.text_readadr.Size = new System.Drawing.Size(41, 20);
             this.text_readadr.TabIndex = 3;
             this.text_readadr.Text = "0002";
             this.text_readadr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -3734,9 +3746,9 @@
             // label115
             // 
             this.label115.AutoSize = true;
-            this.label115.Location = new System.Drawing.Point(136, 17);
+            this.label115.Location = new System.Drawing.Point(136, 18);
             this.label115.Name = "label115";
-            this.label115.Size = new System.Drawing.Size(35, 12);
+            this.label115.Size = new System.Drawing.Size(32, 13);
             this.label115.TabIndex = 2;
             this.label115.Text = "Addr:";
             // 
@@ -3749,17 +3761,17 @@
             "EPC",
             "TID",
             "User"});
-            this.com_MixMem.Location = new System.Drawing.Point(64, 12);
+            this.com_MixMem.Location = new System.Drawing.Point(64, 13);
             this.com_MixMem.Name = "com_MixMem";
-            this.com_MixMem.Size = new System.Drawing.Size(66, 20);
+            this.com_MixMem.Size = new System.Drawing.Size(66, 21);
             this.com_MixMem.TabIndex = 1;
             // 
             // label114
             // 
             this.label114.AutoSize = true;
-            this.label114.Location = new System.Drawing.Point(5, 16);
+            this.label114.Location = new System.Drawing.Point(5, 17);
             this.label114.Name = "label114";
-            this.label114.Size = new System.Drawing.Size(29, 12);
+            this.label114.Size = new System.Drawing.Size(33, 13);
             this.label114.TabIndex = 0;
             this.label114.Text = "Mem:";
             // 
@@ -3775,11 +3787,11 @@
             this.lxLedControl5.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLedControl5.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLedControl5.HighlightOpaque = ((byte)(50));
-            this.lxLedControl5.Location = new System.Drawing.Point(886, 449);
+            this.lxLedControl5.Location = new System.Drawing.Point(886, 486);
             this.lxLedControl5.Name = "lxLedControl5";
             this.lxLedControl5.RoundCorner = true;
             this.lxLedControl5.ShowHighlight = true;
-            this.lxLedControl5.Size = new System.Drawing.Size(154, 40);
+            this.lxLedControl5.Size = new System.Drawing.Size(154, 43);
             this.lxLedControl5.TabIndex = 28;
             this.lxLedControl5.Text = "0";
             this.lxLedControl5.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -3789,9 +3801,9 @@
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label9.Location = new System.Drawing.Point(884, 429);
+            this.label9.Location = new System.Drawing.Point(884, 465);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(119, 12);
+            this.label9.Size = new System.Drawing.Size(98, 13);
             this.label9.TabIndex = 27;
             this.label9.Text = "Total-cmd-time(ms):";
             // 
@@ -3807,11 +3819,11 @@
             this.lxLedControl4.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLedControl4.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLedControl4.HighlightOpaque = ((byte)(50));
-            this.lxLedControl4.Location = new System.Drawing.Point(711, 448);
+            this.lxLedControl4.Location = new System.Drawing.Point(711, 485);
             this.lxLedControl4.Name = "lxLedControl4";
             this.lxLedControl4.RoundCorner = true;
             this.lxLedControl4.ShowHighlight = true;
-            this.lxLedControl4.Size = new System.Drawing.Size(154, 41);
+            this.lxLedControl4.Size = new System.Drawing.Size(154, 44);
             this.lxLedControl4.TabIndex = 26;
             this.lxLedControl4.Text = "0";
             this.lxLedControl4.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -3821,9 +3833,9 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label8.Location = new System.Drawing.Point(709, 429);
+            this.label8.Location = new System.Drawing.Point(709, 465);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(107, 12);
+            this.label8.Size = new System.Drawing.Size(90, 13);
             this.label8.TabIndex = 25;
             this.label8.Text = "Total tag number:";
             // 
@@ -3839,11 +3851,11 @@
             this.lxLedControl3.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLedControl3.ForeColor = System.Drawing.Color.Purple;
             this.lxLedControl3.HighlightOpaque = ((byte)(50));
-            this.lxLedControl3.Location = new System.Drawing.Point(886, 367);
+            this.lxLedControl3.Location = new System.Drawing.Point(886, 398);
             this.lxLedControl3.Name = "lxLedControl3";
             this.lxLedControl3.RoundCorner = true;
             this.lxLedControl3.ShowHighlight = true;
-            this.lxLedControl3.Size = new System.Drawing.Size(154, 29);
+            this.lxLedControl3.Size = new System.Drawing.Size(154, 31);
             this.lxLedControl3.TabIndex = 24;
             this.lxLedControl3.Text = "0";
             this.lxLedControl3.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -3853,9 +3865,9 @@
             // 
             this.label7.AutoSize = true;
             this.label7.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label7.Location = new System.Drawing.Point(884, 343);
+            this.label7.Location = new System.Drawing.Point(884, 372);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(83, 12);
+            this.label7.Size = new System.Drawing.Size(71, 13);
             this.label7.TabIndex = 23;
             this.label7.Text = "cmd time(ms):";
             // 
@@ -3871,11 +3883,11 @@
             this.lxLedControl2.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLedControl2.ForeColor = System.Drawing.Color.Purple;
             this.lxLedControl2.HighlightOpaque = ((byte)(50));
-            this.lxLedControl2.Location = new System.Drawing.Point(711, 367);
+            this.lxLedControl2.Location = new System.Drawing.Point(711, 398);
             this.lxLedControl2.Name = "lxLedControl2";
             this.lxLedControl2.RoundCorner = true;
             this.lxLedControl2.ShowHighlight = true;
-            this.lxLedControl2.Size = new System.Drawing.Size(154, 29);
+            this.lxLedControl2.Size = new System.Drawing.Size(154, 31);
             this.lxLedControl2.TabIndex = 22;
             this.lxLedControl2.Text = "0";
             this.lxLedControl2.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -3885,9 +3897,9 @@
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label6.Location = new System.Drawing.Point(709, 343);
+            this.label6.Location = new System.Drawing.Point(709, 372);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(41, 12);
+            this.label6.Size = new System.Drawing.Size(41, 13);
             this.label6.TabIndex = 21;
             this.label6.Text = "Speed:";
             // 
@@ -3903,11 +3915,11 @@
             this.lxLedControl1.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLedControl1.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLedControl1.HighlightOpaque = ((byte)(50));
-            this.lxLedControl1.Location = new System.Drawing.Point(712, 110);
+            this.lxLedControl1.Location = new System.Drawing.Point(712, 119);
             this.lxLedControl1.Name = "lxLedControl1";
             this.lxLedControl1.RoundCorner = true;
             this.lxLedControl1.ShowHighlight = true;
-            this.lxLedControl1.Size = new System.Drawing.Size(313, 85);
+            this.lxLedControl1.Size = new System.Drawing.Size(313, 92);
             this.lxLedControl1.TabIndex = 20;
             this.lxLedControl1.Text = "0";
             this.lxLedControl1.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -3916,18 +3928,18 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(709, 91);
+            this.label5.Location = new System.Drawing.Point(709, 99);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(71, 12);
+            this.label5.Size = new System.Drawing.Size(71, 13);
             this.label5.TabIndex = 19;
             this.label5.Text = "EPC Number:";
             // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.dataGridView1);
-            this.groupBox5.Location = new System.Drawing.Point(4, 79);
+            this.groupBox5.Location = new System.Drawing.Point(4, 86);
             this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(678, 445);
+            this.groupBox5.Size = new System.Drawing.Size(678, 482);
             this.groupBox5.TabIndex = 18;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Tag list(No Repeat)";
@@ -3943,7 +3955,7 @@
             this.dataGridView1.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(6, 20);
+            this.dataGridView1.Location = new System.Drawing.Point(6, 22);
             this.dataGridView1.MultiSelect = false;
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -3951,7 +3963,7 @@
             this.dataGridView1.RowTemplate.Height = 23;
             this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(664, 421);
+            this.dataGridView1.Size = new System.Drawing.Size(664, 456);
             this.dataGridView1.TabIndex = 1;
             // 
             // groupBox4
@@ -3970,16 +3982,16 @@
             this.groupBox4.Controls.Add(this.label31);
             this.groupBox4.Location = new System.Drawing.Point(619, 0);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(437, 71);
+            this.groupBox4.Size = new System.Drawing.Size(437, 77);
             this.groupBox4.TabIndex = 17;
             this.groupBox4.TabStop = false;
             // 
             // checkBox_rate
             // 
             this.checkBox_rate.AutoSize = true;
-            this.checkBox_rate.Location = new System.Drawing.Point(317, 46);
+            this.checkBox_rate.Location = new System.Drawing.Point(317, 50);
             this.checkBox_rate.Name = "checkBox_rate";
-            this.checkBox_rate.Size = new System.Drawing.Size(96, 16);
+            this.checkBox_rate.Size = new System.Drawing.Size(92, 17);
             this.checkBox_rate.TabIndex = 37;
             this.checkBox_rate.Text = "Return Speed";
             this.checkBox_rate.UseVisualStyleBackColor = true;
@@ -3987,19 +3999,19 @@
             // label80
             // 
             this.label80.AutoSize = true;
-            this.label80.Location = new System.Drawing.Point(102, 48);
+            this.label80.Location = new System.Drawing.Point(102, 52);
             this.label80.Name = "label80";
-            this.label80.Size = new System.Drawing.Size(203, 12);
+            this.label80.Size = new System.Drawing.Size(168, 13);
             this.label80.TabIndex = 36;
             this.label80.Text = "times no tag.then A/B conversion ";
             // 
             // text_target
             // 
             this.text_target.ForeColor = System.Drawing.Color.Red;
-            this.text_target.Location = new System.Drawing.Point(55, 42);
+            this.text_target.Location = new System.Drawing.Point(55, 46);
             this.text_target.MaxLength = 2;
             this.text_target.Name = "text_target";
-            this.text_target.Size = new System.Drawing.Size(43, 21);
+            this.text_target.Size = new System.Drawing.Size(43, 20);
             this.text_target.TabIndex = 35;
             this.text_target.Text = "5";
             this.text_target.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4010,9 +4022,9 @@
             this.check_num.AutoSize = true;
             this.check_num.Checked = true;
             this.check_num.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.check_num.Location = new System.Drawing.Point(7, 46);
+            this.check_num.Location = new System.Drawing.Point(7, 50);
             this.check_num.Name = "check_num";
-            this.check_num.Size = new System.Drawing.Size(48, 16);
+            this.check_num.Size = new System.Drawing.Size(52, 17);
             this.check_num.TabIndex = 34;
             this.check_num.Text = "Read";
             this.check_num.UseVisualStyleBackColor = true;
@@ -4024,17 +4036,17 @@
             this.com_Target.Items.AddRange(new object[] {
             "A",
             "B"});
-            this.com_Target.Location = new System.Drawing.Point(384, 14);
+            this.com_Target.Location = new System.Drawing.Point(384, 15);
             this.com_Target.Name = "com_Target";
-            this.com_Target.Size = new System.Drawing.Size(51, 20);
+            this.com_Target.Size = new System.Drawing.Size(51, 21);
             this.com_Target.TabIndex = 33;
             // 
             // label79
             // 
             this.label79.AutoSize = true;
-            this.label79.Location = new System.Drawing.Point(339, 18);
+            this.label79.Location = new System.Drawing.Point(339, 20);
             this.label79.Name = "label79";
-            this.label79.Size = new System.Drawing.Size(47, 12);
+            this.label79.Size = new System.Drawing.Size(41, 13);
             this.label79.TabIndex = 32;
             this.label79.Text = "Target:";
             // 
@@ -4042,17 +4054,17 @@
             // 
             this.com_scantime.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.com_scantime.FormattingEnabled = true;
-            this.com_scantime.Location = new System.Drawing.Point(258, 14);
+            this.com_scantime.Location = new System.Drawing.Point(258, 15);
             this.com_scantime.Name = "com_scantime";
-            this.com_scantime.Size = new System.Drawing.Size(77, 20);
+            this.com_scantime.Size = new System.Drawing.Size(77, 21);
             this.com_scantime.TabIndex = 31;
             // 
             // label39
             // 
             this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(191, 18);
+            this.label39.Location = new System.Drawing.Point(191, 20);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(59, 12);
+            this.label39.Size = new System.Drawing.Size(58, 13);
             this.label39.TabIndex = 30;
             this.label39.Text = "ScanTime:";
             // 
@@ -4066,18 +4078,18 @@
             "2",
             "3",
             "AUTO"});
-            this.com_S.Location = new System.Drawing.Point(125, 19);
+            this.com_S.Location = new System.Drawing.Point(125, 21);
             this.com_S.Name = "com_S";
-            this.com_S.Size = new System.Drawing.Size(59, 20);
+            this.com_S.Size = new System.Drawing.Size(59, 21);
             this.com_S.TabIndex = 29;
             this.com_S.SelectedIndexChanged += new System.EventHandler(this.com_S_SelectedIndexChanged);
             // 
             // label32
             // 
             this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(71, 18);
+            this.label32.Location = new System.Drawing.Point(71, 20);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(59, 12);
+            this.label32.Size = new System.Drawing.Size(50, 13);
             this.label32.TabIndex = 28;
             this.label32.Text = "Session：";
             // 
@@ -4102,17 +4114,17 @@
             "13",
             "14",
             "15"});
-            this.com_Q.Location = new System.Drawing.Point(18, 14);
+            this.com_Q.Location = new System.Drawing.Point(18, 15);
             this.com_Q.Name = "com_Q";
-            this.com_Q.Size = new System.Drawing.Size(51, 20);
+            this.com_Q.Size = new System.Drawing.Size(51, 21);
             this.com_Q.TabIndex = 27;
             // 
             // label31
             // 
             this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(3, 18);
+            this.label31.Location = new System.Drawing.Point(3, 20);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(17, 12);
+            this.label31.Size = new System.Drawing.Size(18, 13);
             this.label31.TabIndex = 26;
             this.label31.Text = "Q:";
             // 
@@ -4124,7 +4136,7 @@
             this.group_ant1.Controls.Add(this.check_ant1);
             this.group_ant1.Location = new System.Drawing.Point(262, 1);
             this.group_ant1.Name = "group_ant1";
-            this.group_ant1.Size = new System.Drawing.Size(135, 71);
+            this.group_ant1.Size = new System.Drawing.Size(135, 77);
             this.group_ant1.TabIndex = 16;
             this.group_ant1.TabStop = false;
             // 
@@ -4132,9 +4144,9 @@
             // 
             this.check_ant4.AutoSize = true;
             this.check_ant4.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.check_ant4.Location = new System.Drawing.Point(80, 43);
+            this.check_ant4.Location = new System.Drawing.Point(80, 47);
             this.check_ant4.Name = "check_ant4";
-            this.check_ant4.Size = new System.Drawing.Size(48, 16);
+            this.check_ant4.Size = new System.Drawing.Size(54, 17);
             this.check_ant4.TabIndex = 37;
             this.check_ant4.Text = "ANT4";
             this.check_ant4.UseVisualStyleBackColor = true;
@@ -4143,9 +4155,9 @@
             // 
             this.check_ant3.AutoSize = true;
             this.check_ant3.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.check_ant3.Location = new System.Drawing.Point(20, 43);
+            this.check_ant3.Location = new System.Drawing.Point(20, 47);
             this.check_ant3.Name = "check_ant3";
-            this.check_ant3.Size = new System.Drawing.Size(48, 16);
+            this.check_ant3.Size = new System.Drawing.Size(54, 17);
             this.check_ant3.TabIndex = 36;
             this.check_ant3.Text = "ANT3";
             this.check_ant3.UseVisualStyleBackColor = true;
@@ -4154,9 +4166,9 @@
             // 
             this.check_ant2.AutoSize = true;
             this.check_ant2.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.check_ant2.Location = new System.Drawing.Point(80, 16);
+            this.check_ant2.Location = new System.Drawing.Point(80, 17);
             this.check_ant2.Name = "check_ant2";
-            this.check_ant2.Size = new System.Drawing.Size(48, 16);
+            this.check_ant2.Size = new System.Drawing.Size(54, 17);
             this.check_ant2.TabIndex = 35;
             this.check_ant2.Text = "ANT2";
             this.check_ant2.UseVisualStyleBackColor = true;
@@ -4167,9 +4179,9 @@
             this.check_ant1.Checked = true;
             this.check_ant1.CheckState = System.Windows.Forms.CheckState.Checked;
             this.check_ant1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.check_ant1.Location = new System.Drawing.Point(20, 16);
+            this.check_ant1.Location = new System.Drawing.Point(20, 17);
             this.check_ant1.Name = "check_ant1";
-            this.check_ant1.Size = new System.Drawing.Size(48, 16);
+            this.check_ant1.Size = new System.Drawing.Size(54, 17);
             this.check_ant1.TabIndex = 34;
             this.check_ant1.Text = "ANT1";
             this.check_ant1.UseVisualStyleBackColor = true;
@@ -4183,16 +4195,16 @@
             this.groupBox2.Controls.Add(this.btIventoryG2);
             this.groupBox2.Location = new System.Drawing.Point(5, 1);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(257, 71);
+            this.groupBox2.Size = new System.Drawing.Size(257, 77);
             this.groupBox2.TabIndex = 15;
             this.groupBox2.TabStop = false;
             // 
             // rb_fastid
             // 
             this.rb_fastid.AutoSize = true;
-            this.rb_fastid.Location = new System.Drawing.Point(123, 43);
+            this.rb_fastid.Location = new System.Drawing.Point(123, 47);
             this.rb_fastid.Name = "rb_fastid";
-            this.rb_fastid.Size = new System.Drawing.Size(59, 16);
+            this.rb_fastid.Size = new System.Drawing.Size(56, 17);
             this.rb_fastid.TabIndex = 4;
             this.rb_fastid.Text = "FastID";
             this.rb_fastid.UseVisualStyleBackColor = true;
@@ -4201,21 +4213,21 @@
             // rb_mix
             // 
             this.rb_mix.AutoSize = true;
-            this.rb_mix.Location = new System.Drawing.Point(207, 43);
+            this.rb_mix.Location = new System.Drawing.Point(207, 47);
             this.rb_mix.Name = "rb_mix";
-            this.rb_mix.Size = new System.Drawing.Size(41, 16);
+            this.rb_mix.Size = new System.Drawing.Size(44, 17);
             this.rb_mix.TabIndex = 3;
             this.rb_mix.Text = "MIX";
             this.rb_mix.UseVisualStyleBackColor = true;
-            this.rb_mix.Click += new System.EventHandler(this.rb_mix_Click);
             this.rb_mix.CheckedChanged += new System.EventHandler(this.rb_mix_CheckedChanged);
+            this.rb_mix.Click += new System.EventHandler(this.rb_mix_Click);
             // 
             // rb_tid
             // 
             this.rb_tid.AutoSize = true;
-            this.rb_tid.Location = new System.Drawing.Point(207, 19);
+            this.rb_tid.Location = new System.Drawing.Point(207, 21);
             this.rb_tid.Name = "rb_tid";
-            this.rb_tid.Size = new System.Drawing.Size(41, 16);
+            this.rb_tid.Size = new System.Drawing.Size(43, 17);
             this.rb_tid.TabIndex = 2;
             this.rb_tid.Text = "TID";
             this.rb_tid.UseVisualStyleBackColor = true;
@@ -4225,9 +4237,9 @@
             // 
             this.rb_epc.AutoSize = true;
             this.rb_epc.Checked = true;
-            this.rb_epc.Location = new System.Drawing.Point(123, 20);
+            this.rb_epc.Location = new System.Drawing.Point(123, 22);
             this.rb_epc.Name = "rb_epc";
-            this.rb_epc.Size = new System.Drawing.Size(41, 16);
+            this.rb_epc.Size = new System.Drawing.Size(46, 17);
             this.rb_epc.TabIndex = 1;
             this.rb_epc.TabStop = true;
             this.rb_epc.Text = "EPC";
@@ -4237,11 +4249,11 @@
             // btIventoryG2
             // 
             this.btIventoryG2.BackColor = System.Drawing.Color.Transparent;
-            this.btIventoryG2.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btIventoryG2.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btIventoryG2.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btIventoryG2.Location = new System.Drawing.Point(6, 20);
+            this.btIventoryG2.Location = new System.Drawing.Point(6, 22);
             this.btIventoryG2.Name = "btIventoryG2";
-            this.btIventoryG2.Size = new System.Drawing.Size(109, 40);
+            this.btIventoryG2.Size = new System.Drawing.Size(109, 43);
             this.btIventoryG2.TabIndex = 0;
             this.btIventoryG2.Text = "Start";
             this.btIventoryG2.UseVisualStyleBackColor = false;
@@ -4253,7 +4265,7 @@
             this.tabPage_active.Location = new System.Drawing.Point(4, 27);
             this.tabPage_active.Name = "tabPage_active";
             this.tabPage_active.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_active.Size = new System.Drawing.Size(1063, 534);
+            this.tabPage_active.Size = new System.Drawing.Size(1063, 581);
             this.tabPage_active.TabIndex = 1;
             this.tabPage_active.Text = "Auto-running";
             this.tabPage_active.UseVisualStyleBackColor = true;
@@ -4266,7 +4278,7 @@
             this.panel3.Controls.Add(this.groupBox6);
             this.panel3.Location = new System.Drawing.Point(0, 2);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(1067, 532);
+            this.panel3.Size = new System.Drawing.Size(1067, 576);
             this.panel3.TabIndex = 0;
             // 
             // groupBox9
@@ -4281,9 +4293,9 @@
             this.groupBox9.Controls.Add(this.label17);
             this.groupBox9.Controls.Add(this.lxLed_Num);
             this.groupBox9.Controls.Add(this.label13);
-            this.groupBox9.Location = new System.Drawing.Point(6, 77);
+            this.groupBox9.Location = new System.Drawing.Point(6, 83);
             this.groupBox9.Name = "groupBox9";
-            this.groupBox9.Size = new System.Drawing.Size(1053, 455);
+            this.groupBox9.Size = new System.Drawing.Size(1053, 493);
             this.groupBox9.TabIndex = 20;
             this.groupBox9.TabStop = false;
             this.groupBox9.Text = "Data";
@@ -4292,9 +4304,9 @@
             // 
             this.label20.AutoSize = true;
             this.label20.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label20.Location = new System.Drawing.Point(0, 171);
+            this.label20.Location = new System.Drawing.Point(0, 185);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(59, 12);
+            this.label20.Size = new System.Drawing.Size(44, 13);
             this.label20.TabIndex = 22;
             this.label20.Text = "Tag list:";
             // 
@@ -4310,11 +4322,11 @@
             this.lxLed_toltime.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_toltime.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLed_toltime.HighlightOpaque = ((byte)(50));
-            this.lxLed_toltime.Location = new System.Drawing.Point(749, 132);
+            this.lxLed_toltime.Location = new System.Drawing.Point(749, 143);
             this.lxLed_toltime.Name = "lxLed_toltime";
             this.lxLed_toltime.RoundCorner = true;
             this.lxLed_toltime.ShowHighlight = true;
-            this.lxLed_toltime.Size = new System.Drawing.Size(162, 30);
+            this.lxLed_toltime.Size = new System.Drawing.Size(162, 33);
             this.lxLed_toltime.TabIndex = 32;
             this.lxLed_toltime.Text = "0";
             this.lxLed_toltime.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -4338,7 +4350,7 @@
             this.dataGridViewTextBoxColumn4,
             this.Column5,
             this.Column6});
-            this.dataGridView2.Location = new System.Drawing.Point(1, 189);
+            this.dataGridView2.Location = new System.Drawing.Point(1, 205);
             this.dataGridView2.MultiSelect = false;
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
@@ -4346,7 +4358,7 @@
             this.dataGridView2.RowTemplate.Height = 23;
             this.dataGridView2.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView2.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView2.Size = new System.Drawing.Size(1057, 265);
+            this.dataGridView2.Size = new System.Drawing.Size(1057, 287);
             this.dataGridView2.TabIndex = 21;
             // 
             // dataGridViewTextBoxColumn1
@@ -4399,9 +4411,9 @@
             // 
             this.label19.AutoSize = true;
             this.label19.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label19.Location = new System.Drawing.Point(747, 113);
+            this.label19.Location = new System.Drawing.Point(747, 122);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(95, 12);
+            this.label19.Size = new System.Drawing.Size(79, 13);
             this.label19.TabIndex = 31;
             this.label19.Text = "Total Time(ms):";
             // 
@@ -4417,11 +4429,11 @@
             this.lxLed_toltag.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_toltag.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLed_toltag.HighlightOpaque = ((byte)(50));
-            this.lxLed_toltag.Location = new System.Drawing.Point(749, 59);
+            this.lxLed_toltag.Location = new System.Drawing.Point(749, 64);
             this.lxLed_toltag.Name = "lxLed_toltag";
             this.lxLed_toltag.RoundCorner = true;
             this.lxLed_toltag.ShowHighlight = true;
-            this.lxLed_toltag.Size = new System.Drawing.Size(162, 30);
+            this.lxLed_toltag.Size = new System.Drawing.Size(162, 33);
             this.lxLed_toltag.TabIndex = 30;
             this.lxLed_toltag.Text = "0";
             this.lxLed_toltag.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -4431,9 +4443,9 @@
             // 
             this.label18.AutoSize = true;
             this.label18.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label18.Location = new System.Drawing.Point(747, 41);
+            this.label18.Location = new System.Drawing.Point(747, 44);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(83, 12);
+            this.label18.Size = new System.Drawing.Size(74, 13);
             this.label18.TabIndex = 29;
             this.label18.Text = "Total Number:";
             // 
@@ -4449,11 +4461,11 @@
             this.lxLed_cmdsud.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_cmdsud.ForeColor = System.Drawing.Color.Purple;
             this.lxLed_cmdsud.HighlightOpaque = ((byte)(50));
-            this.lxLed_cmdsud.Location = new System.Drawing.Point(488, 80);
+            this.lxLed_cmdsud.Location = new System.Drawing.Point(488, 87);
             this.lxLed_cmdsud.Name = "lxLed_cmdsud";
             this.lxLed_cmdsud.RoundCorner = true;
             this.lxLed_cmdsud.ShowHighlight = true;
-            this.lxLed_cmdsud.Size = new System.Drawing.Size(171, 82);
+            this.lxLed_cmdsud.Size = new System.Drawing.Size(171, 89);
             this.lxLed_cmdsud.TabIndex = 26;
             this.lxLed_cmdsud.Text = "0";
             this.lxLed_cmdsud.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -4463,9 +4475,9 @@
             // 
             this.label17.AutoSize = true;
             this.label17.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label17.Location = new System.Drawing.Point(490, 59);
+            this.label17.Location = new System.Drawing.Point(490, 64);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(41, 12);
+            this.label17.Size = new System.Drawing.Size(41, 13);
             this.label17.TabIndex = 25;
             this.label17.Text = "Speed:";
             // 
@@ -4481,11 +4493,11 @@
             this.lxLed_Num.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_Num.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLed_Num.HighlightOpaque = ((byte)(50));
-            this.lxLed_Num.Location = new System.Drawing.Point(101, 35);
+            this.lxLed_Num.Location = new System.Drawing.Point(101, 38);
             this.lxLed_Num.Name = "lxLed_Num";
             this.lxLed_Num.RoundCorner = true;
             this.lxLed_Num.ShowHighlight = true;
-            this.lxLed_Num.Size = new System.Drawing.Size(329, 127);
+            this.lxLed_Num.Size = new System.Drawing.Size(329, 138);
             this.lxLed_Num.TabIndex = 22;
             this.lxLed_Num.Text = "0";
             this.lxLed_Num.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -4493,9 +4505,9 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(99, 16);
+            this.label13.Location = new System.Drawing.Point(99, 17);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(71, 12);
+            this.label13.Size = new System.Drawing.Size(69, 13);
             this.label13.TabIndex = 21;
             this.label13.Text = "Tag Number:";
             // 
@@ -4504,17 +4516,17 @@
             this.groupBox8.Controls.Add(this.btClearBuffer);
             this.groupBox8.Location = new System.Drawing.Point(703, 5);
             this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Size = new System.Drawing.Size(357, 66);
+            this.groupBox8.Size = new System.Drawing.Size(357, 72);
             this.groupBox8.TabIndex = 18;
             this.groupBox8.TabStop = false;
             // 
             // btClearBuffer
             // 
-            this.btClearBuffer.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btClearBuffer.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btClearBuffer.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btClearBuffer.Location = new System.Drawing.Point(21, 16);
+            this.btClearBuffer.Location = new System.Drawing.Point(21, 17);
             this.btClearBuffer.Name = "btClearBuffer";
-            this.btClearBuffer.Size = new System.Drawing.Size(296, 40);
+            this.btClearBuffer.Size = new System.Drawing.Size(296, 43);
             this.btClearBuffer.TabIndex = 0;
             this.btClearBuffer.Text = "Clear data";
             this.btClearBuffer.UseVisualStyleBackColor = true;
@@ -4525,17 +4537,17 @@
             this.groupBox7.Controls.Add(this.btGettagbuffer);
             this.groupBox7.Location = new System.Drawing.Point(352, 5);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(352, 66);
+            this.groupBox7.Size = new System.Drawing.Size(352, 72);
             this.groupBox7.TabIndex = 17;
             this.groupBox7.TabStop = false;
             // 
             // btGettagbuffer
             // 
-            this.btGettagbuffer.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btGettagbuffer.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btGettagbuffer.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btGettagbuffer.Location = new System.Drawing.Point(27, 16);
+            this.btGettagbuffer.Location = new System.Drawing.Point(27, 17);
             this.btGettagbuffer.Name = "btGettagbuffer";
-            this.btGettagbuffer.Size = new System.Drawing.Size(296, 40);
+            this.btGettagbuffer.Size = new System.Drawing.Size(296, 43);
             this.btGettagbuffer.TabIndex = 0;
             this.btGettagbuffer.Text = "Read Command notify data";
             this.btGettagbuffer.UseVisualStyleBackColor = true;
@@ -4546,17 +4558,17 @@
             this.groupBox6.Controls.Add(this.btGetrunmodedata);
             this.groupBox6.Location = new System.Drawing.Point(5, 5);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(348, 66);
+            this.groupBox6.Size = new System.Drawing.Size(348, 72);
             this.groupBox6.TabIndex = 16;
             this.groupBox6.TabStop = false;
             // 
             // btGetrunmodedata
             // 
-            this.btGetrunmodedata.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btGetrunmodedata.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btGetrunmodedata.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btGetrunmodedata.Location = new System.Drawing.Point(21, 16);
+            this.btGetrunmodedata.Location = new System.Drawing.Point(21, 17);
             this.btGetrunmodedata.Name = "btGetrunmodedata";
-            this.btGetrunmodedata.Size = new System.Drawing.Size(296, 40);
+            this.btGetrunmodedata.Size = new System.Drawing.Size(296, 43);
             this.btGetrunmodedata.TabIndex = 0;
             this.btGetrunmodedata.Text = "Start";
             this.btGetrunmodedata.UseVisualStyleBackColor = true;
@@ -4567,7 +4579,7 @@
             this.tabPage_Realtime.Controls.Add(this.panel10);
             this.tabPage_Realtime.Location = new System.Drawing.Point(4, 27);
             this.tabPage_Realtime.Name = "tabPage_Realtime";
-            this.tabPage_Realtime.Size = new System.Drawing.Size(1063, 534);
+            this.tabPage_Realtime.Size = new System.Drawing.Size(1063, 581);
             this.tabPage_Realtime.TabIndex = 4;
             this.tabPage_Realtime.Text = "Real-time-inventory";
             this.tabPage_Realtime.UseVisualStyleBackColor = true;
@@ -4579,7 +4591,7 @@
             this.panel10.Controls.Add(this.groupBox42);
             this.panel10.Location = new System.Drawing.Point(1, 0);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(1063, 533);
+            this.panel10.Size = new System.Drawing.Size(1063, 577);
             this.panel10.TabIndex = 0;
             // 
             // dataGridView4
@@ -4599,7 +4611,7 @@
             this.Column1,
             this.dataGridViewTextBoxColumn14,
             this.dataGridViewTextBoxColumn15});
-            this.dataGridView4.Location = new System.Drawing.Point(358, 20);
+            this.dataGridView4.Location = new System.Drawing.Point(358, 22);
             this.dataGridView4.MultiSelect = false;
             this.dataGridView4.Name = "dataGridView4";
             this.dataGridView4.ReadOnly = true;
@@ -4607,7 +4619,7 @@
             this.dataGridView4.RowTemplate.Height = 23;
             this.dataGridView4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView4.Size = new System.Drawing.Size(702, 509);
+            this.dataGridView4.Size = new System.Drawing.Size(702, 551);
             this.dataGridView4.TabIndex = 26;
             // 
             // dataGridViewTextBoxColumn10
@@ -4652,9 +4664,9 @@
             this.groupBox41.Controls.Add(this.label113);
             this.groupBox41.Controls.Add(this.lxLed_Mtag);
             this.groupBox41.Controls.Add(this.label116);
-            this.groupBox41.Location = new System.Drawing.Point(3, 73);
+            this.groupBox41.Location = new System.Drawing.Point(3, 79);
             this.groupBox41.Name = "groupBox41";
-            this.groupBox41.Size = new System.Drawing.Size(349, 224);
+            this.groupBox41.Size = new System.Drawing.Size(349, 243);
             this.groupBox41.TabIndex = 25;
             this.groupBox41.TabStop = false;
             this.groupBox41.Text = "Data";
@@ -4671,11 +4683,11 @@
             this.lxLed_Mtime.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_Mtime.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLed_Mtime.HighlightOpaque = ((byte)(50));
-            this.lxLed_Mtime.Location = new System.Drawing.Point(22, 162);
+            this.lxLed_Mtime.Location = new System.Drawing.Point(22, 176);
             this.lxLed_Mtime.Name = "lxLed_Mtime";
             this.lxLed_Mtime.RoundCorner = true;
             this.lxLed_Mtime.ShowHighlight = true;
-            this.lxLed_Mtime.Size = new System.Drawing.Size(175, 46);
+            this.lxLed_Mtime.Size = new System.Drawing.Size(175, 50);
             this.lxLed_Mtime.TabIndex = 32;
             this.lxLed_Mtime.Text = "0";
             this.lxLed_Mtime.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -4685,9 +4697,9 @@
             // 
             this.label113.AutoSize = true;
             this.label113.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label113.Location = new System.Drawing.Point(20, 135);
+            this.label113.Location = new System.Drawing.Point(20, 146);
             this.label113.Name = "label113";
-            this.label113.Size = new System.Drawing.Size(95, 12);
+            this.label113.Size = new System.Drawing.Size(79, 13);
             this.label113.TabIndex = 31;
             this.label113.Text = "Total Time(ms):";
             // 
@@ -4703,11 +4715,11 @@
             this.lxLed_Mtag.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_Mtag.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLed_Mtag.HighlightOpaque = ((byte)(50));
-            this.lxLed_Mtag.Location = new System.Drawing.Point(22, 69);
+            this.lxLed_Mtag.Location = new System.Drawing.Point(22, 75);
             this.lxLed_Mtag.Name = "lxLed_Mtag";
             this.lxLed_Mtag.RoundCorner = true;
             this.lxLed_Mtag.ShowHighlight = true;
-            this.lxLed_Mtag.Size = new System.Drawing.Size(175, 46);
+            this.lxLed_Mtag.Size = new System.Drawing.Size(175, 50);
             this.lxLed_Mtag.TabIndex = 22;
             this.lxLed_Mtag.Text = "0";
             this.lxLed_Mtag.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -4716,9 +4728,9 @@
             // label116
             // 
             this.label116.AutoSize = true;
-            this.label116.Location = new System.Drawing.Point(21, 41);
+            this.label116.Location = new System.Drawing.Point(21, 44);
             this.label116.Name = "label116";
-            this.label116.Size = new System.Drawing.Size(71, 12);
+            this.label116.Size = new System.Drawing.Size(69, 13);
             this.label116.TabIndex = 21;
             this.label116.Text = "Tag Number:";
             // 
@@ -4727,17 +4739,17 @@
             this.groupBox42.Controls.Add(this.btStartMactive);
             this.groupBox42.Location = new System.Drawing.Point(4, 0);
             this.groupBox42.Name = "groupBox42";
-            this.groupBox42.Size = new System.Drawing.Size(348, 66);
+            this.groupBox42.Size = new System.Drawing.Size(348, 72);
             this.groupBox42.TabIndex = 24;
             this.groupBox42.TabStop = false;
             // 
             // btStartMactive
             // 
-            this.btStartMactive.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btStartMactive.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btStartMactive.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btStartMactive.Location = new System.Drawing.Point(21, 16);
+            this.btStartMactive.Location = new System.Drawing.Point(21, 17);
             this.btStartMactive.Name = "btStartMactive";
-            this.btStartMactive.Size = new System.Drawing.Size(296, 40);
+            this.btStartMactive.Size = new System.Drawing.Size(296, 43);
             this.btStartMactive.TabIndex = 0;
             this.btStartMactive.Text = "Start";
             this.btStartMactive.UseVisualStyleBackColor = true;
@@ -4748,7 +4760,7 @@
             this.tabPage_Buff.Controls.Add(this.panel8);
             this.tabPage_Buff.Location = new System.Drawing.Point(4, 27);
             this.tabPage_Buff.Name = "tabPage_Buff";
-            this.tabPage_Buff.Size = new System.Drawing.Size(1063, 534);
+            this.tabPage_Buff.Size = new System.Drawing.Size(1063, 581);
             this.tabPage_Buff.TabIndex = 3;
             this.tabPage_Buff.Text = "Buffer operation";
             this.tabPage_Buff.UseVisualStyleBackColor = true;
@@ -4761,7 +4773,7 @@
             this.panel8.Controls.Add(this.groupBox30);
             this.panel8.Location = new System.Drawing.Point(-2, 1);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(1067, 503);
+            this.panel8.Size = new System.Drawing.Size(1067, 545);
             this.panel8.TabIndex = 1;
             // 
             // groupBox27
@@ -4772,16 +4784,16 @@
             this.groupBox27.Controls.Add(this.btReadBuff);
             this.groupBox27.Location = new System.Drawing.Point(315, 5);
             this.groupBox27.Name = "groupBox27";
-            this.groupBox27.Size = new System.Drawing.Size(370, 71);
+            this.groupBox27.Size = new System.Drawing.Size(370, 77);
             this.groupBox27.TabIndex = 25;
             this.groupBox27.TabStop = false;
             // 
             // btQueryBuffNum
             // 
             this.btQueryBuffNum.ForeColor = System.Drawing.Color.Blue;
-            this.btQueryBuffNum.Location = new System.Drawing.Point(194, 42);
+            this.btQueryBuffNum.Location = new System.Drawing.Point(194, 46);
             this.btQueryBuffNum.Name = "btQueryBuffNum";
-            this.btQueryBuffNum.Size = new System.Drawing.Size(151, 23);
+            this.btQueryBuffNum.Size = new System.Drawing.Size(151, 25);
             this.btQueryBuffNum.TabIndex = 3;
             this.btQueryBuffNum.Text = "Get buffer tag number";
             this.btQueryBuffNum.UseVisualStyleBackColor = true;
@@ -4790,9 +4802,9 @@
             // btRandCbuff
             // 
             this.btRandCbuff.ForeColor = System.Drawing.Color.Blue;
-            this.btRandCbuff.Location = new System.Drawing.Point(194, 13);
+            this.btRandCbuff.Location = new System.Drawing.Point(194, 14);
             this.btRandCbuff.Name = "btRandCbuff";
-            this.btRandCbuff.Size = new System.Drawing.Size(151, 23);
+            this.btRandCbuff.Size = new System.Drawing.Size(151, 25);
             this.btRandCbuff.TabIndex = 2;
             this.btRandCbuff.Text = "Read and Clear Buffer";
             this.btRandCbuff.UseVisualStyleBackColor = true;
@@ -4801,9 +4813,9 @@
             // btClearBuff
             // 
             this.btClearBuff.ForeColor = System.Drawing.Color.Blue;
-            this.btClearBuff.Location = new System.Drawing.Point(31, 42);
+            this.btClearBuff.Location = new System.Drawing.Point(31, 46);
             this.btClearBuff.Name = "btClearBuff";
-            this.btClearBuff.Size = new System.Drawing.Size(151, 23);
+            this.btClearBuff.Size = new System.Drawing.Size(151, 25);
             this.btClearBuff.TabIndex = 1;
             this.btClearBuff.Text = "Clear Buffer";
             this.btClearBuff.UseVisualStyleBackColor = true;
@@ -4812,9 +4824,9 @@
             // btReadBuff
             // 
             this.btReadBuff.ForeColor = System.Drawing.Color.Blue;
-            this.btReadBuff.Location = new System.Drawing.Point(31, 13);
+            this.btReadBuff.Location = new System.Drawing.Point(31, 14);
             this.btReadBuff.Name = "btReadBuff";
-            this.btReadBuff.Size = new System.Drawing.Size(151, 23);
+            this.btReadBuff.Size = new System.Drawing.Size(151, 25);
             this.btReadBuff.TabIndex = 0;
             this.btReadBuff.Text = "Read Buffer";
             this.btReadBuff.UseVisualStyleBackColor = true;
@@ -4827,16 +4839,16 @@
             this.groupBox29.Controls.Add(this.btStartBuff);
             this.groupBox29.Location = new System.Drawing.Point(8, 5);
             this.groupBox29.Name = "groupBox29";
-            this.groupBox29.Size = new System.Drawing.Size(307, 71);
+            this.groupBox29.Size = new System.Drawing.Size(307, 77);
             this.groupBox29.TabIndex = 23;
             this.groupBox29.TabStop = false;
             // 
             // rb_btid
             // 
             this.rb_btid.AutoSize = true;
-            this.rb_btid.Location = new System.Drawing.Point(214, 42);
+            this.rb_btid.Location = new System.Drawing.Point(214, 46);
             this.rb_btid.Name = "rb_btid";
-            this.rb_btid.Size = new System.Drawing.Size(41, 16);
+            this.rb_btid.Size = new System.Drawing.Size(43, 17);
             this.rb_btid.TabIndex = 2;
             this.rb_btid.Text = "TID";
             this.rb_btid.UseVisualStyleBackColor = true;
@@ -4845,9 +4857,9 @@
             // 
             this.rb_bepc.AutoSize = true;
             this.rb_bepc.Checked = true;
-            this.rb_bepc.Location = new System.Drawing.Point(214, 20);
+            this.rb_bepc.Location = new System.Drawing.Point(214, 22);
             this.rb_bepc.Name = "rb_bepc";
-            this.rb_bepc.Size = new System.Drawing.Size(41, 16);
+            this.rb_bepc.Size = new System.Drawing.Size(46, 17);
             this.rb_bepc.TabIndex = 1;
             this.rb_bepc.TabStop = true;
             this.rb_bepc.Text = "EPC";
@@ -4856,11 +4868,11 @@
             // btStartBuff
             // 
             this.btStartBuff.BackColor = System.Drawing.Color.Transparent;
-            this.btStartBuff.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btStartBuff.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btStartBuff.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btStartBuff.Location = new System.Drawing.Point(18, 20);
+            this.btStartBuff.Location = new System.Drawing.Point(18, 22);
             this.btStartBuff.Name = "btStartBuff";
-            this.btStartBuff.Size = new System.Drawing.Size(171, 40);
+            this.btStartBuff.Size = new System.Drawing.Size(171, 43);
             this.btStartBuff.TabIndex = 0;
             this.btStartBuff.Text = "Start";
             this.btStartBuff.UseVisualStyleBackColor = false;
@@ -4884,7 +4896,7 @@
             this.dataGridViewTextBoxColumn8,
             this.dataGridViewTextBoxColumn9,
             this.Column7});
-            this.dataGridView3.Location = new System.Drawing.Point(3, 276);
+            this.dataGridView3.Location = new System.Drawing.Point(3, 299);
             this.dataGridView3.MultiSelect = false;
             this.dataGridView3.Name = "dataGridView3";
             this.dataGridView3.ReadOnly = true;
@@ -4892,7 +4904,7 @@
             this.dataGridView3.RowTemplate.Height = 23;
             this.dataGridView3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(1057, 252);
+            this.dataGridView3.Size = new System.Drawing.Size(1057, 273);
             this.dataGridView3.TabIndex = 21;
             // 
             // dataGridViewTextBoxColumn5
@@ -4952,9 +4964,9 @@
             this.groupBox30.Controls.Add(this.label94);
             this.groupBox30.Controls.Add(this.lxLed_BNum);
             this.groupBox30.Controls.Add(this.label95);
-            this.groupBox30.Location = new System.Drawing.Point(7, 81);
+            this.groupBox30.Location = new System.Drawing.Point(7, 88);
             this.groupBox30.Name = "groupBox30";
-            this.groupBox30.Size = new System.Drawing.Size(1053, 449);
+            this.groupBox30.Size = new System.Drawing.Size(1053, 486);
             this.groupBox30.TabIndex = 20;
             this.groupBox30.TabStop = false;
             // 
@@ -4970,11 +4982,11 @@
             this.lxLed_cmdTime.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_cmdTime.ForeColor = System.Drawing.Color.Purple;
             this.lxLed_cmdTime.HighlightOpaque = ((byte)(50));
-            this.lxLed_cmdTime.Location = new System.Drawing.Point(492, 129);
+            this.lxLed_cmdTime.Location = new System.Drawing.Point(492, 140);
             this.lxLed_cmdTime.Name = "lxLed_cmdTime";
             this.lxLed_cmdTime.RoundCorner = true;
             this.lxLed_cmdTime.ShowHighlight = true;
-            this.lxLed_cmdTime.Size = new System.Drawing.Size(146, 38);
+            this.lxLed_cmdTime.Size = new System.Drawing.Size(146, 41);
             this.lxLed_cmdTime.TabIndex = 34;
             this.lxLed_cmdTime.Text = "0";
             this.lxLed_cmdTime.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -4984,9 +4996,9 @@
             // 
             this.label86.AutoSize = true;
             this.label86.ForeColor = System.Drawing.Color.Teal;
-            this.label86.Location = new System.Drawing.Point(490, 114);
+            this.label86.Location = new System.Drawing.Point(490, 124);
             this.label86.Name = "label86";
-            this.label86.Size = new System.Drawing.Size(83, 12);
+            this.label86.Size = new System.Drawing.Size(71, 13);
             this.label86.TabIndex = 33;
             this.label86.Text = "cmd time(ms):";
             // 
@@ -5002,11 +5014,11 @@
             this.lxLed_Btoltime.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_Btoltime.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLed_Btoltime.HighlightOpaque = ((byte)(50));
-            this.lxLed_Btoltime.Location = new System.Drawing.Point(749, 137);
+            this.lxLed_Btoltime.Location = new System.Drawing.Point(749, 148);
             this.lxLed_Btoltime.Name = "lxLed_Btoltime";
             this.lxLed_Btoltime.RoundCorner = true;
             this.lxLed_Btoltime.ShowHighlight = true;
-            this.lxLed_Btoltime.Size = new System.Drawing.Size(162, 30);
+            this.lxLed_Btoltime.Size = new System.Drawing.Size(162, 33);
             this.lxLed_Btoltime.TabIndex = 32;
             this.lxLed_Btoltime.Text = "0";
             this.lxLed_Btoltime.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -5016,9 +5028,9 @@
             // 
             this.label83.AutoSize = true;
             this.label83.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label83.Location = new System.Drawing.Point(5, 179);
+            this.label83.Location = new System.Drawing.Point(5, 194);
             this.label83.Name = "label83";
-            this.label83.Size = new System.Drawing.Size(59, 12);
+            this.label83.Size = new System.Drawing.Size(48, 13);
             this.label83.TabIndex = 22;
             this.label83.Text = "Tag List:";
             // 
@@ -5026,9 +5038,9 @@
             // 
             this.label91.AutoSize = true;
             this.label91.ForeColor = System.Drawing.Color.Teal;
-            this.label91.Location = new System.Drawing.Point(747, 117);
+            this.label91.Location = new System.Drawing.Point(747, 127);
             this.label91.Name = "label91";
-            this.label91.Size = new System.Drawing.Size(95, 12);
+            this.label91.Size = new System.Drawing.Size(75, 13);
             this.label91.TabIndex = 31;
             this.label91.Text = "Total time(ms):";
             // 
@@ -5044,11 +5056,11 @@
             this.lxLed_Btoltag.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_Btoltag.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLed_Btoltag.HighlightOpaque = ((byte)(50));
-            this.lxLed_Btoltag.Location = new System.Drawing.Point(749, 68);
+            this.lxLed_Btoltag.Location = new System.Drawing.Point(749, 74);
             this.lxLed_Btoltag.Name = "lxLed_Btoltag";
             this.lxLed_Btoltag.RoundCorner = true;
             this.lxLed_Btoltag.ShowHighlight = true;
-            this.lxLed_Btoltag.Size = new System.Drawing.Size(162, 30);
+            this.lxLed_Btoltag.Size = new System.Drawing.Size(162, 33);
             this.lxLed_Btoltag.TabIndex = 30;
             this.lxLed_Btoltag.Text = "0";
             this.lxLed_Btoltag.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -5058,9 +5070,9 @@
             // 
             this.label92.AutoSize = true;
             this.label92.ForeColor = System.Drawing.Color.Teal;
-            this.label92.Location = new System.Drawing.Point(747, 50);
+            this.label92.Location = new System.Drawing.Point(747, 54);
             this.label92.Name = "label92";
-            this.label92.Size = new System.Drawing.Size(83, 12);
+            this.label92.Size = new System.Drawing.Size(72, 13);
             this.label92.TabIndex = 29;
             this.label92.Text = "Total number:";
             // 
@@ -5076,11 +5088,11 @@
             this.lxLed_Bcmdsud.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_Bcmdsud.ForeColor = System.Drawing.Color.Purple;
             this.lxLed_Bcmdsud.HighlightOpaque = ((byte)(50));
-            this.lxLed_Bcmdsud.Location = new System.Drawing.Point(492, 60);
+            this.lxLed_Bcmdsud.Location = new System.Drawing.Point(492, 65);
             this.lxLed_Bcmdsud.Name = "lxLed_Bcmdsud";
             this.lxLed_Bcmdsud.RoundCorner = true;
             this.lxLed_Bcmdsud.ShowHighlight = true;
-            this.lxLed_Bcmdsud.Size = new System.Drawing.Size(146, 38);
+            this.lxLed_Bcmdsud.Size = new System.Drawing.Size(146, 41);
             this.lxLed_Bcmdsud.TabIndex = 26;
             this.lxLed_Bcmdsud.Text = "0";
             this.lxLed_Bcmdsud.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -5090,9 +5102,9 @@
             // 
             this.label94.AutoSize = true;
             this.label94.ForeColor = System.Drawing.Color.Teal;
-            this.label94.Location = new System.Drawing.Point(490, 41);
+            this.label94.Location = new System.Drawing.Point(490, 44);
             this.label94.Name = "label94";
-            this.label94.Size = new System.Drawing.Size(41, 12);
+            this.label94.Size = new System.Drawing.Size(41, 13);
             this.label94.TabIndex = 25;
             this.label94.Text = "Speed:";
             // 
@@ -5108,11 +5120,11 @@
             this.lxLed_BNum.FocusedBorderColor = System.Drawing.Color.LightCoral;
             this.lxLed_BNum.ForeColor = System.Drawing.Color.MidnightBlue;
             this.lxLed_BNum.HighlightOpaque = ((byte)(50));
-            this.lxLed_BNum.Location = new System.Drawing.Point(101, 40);
+            this.lxLed_BNum.Location = new System.Drawing.Point(101, 43);
             this.lxLed_BNum.Name = "lxLed_BNum";
             this.lxLed_BNum.RoundCorner = true;
             this.lxLed_BNum.ShowHighlight = true;
-            this.lxLed_BNum.Size = new System.Drawing.Size(329, 127);
+            this.lxLed_BNum.Size = new System.Drawing.Size(329, 138);
             this.lxLed_BNum.TabIndex = 22;
             this.lxLed_BNum.Text = "0";
             this.lxLed_BNum.TextAlignment = LxControl.LxLedControl.Alignment.Right;
@@ -5120,9 +5132,9 @@
             // label95
             // 
             this.label95.AutoSize = true;
-            this.label95.Location = new System.Drawing.Point(99, 22);
+            this.label95.Location = new System.Drawing.Point(99, 24);
             this.label95.Name = "label95";
-            this.label95.Size = new System.Drawing.Size(71, 12);
+            this.label95.Size = new System.Drawing.Size(69, 13);
             this.label95.TabIndex = 21;
             this.label95.Text = "Tag Number:";
             // 
@@ -5132,7 +5144,7 @@
             this.tabPage_RW.Location = new System.Drawing.Point(4, 27);
             this.tabPage_RW.Name = "tabPage_RW";
             this.tabPage_RW.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage_RW.Size = new System.Drawing.Size(1063, 534);
+            this.tabPage_RW.Size = new System.Drawing.Size(1063, 581);
             this.tabPage_RW.TabIndex = 2;
             this.tabPage_RW.Text = "Read/Write Tag";
             this.tabPage_RW.UseVisualStyleBackColor = true;
@@ -5149,7 +5161,7 @@
             this.panel4.Controls.Add(this.groupBox10);
             this.panel4.Location = new System.Drawing.Point(-2, -3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(1067, 562);
+            this.panel4.Size = new System.Drawing.Size(1067, 609);
             this.panel4.TabIndex = 0;
             // 
             // groupBox21
@@ -5160,18 +5172,18 @@
             this.groupBox21.Controls.Add(this.btSetReadProtect_G2);
             this.groupBox21.Controls.Add(this.text_AccessCode4);
             this.groupBox21.Controls.Add(this.label34);
-            this.groupBox21.Location = new System.Drawing.Point(346, 361);
+            this.groupBox21.Location = new System.Drawing.Point(346, 391);
             this.groupBox21.Name = "groupBox21";
-            this.groupBox21.Size = new System.Drawing.Size(310, 146);
+            this.groupBox21.Size = new System.Drawing.Size(310, 158);
             this.groupBox21.TabIndex = 23;
             this.groupBox21.TabStop = false;
             this.groupBox21.Text = "Read Protection-NXP";
             // 
             // btCheckReadProtected_G2
             // 
-            this.btCheckReadProtected_G2.Location = new System.Drawing.Point(12, 119);
+            this.btCheckReadProtected_G2.Location = new System.Drawing.Point(12, 129);
             this.btCheckReadProtected_G2.Name = "btCheckReadProtected_G2";
-            this.btCheckReadProtected_G2.Size = new System.Drawing.Size(285, 23);
+            this.btCheckReadProtected_G2.Size = new System.Drawing.Size(285, 25);
             this.btCheckReadProtected_G2.TabIndex = 6;
             this.btCheckReadProtected_G2.Text = "Detect Privacy   ";
             this.btCheckReadProtected_G2.UseVisualStyleBackColor = true;
@@ -5179,9 +5191,9 @@
             // 
             // btRemoveReadProtect_G2
             // 
-            this.btRemoveReadProtect_G2.Location = new System.Drawing.Point(12, 94);
+            this.btRemoveReadProtect_G2.Location = new System.Drawing.Point(12, 102);
             this.btRemoveReadProtect_G2.Name = "btRemoveReadProtect_G2";
-            this.btRemoveReadProtect_G2.Size = new System.Drawing.Size(285, 23);
+            this.btRemoveReadProtect_G2.Size = new System.Drawing.Size(285, 25);
             this.btRemoveReadProtect_G2.TabIndex = 5;
             this.btRemoveReadProtect_G2.Text = "Reset Privacy";
             this.btRemoveReadProtect_G2.UseVisualStyleBackColor = true;
@@ -5189,9 +5201,9 @@
             // 
             // btSetMultiReadProtect_G2
             // 
-            this.btSetMultiReadProtect_G2.Location = new System.Drawing.Point(12, 68);
+            this.btSetMultiReadProtect_G2.Location = new System.Drawing.Point(12, 74);
             this.btSetMultiReadProtect_G2.Name = "btSetMultiReadProtect_G2";
-            this.btSetMultiReadProtect_G2.Size = new System.Drawing.Size(285, 23);
+            this.btSetMultiReadProtect_G2.Size = new System.Drawing.Size(285, 25);
             this.btSetMultiReadProtect_G2.TabIndex = 4;
             this.btSetMultiReadProtect_G2.Text = "Set Privacy Without EPC";
             this.btSetMultiReadProtect_G2.UseVisualStyleBackColor = true;
@@ -5199,9 +5211,9 @@
             // 
             // btSetReadProtect_G2
             // 
-            this.btSetReadProtect_G2.Location = new System.Drawing.Point(12, 41);
+            this.btSetReadProtect_G2.Location = new System.Drawing.Point(12, 44);
             this.btSetReadProtect_G2.Name = "btSetReadProtect_G2";
-            this.btSetReadProtect_G2.Size = new System.Drawing.Size(285, 23);
+            this.btSetReadProtect_G2.Size = new System.Drawing.Size(285, 25);
             this.btSetReadProtect_G2.TabIndex = 3;
             this.btSetReadProtect_G2.Text = "Set Privacy By EPC";
             this.btSetReadProtect_G2.UseVisualStyleBackColor = true;
@@ -5210,10 +5222,10 @@
             // text_AccessCode4
             // 
             this.text_AccessCode4.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_AccessCode4.Location = new System.Drawing.Point(196, 14);
+            this.text_AccessCode4.Location = new System.Drawing.Point(196, 15);
             this.text_AccessCode4.MaxLength = 8;
             this.text_AccessCode4.Name = "text_AccessCode4";
-            this.text_AccessCode4.Size = new System.Drawing.Size(100, 21);
+            this.text_AccessCode4.Size = new System.Drawing.Size(100, 20);
             this.text_AccessCode4.TabIndex = 2;
             this.text_AccessCode4.Text = "00000000";
             this.text_AccessCode4.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -5221,9 +5233,9 @@
             // label34
             // 
             this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(15, 20);
+            this.label34.Location = new System.Drawing.Point(15, 22);
             this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(95, 12);
+            this.label34.Size = new System.Drawing.Size(84, 13);
             this.label34.TabIndex = 1;
             this.label34.Text = "Password:(Hex):";
             // 
@@ -5234,18 +5246,18 @@
             this.groupBox20.Controls.Add(this.label27);
             this.groupBox20.Controls.Add(this.text_WriteEPC);
             this.groupBox20.Controls.Add(this.label33);
-            this.groupBox20.Location = new System.Drawing.Point(8, 427);
+            this.groupBox20.Location = new System.Drawing.Point(8, 463);
             this.groupBox20.Name = "groupBox20";
-            this.groupBox20.Size = new System.Drawing.Size(332, 79);
+            this.groupBox20.Size = new System.Drawing.Size(332, 86);
             this.groupBox20.TabIndex = 22;
             this.groupBox20.TabStop = false;
             this.groupBox20.Text = "Write EPC";
             // 
             // btWriteEPC_G2
             // 
-            this.btWriteEPC_G2.Location = new System.Drawing.Point(229, 44);
+            this.btWriteEPC_G2.Location = new System.Drawing.Point(229, 48);
             this.btWriteEPC_G2.Name = "btWriteEPC_G2";
-            this.btWriteEPC_G2.Size = new System.Drawing.Size(90, 23);
+            this.btWriteEPC_G2.Size = new System.Drawing.Size(90, 25);
             this.btWriteEPC_G2.TabIndex = 4;
             this.btWriteEPC_G2.Text = "Write EPC";
             this.btWriteEPC_G2.UseVisualStyleBackColor = true;
@@ -5254,10 +5266,10 @@
             // text_AccessCode3
             // 
             this.text_AccessCode3.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_AccessCode3.Location = new System.Drawing.Point(155, 44);
+            this.text_AccessCode3.Location = new System.Drawing.Point(155, 48);
             this.text_AccessCode3.MaxLength = 8;
             this.text_AccessCode3.Name = "text_AccessCode3";
-            this.text_AccessCode3.Size = new System.Drawing.Size(57, 21);
+            this.text_AccessCode3.Size = new System.Drawing.Size(57, 20);
             this.text_AccessCode3.TabIndex = 3;
             this.text_AccessCode3.Text = "00000000";
             this.text_AccessCode3.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -5265,19 +5277,19 @@
             // label27
             // 
             this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(5, 50);
+            this.label27.Location = new System.Drawing.Point(5, 54);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(95, 12);
+            this.label27.Size = new System.Drawing.Size(84, 13);
             this.label27.TabIndex = 2;
             this.label27.Text = "Password:(Hex):";
             // 
             // text_WriteEPC
             // 
             this.text_WriteEPC.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_WriteEPC.Location = new System.Drawing.Point(77, 17);
+            this.text_WriteEPC.Location = new System.Drawing.Point(77, 18);
             this.text_WriteEPC.MaxLength = 60;
             this.text_WriteEPC.Name = "text_WriteEPC";
-            this.text_WriteEPC.Size = new System.Drawing.Size(242, 21);
+            this.text_WriteEPC.Size = new System.Drawing.Size(242, 20);
             this.text_WriteEPC.TabIndex = 1;
             this.text_WriteEPC.Text = "0000";
             this.text_WriteEPC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -5285,9 +5297,9 @@
             // label33
             // 
             this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(6, 21);
+            this.label33.Location = new System.Drawing.Point(6, 23);
             this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(29, 12);
+            this.label33.Size = new System.Drawing.Size(31, 13);
             this.label33.TabIndex = 0;
             this.label33.Text = "EPC:";
             // 
@@ -5296,18 +5308,18 @@
             this.groupBox18.Controls.Add(this.btDestroyCard);
             this.groupBox18.Controls.Add(this.text_DestroyCode);
             this.groupBox18.Controls.Add(this.label26);
-            this.groupBox18.Location = new System.Drawing.Point(8, 361);
+            this.groupBox18.Location = new System.Drawing.Point(8, 391);
             this.groupBox18.Name = "groupBox18";
-            this.groupBox18.Size = new System.Drawing.Size(332, 56);
+            this.groupBox18.Size = new System.Drawing.Size(332, 61);
             this.groupBox18.TabIndex = 20;
             this.groupBox18.TabStop = false;
             this.groupBox18.Text = "Kill Tag";
             // 
             // btDestroyCard
             // 
-            this.btDestroyCard.Location = new System.Drawing.Point(229, 21);
+            this.btDestroyCard.Location = new System.Drawing.Point(229, 23);
             this.btDestroyCard.Name = "btDestroyCard";
-            this.btDestroyCard.Size = new System.Drawing.Size(90, 23);
+            this.btDestroyCard.Size = new System.Drawing.Size(90, 25);
             this.btDestroyCard.TabIndex = 3;
             this.btDestroyCard.Text = "Kill tag";
             this.btDestroyCard.UseVisualStyleBackColor = true;
@@ -5316,10 +5328,10 @@
             // text_DestroyCode
             // 
             this.text_DestroyCode.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_DestroyCode.Location = new System.Drawing.Point(155, 23);
+            this.text_DestroyCode.Location = new System.Drawing.Point(155, 25);
             this.text_DestroyCode.MaxLength = 8;
             this.text_DestroyCode.Name = "text_DestroyCode";
-            this.text_DestroyCode.Size = new System.Drawing.Size(56, 21);
+            this.text_DestroyCode.Size = new System.Drawing.Size(56, 20);
             this.text_DestroyCode.TabIndex = 2;
             this.text_DestroyCode.Text = "00000000";
             this.text_DestroyCode.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -5327,9 +5339,9 @@
             // label26
             // 
             this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(6, 26);
+            this.label26.Location = new System.Drawing.Point(6, 28);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(119, 12);
+            this.label26.Size = new System.Drawing.Size(97, 13);
             this.label26.TabIndex = 1;
             this.label26.Text = "Kill Password:(Hex)";
             // 
@@ -5341,9 +5353,9 @@
             this.groupBox16.Controls.Add(this.groupBox17);
             this.groupBox16.Controls.Add(this.text_AccessCode5);
             this.groupBox16.Controls.Add(this.label28);
-            this.groupBox16.Location = new System.Drawing.Point(662, 239);
+            this.groupBox16.Location = new System.Drawing.Point(662, 259);
             this.groupBox16.Name = "groupBox16";
-            this.groupBox16.Size = new System.Drawing.Size(397, 267);
+            this.groupBox16.Size = new System.Drawing.Size(397, 289);
             this.groupBox16.TabIndex = 19;
             this.groupBox16.TabStop = false;
             this.groupBox16.Text = "EAS Alarm";
@@ -5351,9 +5363,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(63, 112);
+            this.pictureBox2.Location = new System.Drawing.Point(63, 121);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(137, 137);
+            this.pictureBox2.Size = new System.Drawing.Size(137, 148);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 14;
             this.pictureBox2.TabStop = false;
@@ -5361,9 +5373,9 @@
             // 
             // btCheckEASAlarm
             // 
-            this.btCheckEASAlarm.Location = new System.Drawing.Point(280, 78);
+            this.btCheckEASAlarm.Location = new System.Drawing.Point(280, 85);
             this.btCheckEASAlarm.Name = "btCheckEASAlarm";
-            this.btCheckEASAlarm.Size = new System.Drawing.Size(90, 23);
+            this.btCheckEASAlarm.Size = new System.Drawing.Size(90, 25);
             this.btCheckEASAlarm.TabIndex = 13;
             this.btCheckEASAlarm.Text = "Detect";
             this.btCheckEASAlarm.UseVisualStyleBackColor = true;
@@ -5371,9 +5383,9 @@
             // 
             // btSetEASAlarm_G2
             // 
-            this.btSetEASAlarm_G2.Location = new System.Drawing.Point(280, 25);
+            this.btSetEASAlarm_G2.Location = new System.Drawing.Point(280, 27);
             this.btSetEASAlarm_G2.Name = "btSetEASAlarm_G2";
-            this.btSetEASAlarm_G2.Size = new System.Drawing.Size(90, 23);
+            this.btSetEASAlarm_G2.Size = new System.Drawing.Size(90, 25);
             this.btSetEASAlarm_G2.TabIndex = 12;
             this.btSetEASAlarm_G2.Text = "Configure";
             this.btSetEASAlarm_G2.UseVisualStyleBackColor = true;
@@ -5383,18 +5395,18 @@
             // 
             this.groupBox17.Controls.Add(this.NoAlarm_G2);
             this.groupBox17.Controls.Add(this.Alarm_G2);
-            this.groupBox17.Location = new System.Drawing.Point(9, 47);
+            this.groupBox17.Location = new System.Drawing.Point(9, 51);
             this.groupBox17.Name = "groupBox17";
-            this.groupBox17.Size = new System.Drawing.Size(249, 54);
+            this.groupBox17.Size = new System.Drawing.Size(249, 59);
             this.groupBox17.TabIndex = 11;
             this.groupBox17.TabStop = false;
             // 
             // NoAlarm_G2
             // 
             this.NoAlarm_G2.AutoSize = true;
-            this.NoAlarm_G2.Location = new System.Drawing.Point(113, 20);
+            this.NoAlarm_G2.Location = new System.Drawing.Point(113, 22);
             this.NoAlarm_G2.Name = "NoAlarm_G2";
-            this.NoAlarm_G2.Size = new System.Drawing.Size(71, 16);
+            this.NoAlarm_G2.Size = new System.Drawing.Size(68, 17);
             this.NoAlarm_G2.TabIndex = 1;
             this.NoAlarm_G2.Text = "No Alarm";
             this.NoAlarm_G2.UseVisualStyleBackColor = true;
@@ -5403,9 +5415,9 @@
             // 
             this.Alarm_G2.AutoSize = true;
             this.Alarm_G2.Checked = true;
-            this.Alarm_G2.Location = new System.Drawing.Point(6, 20);
+            this.Alarm_G2.Location = new System.Drawing.Point(6, 22);
             this.Alarm_G2.Name = "Alarm_G2";
-            this.Alarm_G2.Size = new System.Drawing.Size(53, 16);
+            this.Alarm_G2.Size = new System.Drawing.Size(51, 17);
             this.Alarm_G2.TabIndex = 0;
             this.Alarm_G2.TabStop = true;
             this.Alarm_G2.Text = "Alarm";
@@ -5414,10 +5426,10 @@
             // text_AccessCode5
             // 
             this.text_AccessCode5.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_AccessCode5.Location = new System.Drawing.Point(158, 22);
+            this.text_AccessCode5.Location = new System.Drawing.Point(158, 24);
             this.text_AccessCode5.MaxLength = 8;
             this.text_AccessCode5.Name = "text_AccessCode5";
-            this.text_AccessCode5.Size = new System.Drawing.Size(100, 21);
+            this.text_AccessCode5.Size = new System.Drawing.Size(100, 20);
             this.text_AccessCode5.TabIndex = 10;
             this.text_AccessCode5.Text = "00000000";
             this.text_AccessCode5.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -5425,9 +5437,9 @@
             // label28
             // 
             this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(6, 26);
+            this.label28.Location = new System.Drawing.Point(6, 28);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(95, 12);
+            this.label28.Size = new System.Drawing.Size(84, 13);
             this.label28.TabIndex = 9;
             this.label28.Text = "Password:(Hex):";
             // 
@@ -5438,18 +5450,18 @@
             this.groupBox13.Controls.Add(this.label25);
             this.groupBox13.Controls.Add(this.groupBox14);
             this.groupBox13.Controls.Add(this.groupBox15);
-            this.groupBox13.Location = new System.Drawing.Point(5, 239);
+            this.groupBox13.Location = new System.Drawing.Point(5, 259);
             this.groupBox13.Name = "groupBox13";
-            this.groupBox13.Size = new System.Drawing.Size(651, 121);
+            this.groupBox13.Size = new System.Drawing.Size(651, 131);
             this.groupBox13.TabIndex = 18;
             this.groupBox13.TabStop = false;
             this.groupBox13.Text = "Set Protect For Reading Or Writing";
             // 
             // btSetProtectState
             // 
-            this.btSetProtectState.Location = new System.Drawing.Point(551, 84);
+            this.btSetProtectState.Location = new System.Drawing.Point(551, 91);
             this.btSetProtectState.Name = "btSetProtectState";
-            this.btSetProtectState.Size = new System.Drawing.Size(90, 23);
+            this.btSetProtectState.Size = new System.Drawing.Size(90, 25);
             this.btSetProtectState.TabIndex = 6;
             this.btSetProtectState.Text = "Lock";
             this.btSetProtectState.UseVisualStyleBackColor = true;
@@ -5458,10 +5470,10 @@
             // Edit_AccessCode6
             // 
             this.Edit_AccessCode6.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.Edit_AccessCode6.Location = new System.Drawing.Point(551, 44);
+            this.Edit_AccessCode6.Location = new System.Drawing.Point(551, 48);
             this.Edit_AccessCode6.MaxLength = 8;
             this.Edit_AccessCode6.Name = "Edit_AccessCode6";
-            this.Edit_AccessCode6.Size = new System.Drawing.Size(90, 21);
+            this.Edit_AccessCode6.Size = new System.Drawing.Size(90, 20);
             this.Edit_AccessCode6.TabIndex = 5;
             this.Edit_AccessCode6.Text = "00000000";
             this.Edit_AccessCode6.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -5469,9 +5481,9 @@
             // label25
             // 
             this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(503, 17);
+            this.label25.Location = new System.Drawing.Point(503, 18);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(95, 12);
+            this.label25.Size = new System.Drawing.Size(84, 13);
             this.label25.TabIndex = 4;
             this.label25.Text = "Password:(Hex):";
             // 
@@ -5481,18 +5493,18 @@
             this.groupBox14.Controls.Add(this.Always2);
             this.groupBox14.Controls.Add(this.Proect2);
             this.groupBox14.Controls.Add(this.NoProect2);
-            this.groupBox14.Location = new System.Drawing.Point(4, 68);
+            this.groupBox14.Location = new System.Drawing.Point(4, 74);
             this.groupBox14.Name = "groupBox14";
-            this.groupBox14.Size = new System.Drawing.Size(476, 44);
+            this.groupBox14.Size = new System.Drawing.Size(476, 48);
             this.groupBox14.TabIndex = 3;
             this.groupBox14.TabStop = false;
             // 
             // AlwaysNot2
             // 
             this.AlwaysNot2.AutoSize = true;
-            this.AlwaysNot2.Location = new System.Drawing.Point(321, 18);
+            this.AlwaysNot2.Location = new System.Drawing.Point(321, 20);
             this.AlwaysNot2.Name = "AlwaysNot2";
-            this.AlwaysNot2.Size = new System.Drawing.Size(95, 16);
+            this.AlwaysNot2.Size = new System.Drawing.Size(85, 17);
             this.AlwaysNot2.TabIndex = 3;
             this.AlwaysNot2.Text = "Lock forever\n";
             this.AlwaysNot2.UseVisualStyleBackColor = true;
@@ -5500,9 +5512,9 @@
             // Always2
             // 
             this.Always2.AutoSize = true;
-            this.Always2.Location = new System.Drawing.Point(178, 18);
+            this.Always2.Location = new System.Drawing.Point(178, 20);
             this.Always2.Name = "Always2";
-            this.Always2.Size = new System.Drawing.Size(107, 16);
+            this.Always2.Size = new System.Drawing.Size(95, 17);
             this.Always2.TabIndex = 2;
             this.Always2.Text = "Unlock forever\n";
             this.Always2.UseVisualStyleBackColor = true;
@@ -5510,9 +5522,9 @@
             // Proect2
             // 
             this.Proect2.AutoSize = true;
-            this.Proect2.Location = new System.Drawing.Point(98, 18);
+            this.Proect2.Location = new System.Drawing.Point(98, 20);
             this.Proect2.Name = "Proect2";
-            this.Proect2.Size = new System.Drawing.Size(47, 16);
+            this.Proect2.Size = new System.Drawing.Size(49, 17);
             this.Proect2.TabIndex = 1;
             this.Proect2.Text = "Lock";
             this.Proect2.UseVisualStyleBackColor = true;
@@ -5521,9 +5533,9 @@
             // 
             this.NoProect2.AutoSize = true;
             this.NoProect2.Checked = true;
-            this.NoProect2.Location = new System.Drawing.Point(9, 18);
+            this.NoProect2.Location = new System.Drawing.Point(9, 20);
             this.NoProect2.Name = "NoProect2";
-            this.NoProect2.Size = new System.Drawing.Size(59, 16);
+            this.NoProect2.Size = new System.Drawing.Size(63, 17);
             this.NoProect2.TabIndex = 0;
             this.NoProect2.TabStop = true;
             this.NoProect2.Text = "UnLock";
@@ -5536,9 +5548,9 @@
             this.groupBox15.Controls.Add(this.P_TID);
             this.groupBox15.Controls.Add(this.P_EPC);
             this.groupBox15.Controls.Add(this.P_kill);
-            this.groupBox15.Location = new System.Drawing.Point(4, 13);
+            this.groupBox15.Location = new System.Drawing.Point(4, 14);
             this.groupBox15.Name = "groupBox15";
-            this.groupBox15.Size = new System.Drawing.Size(476, 52);
+            this.groupBox15.Size = new System.Drawing.Size(476, 56);
             this.groupBox15.TabIndex = 2;
             this.groupBox15.TabStop = false;
             // 
@@ -5546,9 +5558,9 @@
             // 
             this.p_pass.AutoSize = true;
             this.p_pass.Checked = true;
-            this.p_pass.Location = new System.Drawing.Point(133, 18);
+            this.p_pass.Location = new System.Drawing.Point(133, 20);
             this.p_pass.Name = "p_pass";
-            this.p_pass.Size = new System.Drawing.Size(113, 16);
+            this.p_pass.Size = new System.Drawing.Size(109, 17);
             this.p_pass.TabIndex = 4;
             this.p_pass.TabStop = true;
             this.p_pass.Text = "Access Password";
@@ -5557,9 +5569,9 @@
             // P_User
             // 
             this.P_User.AutoSize = true;
-            this.P_User.Location = new System.Drawing.Point(404, 18);
+            this.P_User.Location = new System.Drawing.Point(404, 20);
             this.P_User.Name = "P_User";
-            this.P_User.Size = new System.Drawing.Size(47, 16);
+            this.P_User.Size = new System.Drawing.Size(47, 17);
             this.P_User.TabIndex = 3;
             this.P_User.Text = "User";
             this.P_User.UseVisualStyleBackColor = true;
@@ -5567,9 +5579,9 @@
             // P_TID
             // 
             this.P_TID.AutoSize = true;
-            this.P_TID.Location = new System.Drawing.Point(341, 18);
+            this.P_TID.Location = new System.Drawing.Point(341, 20);
             this.P_TID.Name = "P_TID";
-            this.P_TID.Size = new System.Drawing.Size(41, 16);
+            this.P_TID.Size = new System.Drawing.Size(43, 17);
             this.P_TID.TabIndex = 2;
             this.P_TID.Text = "TID";
             this.P_TID.UseVisualStyleBackColor = true;
@@ -5577,9 +5589,9 @@
             // P_EPC
             // 
             this.P_EPC.AutoSize = true;
-            this.P_EPC.Location = new System.Drawing.Point(276, 18);
+            this.P_EPC.Location = new System.Drawing.Point(276, 20);
             this.P_EPC.Name = "P_EPC";
-            this.P_EPC.Size = new System.Drawing.Size(41, 16);
+            this.P_EPC.Size = new System.Drawing.Size(46, 17);
             this.P_EPC.TabIndex = 1;
             this.P_EPC.Text = "EPC";
             this.P_EPC.UseVisualStyleBackColor = true;
@@ -5587,9 +5599,9 @@
             // P_kill
             // 
             this.P_kill.AutoSize = true;
-            this.P_kill.Location = new System.Drawing.Point(9, 18);
+            this.P_kill.Location = new System.Drawing.Point(9, 20);
             this.P_kill.Name = "P_kill";
-            this.P_kill.Size = new System.Drawing.Size(101, 16);
+            this.P_kill.Size = new System.Drawing.Size(87, 17);
             this.P_kill.TabIndex = 0;
             this.P_kill.Text = "Kill Password";
             this.P_kill.UseVisualStyleBackColor = true;
@@ -5613,18 +5625,18 @@
             this.groupBox11.Controls.Add(this.label23);
             this.groupBox11.Controls.Add(this.label24);
             this.groupBox11.Controls.Add(this.groupBox12);
-            this.groupBox11.Location = new System.Drawing.Point(5, 119);
+            this.groupBox11.Location = new System.Drawing.Point(5, 129);
             this.groupBox11.Name = "groupBox11";
-            this.groupBox11.Size = new System.Drawing.Size(1055, 119);
+            this.groupBox11.Size = new System.Drawing.Size(1055, 129);
             this.groupBox11.TabIndex = 17;
             this.groupBox11.TabStop = false;
             this.groupBox11.Text = "Read Data / Write Data / Block Erase";
             // 
             // btExtWrite
             // 
-            this.btExtWrite.Location = new System.Drawing.Point(950, 92);
+            this.btExtWrite.Location = new System.Drawing.Point(950, 100);
             this.btExtWrite.Name = "btExtWrite";
-            this.btExtWrite.Size = new System.Drawing.Size(77, 23);
+            this.btExtWrite.Size = new System.Drawing.Size(77, 25);
             this.btExtWrite.TabIndex = 33;
             this.btExtWrite.Text = "Ext Write";
             this.btExtWrite.UseVisualStyleBackColor = true;
@@ -5632,9 +5644,9 @@
             // 
             // btExtRead
             // 
-            this.btExtRead.Location = new System.Drawing.Point(950, 55);
+            this.btExtRead.Location = new System.Drawing.Point(950, 60);
             this.btExtRead.Name = "btExtRead";
-            this.btExtRead.Size = new System.Drawing.Size(77, 23);
+            this.btExtRead.Size = new System.Drawing.Size(77, 25);
             this.btExtRead.TabIndex = 32;
             this.btExtRead.Text = "Ext Read";
             this.btExtRead.UseVisualStyleBackColor = true;
@@ -5643,19 +5655,19 @@
             // textBox_pc
             // 
             this.textBox_pc.BackColor = System.Drawing.SystemColors.ScrollBar;
-            this.textBox_pc.Location = new System.Drawing.Point(616, 57);
+            this.textBox_pc.Location = new System.Drawing.Point(616, 62);
             this.textBox_pc.Name = "textBox_pc";
             this.textBox_pc.ReadOnly = true;
-            this.textBox_pc.Size = new System.Drawing.Size(138, 21);
+            this.textBox_pc.Size = new System.Drawing.Size(138, 20);
             this.textBox_pc.TabIndex = 29;
             this.textBox_pc.Text = "0800";
             // 
             // checkBox_pc
             // 
             this.checkBox_pc.AutoSize = true;
-            this.checkBox_pc.Location = new System.Drawing.Point(405, 59);
+            this.checkBox_pc.Location = new System.Drawing.Point(405, 64);
             this.checkBox_pc.Name = "checkBox_pc";
-            this.checkBox_pc.Size = new System.Drawing.Size(162, 16);
+            this.checkBox_pc.Size = new System.Drawing.Size(152, 17);
             this.checkBox_pc.TabIndex = 28;
             this.checkBox_pc.Text = "Auto Compute and add PC";
             this.checkBox_pc.UseVisualStyleBackColor = true;
@@ -5663,9 +5675,9 @@
             // 
             // btBlockWrite
             // 
-            this.btBlockWrite.Location = new System.Drawing.Point(770, 92);
+            this.btBlockWrite.Location = new System.Drawing.Point(770, 100);
             this.btBlockWrite.Name = "btBlockWrite";
-            this.btBlockWrite.Size = new System.Drawing.Size(77, 23);
+            this.btBlockWrite.Size = new System.Drawing.Size(77, 25);
             this.btBlockWrite.TabIndex = 17;
             this.btBlockWrite.Text = "BlockWrite";
             this.btBlockWrite.UseVisualStyleBackColor = true;
@@ -5673,9 +5685,9 @@
             // 
             // btBlockErase
             // 
-            this.btBlockErase.Location = new System.Drawing.Point(861, 92);
+            this.btBlockErase.Location = new System.Drawing.Point(861, 100);
             this.btBlockErase.Name = "btBlockErase";
-            this.btBlockErase.Size = new System.Drawing.Size(77, 23);
+            this.btBlockErase.Size = new System.Drawing.Size(77, 25);
             this.btBlockErase.TabIndex = 13;
             this.btBlockErase.Text = "BlockErace";
             this.btBlockErase.UseVisualStyleBackColor = true;
@@ -5683,9 +5695,9 @@
             // 
             // btWrite
             // 
-            this.btWrite.Location = new System.Drawing.Point(861, 55);
+            this.btWrite.Location = new System.Drawing.Point(861, 60);
             this.btWrite.Name = "btWrite";
-            this.btWrite.Size = new System.Drawing.Size(77, 23);
+            this.btWrite.Size = new System.Drawing.Size(77, 25);
             this.btWrite.TabIndex = 12;
             this.btWrite.Text = "Write";
             this.btWrite.UseVisualStyleBackColor = true;
@@ -5693,9 +5705,9 @@
             // 
             // btRead
             // 
-            this.btRead.Location = new System.Drawing.Point(770, 55);
+            this.btRead.Location = new System.Drawing.Point(770, 60);
             this.btRead.Name = "btRead";
-            this.btRead.Size = new System.Drawing.Size(77, 23);
+            this.btRead.Size = new System.Drawing.Size(77, 25);
             this.btRead.TabIndex = 11;
             this.btRead.Text = "Read";
             this.btRead.UseVisualStyleBackColor = true;
@@ -5704,9 +5716,9 @@
             // text_WriteData
             // 
             this.text_WriteData.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_WriteData.Location = new System.Drawing.Point(529, 20);
+            this.text_WriteData.Location = new System.Drawing.Point(529, 22);
             this.text_WriteData.Name = "text_WriteData";
-            this.text_WriteData.Size = new System.Drawing.Size(504, 21);
+            this.text_WriteData.Size = new System.Drawing.Size(504, 20);
             this.text_WriteData.TabIndex = 10;
             this.text_WriteData.Text = "0000";
             this.text_WriteData.TextChanged += new System.EventHandler(this.text_WriteData_TextChanged);
@@ -5715,20 +5727,20 @@
             // text_AccessCode2
             // 
             this.text_AccessCode2.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_AccessCode2.Location = new System.Drawing.Point(205, 87);
+            this.text_AccessCode2.Location = new System.Drawing.Point(205, 94);
             this.text_AccessCode2.MaxLength = 8;
             this.text_AccessCode2.Name = "text_AccessCode2";
-            this.text_AccessCode2.Size = new System.Drawing.Size(118, 21);
+            this.text_AccessCode2.Size = new System.Drawing.Size(118, 20);
             this.text_AccessCode2.TabIndex = 9;
             this.text_AccessCode2.Text = "00000000";
             this.text_AccessCode2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
             // 
             // text_RWlen
             // 
-            this.text_RWlen.Location = new System.Drawing.Point(205, 57);
+            this.text_RWlen.Location = new System.Drawing.Point(205, 62);
             this.text_RWlen.MaxLength = 2;
             this.text_RWlen.Name = "text_RWlen";
-            this.text_RWlen.Size = new System.Drawing.Size(117, 21);
+            this.text_RWlen.Size = new System.Drawing.Size(117, 20);
             this.text_RWlen.TabIndex = 8;
             this.text_RWlen.Text = "4";
             this.text_RWlen.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_Port_KeyPress);
@@ -5736,10 +5748,10 @@
             // text_WordPtr
             // 
             this.text_WordPtr.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_WordPtr.Location = new System.Drawing.Point(205, 19);
+            this.text_WordPtr.Location = new System.Drawing.Point(205, 21);
             this.text_WordPtr.MaxLength = 4;
             this.text_WordPtr.Name = "text_WordPtr";
-            this.text_WordPtr.Size = new System.Drawing.Size(117, 21);
+            this.text_WordPtr.Size = new System.Drawing.Size(117, 20);
             this.text_WordPtr.TabIndex = 7;
             this.text_WordPtr.Text = "0000";
             this.text_WordPtr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -5747,36 +5759,36 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(402, 23);
+            this.label21.Location = new System.Drawing.Point(402, 25);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(131, 12);
+            this.label21.Size = new System.Drawing.Size(115, 13);
             this.label21.TabIndex = 5;
             this.label21.Text = "Read/Write data(Hex):";
             // 
             // label22
             // 
             this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(7, 91);
+            this.label22.Location = new System.Drawing.Point(7, 99);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(95, 12);
+            this.label22.Size = new System.Drawing.Size(84, 13);
             this.label22.TabIndex = 4;
             this.label22.Text = "Password:(Hex):";
             // 
             // label23
             // 
             this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(6, 61);
+            this.label23.Location = new System.Drawing.Point(6, 66);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(77, 12);
+            this.label23.Size = new System.Drawing.Size(69, 13);
             this.label23.TabIndex = 3;
             this.label23.Text = "Length(Dec):";
             // 
             // label24
             // 
             this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(6, 23);
+            this.label24.Location = new System.Drawing.Point(6, 25);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(125, 12);
+            this.label24.Size = new System.Drawing.Size(100, 13);
             this.label24.TabIndex = 2;
             this.label24.Text = "Start address:(Hex):";
             // 
@@ -5786,18 +5798,18 @@
             this.groupBox12.Controls.Add(this.C_TID);
             this.groupBox12.Controls.Add(this.C_EPC);
             this.groupBox12.Controls.Add(this.C_Reserve);
-            this.groupBox12.Location = new System.Drawing.Point(402, 81);
+            this.groupBox12.Location = new System.Drawing.Point(402, 88);
             this.groupBox12.Name = "groupBox12";
-            this.groupBox12.Size = new System.Drawing.Size(353, 31);
+            this.groupBox12.Size = new System.Drawing.Size(353, 34);
             this.groupBox12.TabIndex = 1;
             this.groupBox12.TabStop = false;
             // 
             // C_User
             // 
             this.C_User.AutoSize = true;
-            this.C_User.Location = new System.Drawing.Point(207, 11);
+            this.C_User.Location = new System.Drawing.Point(207, 12);
             this.C_User.Name = "C_User";
-            this.C_User.Size = new System.Drawing.Size(47, 16);
+            this.C_User.Size = new System.Drawing.Size(47, 17);
             this.C_User.TabIndex = 3;
             this.C_User.Text = "User";
             this.C_User.UseVisualStyleBackColor = true;
@@ -5806,9 +5818,9 @@
             // C_TID
             // 
             this.C_TID.AutoSize = true;
-            this.C_TID.Location = new System.Drawing.Point(149, 11);
+            this.C_TID.Location = new System.Drawing.Point(149, 12);
             this.C_TID.Name = "C_TID";
-            this.C_TID.Size = new System.Drawing.Size(41, 16);
+            this.C_TID.Size = new System.Drawing.Size(43, 17);
             this.C_TID.TabIndex = 2;
             this.C_TID.Text = "TID";
             this.C_TID.UseVisualStyleBackColor = true;
@@ -5818,9 +5830,9 @@
             // 
             this.C_EPC.AutoSize = true;
             this.C_EPC.Checked = true;
-            this.C_EPC.Location = new System.Drawing.Point(90, 11);
+            this.C_EPC.Location = new System.Drawing.Point(90, 12);
             this.C_EPC.Name = "C_EPC";
-            this.C_EPC.Size = new System.Drawing.Size(41, 16);
+            this.C_EPC.Size = new System.Drawing.Size(46, 17);
             this.C_EPC.TabIndex = 1;
             this.C_EPC.TabStop = true;
             this.C_EPC.Text = "EPC";
@@ -5830,9 +5842,9 @@
             // C_Reserve
             // 
             this.C_Reserve.AutoSize = true;
-            this.C_Reserve.Location = new System.Drawing.Point(4, 11);
+            this.C_Reserve.Location = new System.Drawing.Point(4, 12);
             this.C_Reserve.Name = "C_Reserve";
-            this.C_Reserve.Size = new System.Drawing.Size(71, 16);
+            this.C_Reserve.Size = new System.Drawing.Size(71, 17);
             this.C_Reserve.TabIndex = 0;
             this.C_Reserve.Text = "Password";
             this.C_Reserve.UseVisualStyleBackColor = true;
@@ -5848,9 +5860,9 @@
             this.groupBox31.Controls.Add(this.label44);
             this.groupBox31.Controls.Add(this.maskadr_textbox);
             this.groupBox31.Controls.Add(this.label43);
-            this.groupBox31.Location = new System.Drawing.Point(5, 47);
+            this.groupBox31.Location = new System.Drawing.Point(5, 51);
             this.groupBox31.Name = "groupBox31";
-            this.groupBox31.Size = new System.Drawing.Size(1056, 69);
+            this.groupBox31.Size = new System.Drawing.Size(1056, 75);
             this.groupBox31.TabIndex = 16;
             this.groupBox31.TabStop = false;
             this.groupBox31.Text = "Mask";
@@ -5859,9 +5871,9 @@
             // 
             this.maskData_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.maskData_textBox.Enabled = false;
-            this.maskData_textBox.Location = new System.Drawing.Point(528, 44);
+            this.maskData_textBox.Location = new System.Drawing.Point(528, 48);
             this.maskData_textBox.Name = "maskData_textBox";
-            this.maskData_textBox.Size = new System.Drawing.Size(505, 21);
+            this.maskData_textBox.Size = new System.Drawing.Size(505, 20);
             this.maskData_textBox.TabIndex = 8;
             this.maskData_textBox.Text = "00";
             this.maskData_textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -5869,9 +5881,9 @@
             // label60
             // 
             this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(403, 48);
+            this.label60.Location = new System.Drawing.Point(403, 52);
             this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(71, 12);
+            this.label60.Size = new System.Drawing.Size(61, 13);
             this.label60.TabIndex = 7;
             this.label60.Text = "Data(Hex)：";
             // 
@@ -5880,9 +5892,9 @@
             this.groupBox40.Controls.Add(this.R_User);
             this.groupBox40.Controls.Add(this.R_TID);
             this.groupBox40.Controls.Add(this.R_EPC);
-            this.groupBox40.Location = new System.Drawing.Point(402, 10);
+            this.groupBox40.Location = new System.Drawing.Point(402, 11);
             this.groupBox40.Name = "groupBox40";
-            this.groupBox40.Size = new System.Drawing.Size(513, 30);
+            this.groupBox40.Size = new System.Drawing.Size(513, 33);
             this.groupBox40.TabIndex = 6;
             this.groupBox40.TabStop = false;
             // 
@@ -5890,9 +5902,9 @@
             // 
             this.R_User.AutoSize = true;
             this.R_User.Enabled = false;
-            this.R_User.Location = new System.Drawing.Point(381, 11);
+            this.R_User.Location = new System.Drawing.Point(381, 12);
             this.R_User.Name = "R_User";
-            this.R_User.Size = new System.Drawing.Size(47, 16);
+            this.R_User.Size = new System.Drawing.Size(47, 17);
             this.R_User.TabIndex = 2;
             this.R_User.Text = "User";
             this.R_User.UseVisualStyleBackColor = true;
@@ -5901,9 +5913,9 @@
             // 
             this.R_TID.AutoSize = true;
             this.R_TID.Enabled = false;
-            this.R_TID.Location = new System.Drawing.Point(218, 10);
+            this.R_TID.Location = new System.Drawing.Point(218, 11);
             this.R_TID.Name = "R_TID";
-            this.R_TID.Size = new System.Drawing.Size(41, 16);
+            this.R_TID.Size = new System.Drawing.Size(43, 17);
             this.R_TID.TabIndex = 1;
             this.R_TID.Text = "TID";
             this.R_TID.UseVisualStyleBackColor = true;
@@ -5913,9 +5925,9 @@
             this.R_EPC.AutoSize = true;
             this.R_EPC.Checked = true;
             this.R_EPC.Enabled = false;
-            this.R_EPC.Location = new System.Drawing.Point(59, 10);
+            this.R_EPC.Location = new System.Drawing.Point(59, 11);
             this.R_EPC.Name = "R_EPC";
-            this.R_EPC.Size = new System.Drawing.Size(41, 16);
+            this.R_EPC.Size = new System.Drawing.Size(46, 17);
             this.R_EPC.TabIndex = 0;
             this.R_EPC.TabStop = true;
             this.R_EPC.Text = "EPC";
@@ -5924,9 +5936,9 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(948, 20);
+            this.checkBox1.Location = new System.Drawing.Point(948, 22);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(60, 16);
+            this.checkBox1.Size = new System.Drawing.Size(59, 17);
             this.checkBox1.TabIndex = 5;
             this.checkBox1.Text = "Enable";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -5936,10 +5948,10 @@
             // 
             this.maskLen_textBox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.maskLen_textBox.Enabled = false;
-            this.maskLen_textBox.Location = new System.Drawing.Point(148, 44);
+            this.maskLen_textBox.Location = new System.Drawing.Point(148, 48);
             this.maskLen_textBox.MaxLength = 2;
             this.maskLen_textBox.Name = "maskLen_textBox";
-            this.maskLen_textBox.Size = new System.Drawing.Size(174, 21);
+            this.maskLen_textBox.Size = new System.Drawing.Size(174, 20);
             this.maskLen_textBox.TabIndex = 4;
             this.maskLen_textBox.Text = "00";
             this.maskLen_textBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -5947,9 +5959,9 @@
             // label44
             // 
             this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(12, 48);
+            this.label44.Location = new System.Drawing.Point(12, 52);
             this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(83, 12);
+            this.label44.Size = new System.Drawing.Size(71, 13);
             this.label44.TabIndex = 3;
             this.label44.Text = "Length(Hex)：";
             // 
@@ -5957,10 +5969,10 @@
             // 
             this.maskadr_textbox.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.maskadr_textbox.Enabled = false;
-            this.maskadr_textbox.Location = new System.Drawing.Point(148, 18);
+            this.maskadr_textbox.Location = new System.Drawing.Point(148, 20);
             this.maskadr_textbox.MaxLength = 4;
             this.maskadr_textbox.Name = "maskadr_textbox";
-            this.maskadr_textbox.Size = new System.Drawing.Size(174, 21);
+            this.maskadr_textbox.Size = new System.Drawing.Size(174, 20);
             this.maskadr_textbox.TabIndex = 2;
             this.maskadr_textbox.Text = "0000";
             this.maskadr_textbox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -5968,9 +5980,9 @@
             // label43
             // 
             this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(12, 24);
+            this.label43.Location = new System.Drawing.Point(12, 26);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(125, 12);
+            this.label43.Size = new System.Drawing.Size(100, 13);
             this.label43.TabIndex = 1;
             this.label43.Text = "Start address(Hex)：";
             // 
@@ -5983,16 +5995,16 @@
             this.groupBox10.Controls.Add(this.check_selecttag);
             this.groupBox10.Location = new System.Drawing.Point(5, 4);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(1057, 41);
+            this.groupBox10.Size = new System.Drawing.Size(1057, 44);
             this.groupBox10.TabIndex = 0;
             this.groupBox10.TabStop = false;
             // 
             // btSelectTag
             // 
             this.btSelectTag.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.btSelectTag.Location = new System.Drawing.Point(943, 13);
+            this.btSelectTag.Location = new System.Drawing.Point(943, 14);
             this.btSelectTag.Name = "btSelectTag";
-            this.btSelectTag.Size = new System.Drawing.Size(90, 23);
+            this.btSelectTag.Size = new System.Drawing.Size(90, 25);
             this.btSelectTag.TabIndex = 4;
             this.btSelectTag.Text = "Select";
             this.btSelectTag.UseVisualStyleBackColor = true;
@@ -6002,26 +6014,26 @@
             // 
             this.comboBox_EPC.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox_EPC.FormattingEnabled = true;
-            this.comboBox_EPC.Location = new System.Drawing.Point(570, 14);
+            this.comboBox_EPC.Location = new System.Drawing.Point(570, 15);
             this.comboBox_EPC.Name = "comboBox_EPC";
-            this.comboBox_EPC.Size = new System.Drawing.Size(345, 20);
+            this.comboBox_EPC.Size = new System.Drawing.Size(345, 21);
             this.comboBox_EPC.TabIndex = 3;
             // 
             // label16
             // 
             this.label16.AutoSize = true;
             this.label16.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label16.Location = new System.Drawing.Point(503, 18);
+            this.label16.Location = new System.Drawing.Point(503, 20);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(59, 12);
+            this.label16.Size = new System.Drawing.Size(44, 13);
             this.label16.TabIndex = 2;
             this.label16.Text = "Tag list:";
             // 
             // text_epc
             // 
-            this.text_epc.Location = new System.Drawing.Point(113, 14);
+            this.text_epc.Location = new System.Drawing.Point(113, 15);
             this.text_epc.Name = "text_epc";
-            this.text_epc.Size = new System.Drawing.Size(345, 21);
+            this.text_epc.Size = new System.Drawing.Size(345, 20);
             this.text_epc.TabIndex = 1;
             // 
             // check_selecttag
@@ -6030,9 +6042,9 @@
             this.check_selecttag.Checked = true;
             this.check_selecttag.CheckState = System.Windows.Forms.CheckState.Checked;
             this.check_selecttag.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.check_selecttag.Location = new System.Drawing.Point(17, 16);
+            this.check_selecttag.Location = new System.Drawing.Point(17, 17);
             this.check_selecttag.Name = "check_selecttag";
-            this.check_selecttag.Size = new System.Drawing.Size(102, 16);
+            this.check_selecttag.Size = new System.Drawing.Size(89, 17);
             this.check_selecttag.TabIndex = 0;
             this.check_selecttag.Text = "Selected tag:";
             this.check_selecttag.UseVisualStyleBackColor = true;
@@ -6043,7 +6055,7 @@
             this.Main_Page3.Location = new System.Drawing.Point(4, 27);
             this.Main_Page3.Name = "Main_Page3";
             this.Main_Page3.Padding = new System.Windows.Forms.Padding(3);
-            this.Main_Page3.Size = new System.Drawing.Size(1071, 571);
+            this.Main_Page3.Size = new System.Drawing.Size(1071, 621);
             this.Main_Page3.TabIndex = 2;
             this.Main_Page3.Text = "18000-6B Test";
             this.Main_Page3.UseVisualStyleBackColor = true;
@@ -6058,7 +6070,7 @@
             this.panel5.Controls.Add(this.groupBox19);
             this.panel5.Location = new System.Drawing.Point(-1, -1);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(1069, 569);
+            this.panel5.Size = new System.Drawing.Size(1069, 616);
             this.panel5.TabIndex = 0;
             // 
             // groupBox23
@@ -6070,9 +6082,9 @@
             this.groupBox23.Controls.Add(this.label52);
             this.groupBox23.Controls.Add(this.text_lock6b);
             this.groupBox23.Controls.Add(this.label51);
-            this.groupBox23.Location = new System.Drawing.Point(561, 429);
+            this.groupBox23.Location = new System.Drawing.Point(561, 465);
             this.groupBox23.Name = "groupBox23";
-            this.groupBox23.Size = new System.Drawing.Size(495, 110);
+            this.groupBox23.Size = new System.Drawing.Size(495, 119);
             this.groupBox23.TabIndex = 21;
             this.groupBox23.TabStop = false;
             // 
@@ -6080,18 +6092,18 @@
             // 
             this.text_Statu6B.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.text_Statu6B.ForeColor = System.Drawing.Color.Red;
-            this.text_Statu6B.Location = new System.Drawing.Point(252, 75);
+            this.text_Statu6B.Location = new System.Drawing.Point(252, 81);
             this.text_Statu6B.MaxLength = 2;
             this.text_Statu6B.Name = "text_Statu6B";
             this.text_Statu6B.ReadOnly = true;
-            this.text_Statu6B.Size = new System.Drawing.Size(111, 21);
+            this.text_Statu6B.Size = new System.Drawing.Size(111, 20);
             this.text_Statu6B.TabIndex = 19;
             // 
             // btCheckLock6B
             // 
-            this.btCheckLock6B.Location = new System.Drawing.Point(383, 66);
+            this.btCheckLock6B.Location = new System.Drawing.Point(383, 72);
             this.btCheckLock6B.Name = "btCheckLock6B";
-            this.btCheckLock6B.Size = new System.Drawing.Size(100, 30);
+            this.btCheckLock6B.Size = new System.Drawing.Size(100, 33);
             this.btCheckLock6B.TabIndex = 18;
             this.btCheckLock6B.Text = "Check lock";
             this.btCheckLock6B.UseVisualStyleBackColor = true;
@@ -6099,9 +6111,9 @@
             // 
             // btLock6B
             // 
-            this.btLock6B.Location = new System.Drawing.Point(383, 20);
+            this.btLock6B.Location = new System.Drawing.Point(383, 22);
             this.btLock6B.Name = "btLock6B";
-            this.btLock6B.Size = new System.Drawing.Size(100, 30);
+            this.btLock6B.Size = new System.Drawing.Size(100, 33);
             this.btLock6B.TabIndex = 17;
             this.btLock6B.Text = "Lock";
             this.btLock6B.UseVisualStyleBackColor = true;
@@ -6110,38 +6122,38 @@
             // text_checkaddr
             // 
             this.text_checkaddr.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_checkaddr.Location = new System.Drawing.Point(202, 75);
+            this.text_checkaddr.Location = new System.Drawing.Point(202, 81);
             this.text_checkaddr.MaxLength = 2;
             this.text_checkaddr.Name = "text_checkaddr";
-            this.text_checkaddr.Size = new System.Drawing.Size(44, 21);
+            this.text_checkaddr.Size = new System.Drawing.Size(44, 20);
             this.text_checkaddr.TabIndex = 16;
             this.text_checkaddr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
             // 
             // label52
             // 
             this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(47, 78);
+            this.label52.Location = new System.Drawing.Point(47, 85);
             this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(149, 12);
+            this.label52.Size = new System.Drawing.Size(129, 13);
             this.label52.TabIndex = 15;
             this.label52.Text = "Check lock address(Hex):";
             // 
             // text_lock6b
             // 
             this.text_lock6b.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_lock6b.Location = new System.Drawing.Point(202, 29);
+            this.text_lock6b.Location = new System.Drawing.Point(202, 31);
             this.text_lock6b.MaxLength = 2;
             this.text_lock6b.Name = "text_lock6b";
-            this.text_lock6b.Size = new System.Drawing.Size(44, 21);
+            this.text_lock6b.Size = new System.Drawing.Size(44, 20);
             this.text_lock6b.TabIndex = 14;
             this.text_lock6b.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
             // 
             // label51
             // 
             this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(71, 32);
+            this.label51.Location = new System.Drawing.Point(71, 35);
             this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(113, 12);
+            this.label51.Size = new System.Drawing.Size(99, 13);
             this.label51.TabIndex = 0;
             this.label51.Text = "Lock address(Hex):";
             // 
@@ -6161,37 +6173,37 @@
             this.groupBox22.Controls.Add(this.label35);
             this.groupBox22.Controls.Add(this.text_R6BAddr);
             this.groupBox22.Controls.Add(this.label30);
-            this.groupBox22.Location = new System.Drawing.Point(563, 70);
+            this.groupBox22.Location = new System.Drawing.Point(563, 76);
             this.groupBox22.Name = "groupBox22";
-            this.groupBox22.Size = new System.Drawing.Size(495, 359);
+            this.groupBox22.Size = new System.Drawing.Size(495, 389);
             this.groupBox22.TabIndex = 20;
             this.groupBox22.TabStop = false;
             this.groupBox22.Text = "Read/Write Data";
             // 
             // text_W6B
             // 
-            this.text_W6B.Location = new System.Drawing.Point(122, 234);
+            this.text_W6B.Location = new System.Drawing.Point(122, 254);
             this.text_W6B.Multiline = true;
             this.text_W6B.Name = "text_W6B";
             this.text_W6B.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.text_W6B.Size = new System.Drawing.Size(359, 118);
+            this.text_W6B.Size = new System.Drawing.Size(359, 128);
             this.text_W6B.TabIndex = 18;
             this.text_W6B.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
             // 
             // label48
             // 
             this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(18, 234);
+            this.label48.Location = new System.Drawing.Point(18, 254);
             this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(119, 12);
+            this.label48.Size = new System.Drawing.Size(93, 13);
             this.label48.TabIndex = 17;
             this.label48.Text = "Write data(Hex):   ";
             // 
             // btWrite6B
             // 
-            this.btWrite6B.Location = new System.Drawing.Point(381, 194);
+            this.btWrite6B.Location = new System.Drawing.Point(381, 210);
             this.btWrite6B.Name = "btWrite6B";
-            this.btWrite6B.Size = new System.Drawing.Size(100, 30);
+            this.btWrite6B.Size = new System.Drawing.Size(100, 33);
             this.btWrite6B.TabIndex = 16;
             this.btWrite6B.Text = "Write";
             this.btWrite6B.UseVisualStyleBackColor = true;
@@ -6199,10 +6211,10 @@
             // 
             // text_W6BLen
             // 
-            this.text_W6BLen.Location = new System.Drawing.Point(294, 199);
+            this.text_W6BLen.Location = new System.Drawing.Point(294, 216);
             this.text_W6BLen.MaxLength = 2;
             this.text_W6BLen.Name = "text_W6BLen";
-            this.text_W6BLen.Size = new System.Drawing.Size(44, 21);
+            this.text_W6BLen.Size = new System.Drawing.Size(44, 20);
             this.text_W6BLen.TabIndex = 15;
             this.text_W6BLen.TextChanged += new System.EventHandler(this.text_W6BLen_TextChanged);
             this.text_W6BLen.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
@@ -6210,55 +6222,55 @@
             // label49
             // 
             this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(187, 203);
+            this.label49.Location = new System.Drawing.Point(187, 220);
             this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(113, 12);
+            this.label49.Size = new System.Drawing.Size(92, 13);
             this.label49.TabIndex = 14;
             this.label49.Text = "Write length(Hex):";
             // 
             // text_W6BAddr
             // 
             this.text_W6BAddr.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_W6BAddr.Location = new System.Drawing.Point(133, 200);
+            this.text_W6BAddr.Location = new System.Drawing.Point(133, 217);
             this.text_W6BAddr.MaxLength = 2;
             this.text_W6BAddr.Name = "text_W6BAddr";
-            this.text_W6BAddr.Size = new System.Drawing.Size(44, 21);
+            this.text_W6BAddr.Size = new System.Drawing.Size(44, 20);
             this.text_W6BAddr.TabIndex = 13;
             this.text_W6BAddr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
             // 
             // label50
             // 
             this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(18, 203);
+            this.label50.Location = new System.Drawing.Point(18, 220);
             this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(137, 12);
+            this.label50.Size = new System.Drawing.Size(106, 13);
             this.label50.TabIndex = 12;
             this.label50.Text = "Start address(Hex):   ";
             // 
             // text_R6B
             // 
-            this.text_R6B.Location = new System.Drawing.Point(122, 62);
+            this.text_R6B.Location = new System.Drawing.Point(122, 67);
             this.text_R6B.Multiline = true;
             this.text_R6B.Name = "text_R6B";
             this.text_R6B.ReadOnly = true;
             this.text_R6B.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.text_R6B.Size = new System.Drawing.Size(359, 118);
+            this.text_R6B.Size = new System.Drawing.Size(359, 128);
             this.text_R6B.TabIndex = 11;
             // 
             // label36
             // 
             this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(18, 62);
+            this.label36.Location = new System.Drawing.Point(18, 67);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(113, 12);
+            this.label36.Size = new System.Drawing.Size(94, 13);
             this.label36.TabIndex = 10;
             this.label36.Text = "Read data(Hex):   ";
             // 
             // btRead6B
             // 
-            this.btRead6B.Location = new System.Drawing.Point(381, 20);
+            this.btRead6B.Location = new System.Drawing.Point(381, 22);
             this.btRead6B.Name = "btRead6B";
-            this.btRead6B.Size = new System.Drawing.Size(100, 30);
+            this.btRead6B.Size = new System.Drawing.Size(100, 33);
             this.btRead6B.TabIndex = 9;
             this.btRead6B.Text = "read";
             this.btRead6B.UseVisualStyleBackColor = true;
@@ -6266,55 +6278,55 @@
             // 
             // text_R6BLen
             // 
-            this.text_R6BLen.Location = new System.Drawing.Point(294, 25);
+            this.text_R6BLen.Location = new System.Drawing.Point(294, 27);
             this.text_R6BLen.MaxLength = 2;
             this.text_R6BLen.Name = "text_R6BLen";
-            this.text_R6BLen.Size = new System.Drawing.Size(44, 21);
+            this.text_R6BLen.Size = new System.Drawing.Size(44, 20);
             this.text_R6BLen.TabIndex = 8;
             this.text_R6BLen.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
             // 
             // label35
             // 
             this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(193, 29);
+            this.label35.Location = new System.Drawing.Point(193, 31);
             this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(107, 12);
+            this.label35.Size = new System.Drawing.Size(93, 13);
             this.label35.TabIndex = 7;
             this.label35.Text = "Read length(Hex):";
             // 
             // text_R6BAddr
             // 
             this.text_R6BAddr.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.text_R6BAddr.Location = new System.Drawing.Point(133, 25);
+            this.text_R6BAddr.Location = new System.Drawing.Point(133, 27);
             this.text_R6BAddr.MaxLength = 2;
             this.text_R6BAddr.Name = "text_R6BAddr";
-            this.text_R6BAddr.Size = new System.Drawing.Size(44, 21);
+            this.text_R6BAddr.Size = new System.Drawing.Size(44, 20);
             this.text_R6BAddr.TabIndex = 6;
             this.text_R6BAddr.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.text_address_KeyPress);
             // 
             // label30
             // 
             this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(18, 29);
+            this.label30.Location = new System.Drawing.Point(18, 31);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(137, 12);
+            this.label30.Size = new System.Drawing.Size(106, 13);
             this.label30.TabIndex = 5;
             this.label30.Text = "Start address(Hex):   ";
             // 
             // text_6BUID
             // 
-            this.text_6BUID.Location = new System.Drawing.Point(696, 39);
+            this.text_6BUID.Location = new System.Drawing.Point(696, 42);
             this.text_6BUID.Name = "text_6BUID";
             this.text_6BUID.ReadOnly = true;
-            this.text_6BUID.Size = new System.Drawing.Size(214, 21);
+            this.text_6BUID.Size = new System.Drawing.Size(214, 20);
             this.text_6BUID.TabIndex = 19;
             // 
             // label29
             // 
             this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(559, 44);
+            this.label29.Location = new System.Drawing.Point(559, 48);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(131, 12);
+            this.label29.Size = new System.Drawing.Size(111, 13);
             this.label29.TabIndex = 18;
             this.label29.Text = "Current Selected UID:";
             // 
@@ -6330,11 +6342,12 @@
             this.columnHeader3});
             this.ListView_ID_6B.FullRowSelect = true;
             this.ListView_ID_6B.GridLines = true;
+            this.ListView_ID_6B.HideSelection = false;
             this.ListView_ID_6B.HotTracking = true;
             this.ListView_ID_6B.HoverSelection = true;
-            this.ListView_ID_6B.Location = new System.Drawing.Point(10, 82);
+            this.ListView_ID_6B.Location = new System.Drawing.Point(10, 89);
             this.ListView_ID_6B.Name = "ListView_ID_6B";
-            this.ListView_ID_6B.Size = new System.Drawing.Size(524, 482);
+            this.ListView_ID_6B.Size = new System.Drawing.Size(524, 522);
             this.ListView_ID_6B.TabIndex = 17;
             this.ListView_ID_6B.UseCompatibleStateImageBehavior = false;
             this.ListView_ID_6B.View = System.Windows.Forms.View.Details;
@@ -6374,16 +6387,16 @@
             this.groupBox19.Controls.Add(this.btInventory6B);
             this.groupBox19.Location = new System.Drawing.Point(10, 5);
             this.groupBox19.Name = "groupBox19";
-            this.groupBox19.Size = new System.Drawing.Size(524, 71);
+            this.groupBox19.Size = new System.Drawing.Size(524, 77);
             this.groupBox19.TabIndex = 16;
             this.groupBox19.TabStop = false;
             // 
             // rb_mutiple
             // 
             this.rb_mutiple.AutoSize = true;
-            this.rb_mutiple.Location = new System.Drawing.Point(377, 35);
+            this.rb_mutiple.Location = new System.Drawing.Point(377, 38);
             this.rb_mutiple.Name = "rb_mutiple";
-            this.rb_mutiple.Size = new System.Drawing.Size(65, 16);
+            this.rb_mutiple.Size = new System.Drawing.Size(59, 17);
             this.rb_mutiple.TabIndex = 2;
             this.rb_mutiple.Text = "Mutiple";
             this.rb_mutiple.UseVisualStyleBackColor = true;
@@ -6392,9 +6405,9 @@
             // 
             this.rb_single.AutoSize = true;
             this.rb_single.Checked = true;
-            this.rb_single.Location = new System.Drawing.Point(246, 35);
+            this.rb_single.Location = new System.Drawing.Point(246, 38);
             this.rb_single.Name = "rb_single";
-            this.rb_single.Size = new System.Drawing.Size(59, 16);
+            this.rb_single.Size = new System.Drawing.Size(54, 17);
             this.rb_single.TabIndex = 1;
             this.rb_single.TabStop = true;
             this.rb_single.Text = "Single";
@@ -6403,11 +6416,11 @@
             // btInventory6B
             // 
             this.btInventory6B.BackColor = System.Drawing.Color.Transparent;
-            this.btInventory6B.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btInventory6B.Font = new System.Drawing.Font("SimSun", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.btInventory6B.ForeColor = System.Drawing.Color.DarkBlue;
-            this.btInventory6B.Location = new System.Drawing.Point(18, 20);
+            this.btInventory6B.Location = new System.Drawing.Point(18, 22);
             this.btInventory6B.Name = "btInventory6B";
-            this.btInventory6B.Size = new System.Drawing.Size(171, 40);
+            this.btInventory6B.Size = new System.Drawing.Size(171, 43);
             this.btInventory6B.TabIndex = 0;
             this.btInventory6B.Text = "Start";
             this.btInventory6B.UseVisualStyleBackColor = false;
@@ -6419,7 +6432,7 @@
             this.Main_Page4.Location = new System.Drawing.Point(4, 27);
             this.Main_Page4.Name = "Main_Page4";
             this.Main_Page4.Padding = new System.Windows.Forms.Padding(3);
-            this.Main_Page4.Size = new System.Drawing.Size(1071, 571);
+            this.Main_Page4.Size = new System.Drawing.Size(1071, 621);
             this.Main_Page4.TabIndex = 3;
             this.Main_Page4.Text = "Network module config";
             this.Main_Page4.UseVisualStyleBackColor = true;
@@ -6434,7 +6447,7 @@
             this.tabControl3.Location = new System.Drawing.Point(-1, 4);
             this.tabControl3.Name = "tabControl3";
             this.tabControl3.SelectedIndex = 0;
-            this.tabControl3.Size = new System.Drawing.Size(1072, 561);
+            this.tabControl3.Size = new System.Drawing.Size(1072, 608);
             this.tabControl3.TabIndex = 0;
             // 
             // tabPage6
@@ -6444,7 +6457,7 @@
             this.tabPage6.Location = new System.Drawing.Point(4, 27);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage6.Size = new System.Drawing.Size(1064, 530);
+            this.tabPage6.Size = new System.Drawing.Size(1064, 577);
             this.tabPage6.TabIndex = 0;
             this.tabPage6.Text = "   TCP config       ";
             this.tabPage6.UseVisualStyleBackColor = true;
@@ -6456,9 +6469,10 @@
             this.deviceIP,
             this.deviceMac});
             this.DeviceListView.FullRowSelect = true;
-            this.DeviceListView.Location = new System.Drawing.Point(8, 30);
+            this.DeviceListView.HideSelection = false;
+            this.DeviceListView.Location = new System.Drawing.Point(8, 33);
             this.DeviceListView.Name = "DeviceListView";
-            this.DeviceListView.Size = new System.Drawing.Size(1050, 497);
+            this.DeviceListView.Size = new System.Drawing.Size(1050, 538);
             this.DeviceListView.TabIndex = 5;
             this.DeviceListView.UseCompatibleStateImageBehavior = false;
             this.DeviceListView.View = System.Windows.Forms.View.Details;
@@ -6501,39 +6515,39 @@
             this.toolStripSeparator4,
             this.exitToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(71, 20);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(72, 20);
             this.toolStripMenuItem1.Text = "&Operation";
             // 
             // searchToolStripMenuItem
             // 
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.searchToolStripMenuItem.Text = "&Search";
             this.searchToolStripMenuItem.Click += new System.EventHandler(this.searchToolStripMenuItem_Click);
             // 
             // configToolStripMenuItem
             // 
             this.configToolStripMenuItem.Name = "configToolStripMenuItem";
-            this.configToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.configToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.configToolStripMenuItem.Text = "&Config";
             this.configToolStripMenuItem.Click += new System.EventHandler(this.configToolStripMenuItem_Click);
             // 
             // clearToolStripMenuItem
             // 
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.clearToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.clearToolStripMenuItem.Text = "&Clear";
             this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(103, 6);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(107, 6);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(106, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(110, 22);
             this.exitToolStripMenuItem.Text = "&Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -6544,7 +6558,7 @@
             this.telnetToolStripMenuItem,
             this.pingToolStripMenuItem});
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(41, 20);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(42, 20);
             this.toolStripMenuItem2.Text = "&Tool";
             // 
             // iEToolStripMenuItem
@@ -6573,7 +6587,7 @@
             this.languageToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.englishToolStripMenuItem});
             this.languageToolStripMenuItem.Name = "languageToolStripMenuItem";
-            this.languageToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.languageToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.languageToolStripMenuItem.Text = "&Language";
             // 
             // englishToolStripMenuItem
@@ -6587,13 +6601,13 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.aboutToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(41, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
             this.helpToolStripMenuItem.Text = "&Help";
             // 
             // aboutToolStripMenuItem
             // 
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(107, 22);
             this.aboutToolStripMenuItem.Text = "&About";
             // 
             // tabPage7
@@ -6602,7 +6616,7 @@
             this.tabPage7.Location = new System.Drawing.Point(4, 27);
             this.tabPage7.Name = "tabPage7";
             this.tabPage7.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage7.Size = new System.Drawing.Size(1064, 530);
+            this.tabPage7.Size = new System.Drawing.Size(1064, 577);
             this.tabPage7.TabIndex = 1;
             this.tabPage7.Text = "   Serialport Config   ";
             this.tabPage7.UseVisualStyleBackColor = true;
@@ -6615,16 +6629,16 @@
             this.panel6.Controls.Add(this.groupBox50);
             this.panel6.Controls.Add(this.groupBox49);
             this.panel6.Controls.Add(this.groupBox47);
-            this.panel6.Location = new System.Drawing.Point(-2, -8);
+            this.panel6.Location = new System.Drawing.Point(-2, -9);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(1069, 564);
+            this.panel6.Size = new System.Drawing.Size(1069, 611);
             this.panel6.TabIndex = 0;
             // 
             // btSave
             // 
-            this.btSave.Location = new System.Drawing.Point(755, 477);
+            this.btSave.Location = new System.Drawing.Point(755, 517);
             this.btSave.Name = "btSave";
-            this.btSave.Size = new System.Drawing.Size(109, 23);
+            this.btSave.Size = new System.Drawing.Size(109, 25);
             this.btSave.TabIndex = 71;
             this.btSave.Text = "Save and reboot";
             this.btSave.UseVisualStyleBackColor = true;
@@ -6632,9 +6646,9 @@
             // 
             // btLoadDefault
             // 
-            this.btLoadDefault.Location = new System.Drawing.Point(754, 438);
+            this.btLoadDefault.Location = new System.Drawing.Point(754, 475);
             this.btLoadDefault.Name = "btLoadDefault";
-            this.btLoadDefault.Size = new System.Drawing.Size(109, 23);
+            this.btLoadDefault.Size = new System.Drawing.Size(109, 25);
             this.btLoadDefault.TabIndex = 70;
             this.btLoadDefault.Text = "Load default value";
             this.btLoadDefault.UseVisualStyleBackColor = true;
@@ -6647,18 +6661,18 @@
             this.groupBox51.Controls.Add(this.label110);
             this.groupBox51.Controls.Add(this.macTB);
             this.groupBox51.Controls.Add(this.panel_StaticIp);
-            this.groupBox51.Location = new System.Drawing.Point(191, 298);
+            this.groupBox51.Location = new System.Drawing.Point(191, 323);
             this.groupBox51.Name = "groupBox51";
-            this.groupBox51.Size = new System.Drawing.Size(554, 204);
+            this.groupBox51.Size = new System.Drawing.Size(554, 221);
             this.groupBox51.TabIndex = 69;
             this.groupBox51.TabStop = false;
             this.groupBox51.Text = "Net work setting";
             // 
             // btGetNet
             // 
-            this.btGetNet.Location = new System.Drawing.Point(456, 131);
+            this.btGetNet.Location = new System.Drawing.Point(456, 142);
             this.btGetNet.Name = "btGetNet";
-            this.btGetNet.Size = new System.Drawing.Size(90, 23);
+            this.btGetNet.Size = new System.Drawing.Size(90, 25);
             this.btGetNet.TabIndex = 119;
             this.btGetNet.Text = "Get";
             this.btGetNet.UseVisualStyleBackColor = true;
@@ -6666,9 +6680,9 @@
             // 
             // btSetNet
             // 
-            this.btSetNet.Location = new System.Drawing.Point(456, 170);
+            this.btSetNet.Location = new System.Drawing.Point(456, 184);
             this.btSetNet.Name = "btSetNet";
-            this.btSetNet.Size = new System.Drawing.Size(90, 23);
+            this.btSetNet.Size = new System.Drawing.Size(90, 25);
             this.btSetNet.TabIndex = 118;
             this.btSetNet.Text = "Set";
             this.btSetNet.UseVisualStyleBackColor = true;
@@ -6677,19 +6691,19 @@
             // label110
             // 
             this.label110.AutoSize = true;
-            this.label110.Location = new System.Drawing.Point(222, 26);
+            this.label110.Location = new System.Drawing.Point(222, 28);
             this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(71, 12);
+            this.label110.Size = new System.Drawing.Size(69, 13);
             this.label110.TabIndex = 61;
             this.label110.Text = "Mac Address";
             // 
             // macTB
             // 
             this.macTB.AccessibleName = "MacAddress";
-            this.macTB.Location = new System.Drawing.Point(224, 42);
+            this.macTB.Location = new System.Drawing.Point(224, 46);
             this.macTB.Name = "macTB";
             this.macTB.ReadOnly = true;
-            this.macTB.Size = new System.Drawing.Size(176, 21);
+            this.macTB.Size = new System.Drawing.Size(176, 20);
             this.macTB.TabIndex = 58;
             // 
             // panel_StaticIp
@@ -6704,86 +6718,86 @@
             this.panel_StaticIp.Controls.Add(this.gatewayTB);
             this.panel_StaticIp.Controls.Add(this.subnetTB);
             this.panel_StaticIp.Controls.Add(this.ipTB);
-            this.panel_StaticIp.Location = new System.Drawing.Point(12, 20);
+            this.panel_StaticIp.Location = new System.Drawing.Point(12, 22);
             this.panel_StaticIp.Name = "panel_StaticIp";
-            this.panel_StaticIp.Size = new System.Drawing.Size(179, 173);
+            this.panel_StaticIp.Size = new System.Drawing.Size(179, 187);
             this.panel_StaticIp.TabIndex = 56;
             // 
             // label109
             // 
             this.label109.AutoSize = true;
-            this.label109.Location = new System.Drawing.Point(3, 128);
+            this.label109.Location = new System.Drawing.Point(3, 139);
             this.label109.Name = "label109";
-            this.label109.Size = new System.Drawing.Size(125, 12);
+            this.label109.Size = new System.Drawing.Size(109, 13);
             this.label109.TabIndex = 50;
             this.label109.Text = "Alternate DNS Server";
             // 
             // label108
             // 
             this.label108.AutoSize = true;
-            this.label108.Location = new System.Drawing.Point(3, 86);
+            this.label108.Location = new System.Drawing.Point(3, 93);
             this.label108.Name = "label108";
-            this.label108.Size = new System.Drawing.Size(125, 12);
+            this.label108.Size = new System.Drawing.Size(110, 13);
             this.label108.TabIndex = 49;
             this.label108.Text = "Preferred DNS Server";
             // 
             // label107
             // 
             this.label107.AutoSize = true;
-            this.label107.Location = new System.Drawing.Point(3, 60);
+            this.label107.Location = new System.Drawing.Point(3, 65);
             this.label107.Name = "label107";
-            this.label107.Size = new System.Drawing.Size(47, 12);
+            this.label107.Size = new System.Drawing.Size(49, 13);
             this.label107.TabIndex = 48;
             this.label107.Text = "Gateway";
             // 
             // label106
             // 
             this.label106.AutoSize = true;
-            this.label106.Location = new System.Drawing.Point(3, 33);
+            this.label106.Location = new System.Drawing.Point(3, 36);
             this.label106.Name = "label106";
-            this.label106.Size = new System.Drawing.Size(41, 12);
+            this.label106.Size = new System.Drawing.Size(41, 13);
             this.label106.TabIndex = 47;
             this.label106.Text = "Subnet";
             // 
             // label105
             // 
             this.label105.AutoSize = true;
-            this.label105.Location = new System.Drawing.Point(3, 6);
+            this.label105.Location = new System.Drawing.Point(3, 7);
             this.label105.Name = "label105";
-            this.label105.Size = new System.Drawing.Size(65, 12);
+            this.label105.Size = new System.Drawing.Size(58, 13);
             this.label105.TabIndex = 46;
             this.label105.Text = "IP Address";
             // 
             // altDNSTB
             // 
             this.altDNSTB.AccessibleName = "AlternateDNS";
-            this.altDNSTB.Location = new System.Drawing.Point(79, 143);
+            this.altDNSTB.Location = new System.Drawing.Point(79, 155);
             this.altDNSTB.Name = "altDNSTB";
-            this.altDNSTB.Size = new System.Drawing.Size(97, 21);
+            this.altDNSTB.Size = new System.Drawing.Size(97, 20);
             this.altDNSTB.TabIndex = 43;
             // 
             // pDNSTB
             // 
             this.pDNSTB.AccessibleName = "PreferredDNS";
-            this.pDNSTB.Location = new System.Drawing.Point(79, 101);
+            this.pDNSTB.Location = new System.Drawing.Point(79, 109);
             this.pDNSTB.Name = "pDNSTB";
-            this.pDNSTB.Size = new System.Drawing.Size(97, 21);
+            this.pDNSTB.Size = new System.Drawing.Size(97, 20);
             this.pDNSTB.TabIndex = 42;
             // 
             // gatewayTB
             // 
             this.gatewayTB.AccessibleName = "Gateway";
-            this.gatewayTB.Location = new System.Drawing.Point(79, 57);
+            this.gatewayTB.Location = new System.Drawing.Point(79, 62);
             this.gatewayTB.Name = "gatewayTB";
-            this.gatewayTB.Size = new System.Drawing.Size(97, 21);
+            this.gatewayTB.Size = new System.Drawing.Size(97, 20);
             this.gatewayTB.TabIndex = 41;
             // 
             // subnetTB
             // 
             this.subnetTB.AccessibleName = "Subnet";
-            this.subnetTB.Location = new System.Drawing.Point(79, 30);
+            this.subnetTB.Location = new System.Drawing.Point(79, 33);
             this.subnetTB.Name = "subnetTB";
-            this.subnetTB.Size = new System.Drawing.Size(97, 21);
+            this.subnetTB.Size = new System.Drawing.Size(97, 20);
             this.subnetTB.TabIndex = 40;
             // 
             // ipTB
@@ -6791,7 +6805,7 @@
             this.ipTB.AccessibleName = "IpAddress";
             this.ipTB.Location = new System.Drawing.Point(79, 3);
             this.ipTB.Name = "ipTB";
-            this.ipTB.Size = new System.Drawing.Size(97, 21);
+            this.ipTB.Size = new System.Drawing.Size(97, 20);
             this.ipTB.TabIndex = 39;
             // 
             // groupBox50
@@ -6799,18 +6813,18 @@
             this.groupBox50.Controls.Add(this.btGetCnt);
             this.groupBox50.Controls.Add(this.btSetCnt);
             this.groupBox50.Controls.Add(this.panel_TCP);
-            this.groupBox50.Location = new System.Drawing.Point(191, 143);
+            this.groupBox50.Location = new System.Drawing.Point(191, 155);
             this.groupBox50.Name = "groupBox50";
-            this.groupBox50.Size = new System.Drawing.Size(554, 151);
+            this.groupBox50.Size = new System.Drawing.Size(554, 164);
             this.groupBox50.TabIndex = 68;
             this.groupBox50.TabStop = false;
             this.groupBox50.Text = "Connection setting";
             // 
             // btGetCnt
             // 
-            this.btGetCnt.Location = new System.Drawing.Point(456, 78);
+            this.btGetCnt.Location = new System.Drawing.Point(456, 85);
             this.btGetCnt.Name = "btGetCnt";
-            this.btGetCnt.Size = new System.Drawing.Size(90, 23);
+            this.btGetCnt.Size = new System.Drawing.Size(90, 25);
             this.btGetCnt.TabIndex = 119;
             this.btGetCnt.Text = "Get";
             this.btGetCnt.UseVisualStyleBackColor = true;
@@ -6818,9 +6832,9 @@
             // 
             // btSetCnt
             // 
-            this.btSetCnt.Location = new System.Drawing.Point(456, 114);
+            this.btSetCnt.Location = new System.Drawing.Point(456, 124);
             this.btSetCnt.Name = "btSetCnt";
-            this.btSetCnt.Size = new System.Drawing.Size(90, 23);
+            this.btSetCnt.Size = new System.Drawing.Size(90, 25);
             this.btSetCnt.TabIndex = 118;
             this.btSetCnt.Text = "Set";
             this.btSetCnt.UseVisualStyleBackColor = true;
@@ -6838,53 +6852,53 @@
             this.panel_TCP.Controls.Add(this.tcpRemotePortNUD);
             this.panel_TCP.Controls.Add(this.tcpLocalPortNUD);
             this.panel_TCP.Controls.Add(this.tcpActiveCB);
-            this.panel_TCP.Location = new System.Drawing.Point(12, 20);
+            this.panel_TCP.Location = new System.Drawing.Point(12, 22);
             this.panel_TCP.Name = "panel_TCP";
-            this.panel_TCP.Size = new System.Drawing.Size(421, 117);
+            this.panel_TCP.Size = new System.Drawing.Size(421, 127);
             this.panel_TCP.TabIndex = 113;
             // 
             // label87
             // 
             this.label87.AutoSize = true;
-            this.label87.Location = new System.Drawing.Point(3, 93);
+            this.label87.Location = new System.Drawing.Point(3, 101);
             this.label87.Name = "label87";
-            this.label87.Size = new System.Drawing.Size(65, 12);
+            this.label87.Size = new System.Drawing.Size(55, 13);
             this.label87.TabIndex = 119;
             this.label87.Text = "Local Port";
             // 
             // label88
             // 
             this.label88.AutoSize = true;
-            this.label88.Location = new System.Drawing.Point(3, 65);
+            this.label88.Location = new System.Drawing.Point(3, 70);
             this.label88.Name = "label88";
-            this.label88.Size = new System.Drawing.Size(71, 12);
+            this.label88.Size = new System.Drawing.Size(66, 13);
             this.label88.TabIndex = 118;
             this.label88.Text = "Remote Port";
             // 
             // label89
             // 
             this.label89.AutoSize = true;
-            this.label89.Location = new System.Drawing.Point(3, 36);
+            this.label89.Location = new System.Drawing.Point(3, 39);
             this.label89.Name = "label89";
-            this.label89.Size = new System.Drawing.Size(71, 12);
+            this.label89.Size = new System.Drawing.Size(69, 13);
             this.label89.TabIndex = 117;
             this.label89.Text = "Remote Host";
             // 
             // label90
             // 
             this.label90.AutoSize = true;
-            this.label90.Location = new System.Drawing.Point(3, 12);
+            this.label90.Location = new System.Drawing.Point(3, 13);
             this.label90.Name = "label90";
-            this.label90.Size = new System.Drawing.Size(59, 12);
+            this.label90.Size = new System.Drawing.Size(60, 13);
             this.label90.TabIndex = 116;
             this.label90.Text = "Worked As";
             // 
             // label93
             // 
             this.label93.AutoSize = true;
-            this.label93.Location = new System.Drawing.Point(203, 12);
+            this.label93.Location = new System.Drawing.Point(203, 13);
             this.label93.Name = "label93";
-            this.label93.Size = new System.Drawing.Size(89, 12);
+            this.label93.Size = new System.Drawing.Size(80, 13);
             this.label93.TabIndex = 107;
             this.label93.Text = "Active Connect";
             // 
@@ -6896,30 +6910,30 @@
             this.workasCB.Items.AddRange(new object[] {
             "Client",
             "Server"});
-            this.workasCB.Location = new System.Drawing.Point(79, 9);
+            this.workasCB.Location = new System.Drawing.Point(79, 10);
             this.workasCB.Name = "workasCB";
-            this.workasCB.Size = new System.Drawing.Size(92, 20);
+            this.workasCB.Size = new System.Drawing.Size(92, 21);
             this.workasCB.TabIndex = 106;
             // 
             // tcpRomteHostTB
             // 
             this.tcpRomteHostTB.AccessibleName = "ConnRemoteHost";
-            this.tcpRomteHostTB.Location = new System.Drawing.Point(79, 32);
+            this.tcpRomteHostTB.Location = new System.Drawing.Point(79, 35);
             this.tcpRomteHostTB.Name = "tcpRomteHostTB";
-            this.tcpRomteHostTB.Size = new System.Drawing.Size(92, 21);
+            this.tcpRomteHostTB.Size = new System.Drawing.Size(92, 20);
             this.tcpRomteHostTB.TabIndex = 98;
             // 
             // tcpRemotePortNUD
             // 
             this.tcpRemotePortNUD.AccessibleName = "ConnRemotePort";
-            this.tcpRemotePortNUD.Location = new System.Drawing.Point(111, 59);
+            this.tcpRemotePortNUD.Location = new System.Drawing.Point(111, 64);
             this.tcpRemotePortNUD.Maximum = new decimal(new int[] {
             65535,
             0,
             0,
             0});
             this.tcpRemotePortNUD.Name = "tcpRemotePortNUD";
-            this.tcpRemotePortNUD.Size = new System.Drawing.Size(60, 21);
+            this.tcpRemotePortNUD.Size = new System.Drawing.Size(60, 20);
             this.tcpRemotePortNUD.TabIndex = 96;
             this.tcpRemotePortNUD.Value = new decimal(new int[] {
             1,
@@ -6930,14 +6944,14 @@
             // tcpLocalPortNUD
             // 
             this.tcpLocalPortNUD.AccessibleName = "ConnLocalPort";
-            this.tcpLocalPortNUD.Location = new System.Drawing.Point(111, 86);
+            this.tcpLocalPortNUD.Location = new System.Drawing.Point(111, 93);
             this.tcpLocalPortNUD.Maximum = new decimal(new int[] {
             65535,
             0,
             0,
             0});
             this.tcpLocalPortNUD.Name = "tcpLocalPortNUD";
-            this.tcpLocalPortNUD.Size = new System.Drawing.Size(60, 21);
+            this.tcpLocalPortNUD.Size = new System.Drawing.Size(60, 20);
             this.tcpLocalPortNUD.TabIndex = 95;
             this.tcpLocalPortNUD.Value = new decimal(new int[] {
             1,
@@ -6955,9 +6969,9 @@
             "WithAnyCharacter",
             "WithStartCharacter",
             "AutoStart"});
-            this.tcpActiveCB.Location = new System.Drawing.Point(292, 7);
+            this.tcpActiveCB.Location = new System.Drawing.Point(292, 8);
             this.tcpActiveCB.Name = "tcpActiveCB";
-            this.tcpActiveCB.Size = new System.Drawing.Size(107, 20);
+            this.tcpActiveCB.Size = new System.Drawing.Size(107, 21);
             this.tcpActiveCB.TabIndex = 93;
             // 
             // groupBox49
@@ -6965,18 +6979,18 @@
             this.groupBox49.Controls.Add(this.btGetSeriaPort);
             this.groupBox49.Controls.Add(this.btSetSerialPort);
             this.groupBox49.Controls.Add(this.panel7);
-            this.groupBox49.Location = new System.Drawing.Point(191, 18);
+            this.groupBox49.Location = new System.Drawing.Point(191, 20);
             this.groupBox49.Name = "groupBox49";
-            this.groupBox49.Size = new System.Drawing.Size(554, 118);
+            this.groupBox49.Size = new System.Drawing.Size(554, 128);
             this.groupBox49.TabIndex = 67;
             this.groupBox49.TabStop = false;
             this.groupBox49.Text = "Serialport Setting ";
             // 
             // btGetSeriaPort
             // 
-            this.btGetSeriaPort.Location = new System.Drawing.Point(456, 41);
+            this.btGetSeriaPort.Location = new System.Drawing.Point(456, 44);
             this.btGetSeriaPort.Name = "btGetSeriaPort";
-            this.btGetSeriaPort.Size = new System.Drawing.Size(90, 23);
+            this.btGetSeriaPort.Size = new System.Drawing.Size(90, 25);
             this.btGetSeriaPort.TabIndex = 118;
             this.btGetSeriaPort.Text = "Get";
             this.btGetSeriaPort.UseVisualStyleBackColor = true;
@@ -6984,9 +6998,9 @@
             // 
             // btSetSerialPort
             // 
-            this.btSetSerialPort.Location = new System.Drawing.Point(456, 79);
+            this.btSetSerialPort.Location = new System.Drawing.Point(456, 86);
             this.btSetSerialPort.Name = "btSetSerialPort";
-            this.btSetSerialPort.Size = new System.Drawing.Size(90, 23);
+            this.btSetSerialPort.Size = new System.Drawing.Size(90, 25);
             this.btSetSerialPort.TabIndex = 117;
             this.btSetSerialPort.Text = "Set";
             this.btSetSerialPort.UseVisualStyleBackColor = true;
@@ -7008,71 +7022,71 @@
             this.panel7.Controls.Add(this.baudrateCB);
             this.panel7.Controls.Add(this.flowCB);
             this.panel7.Controls.Add(this.fifoCB);
-            this.panel7.Location = new System.Drawing.Point(18, 20);
+            this.panel7.Location = new System.Drawing.Point(18, 22);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(415, 85);
+            this.panel7.Size = new System.Drawing.Size(415, 92);
             this.panel7.TabIndex = 113;
             // 
             // label72
             // 
             this.label72.AutoSize = true;
-            this.label72.Location = new System.Drawing.Point(281, 13);
+            this.label72.Location = new System.Drawing.Point(281, 14);
             this.label72.Name = "label72";
-            this.label72.Size = new System.Drawing.Size(59, 12);
+            this.label72.Size = new System.Drawing.Size(50, 13);
             this.label72.TabIndex = 112;
             this.label72.Text = "Data Bits";
             // 
             // label73
             // 
             this.label73.AutoSize = true;
-            this.label73.Location = new System.Drawing.Point(221, 64);
+            this.label73.Location = new System.Drawing.Point(221, 69);
             this.label73.Name = "label73";
-            this.label73.Size = new System.Drawing.Size(59, 12);
+            this.label73.Size = new System.Drawing.Size(49, 13);
             this.label73.TabIndex = 111;
             this.label73.Text = "Stop Bits";
             // 
             // label74
             // 
             this.label74.AutoSize = true;
-            this.label74.Location = new System.Drawing.Point(221, 39);
+            this.label74.Location = new System.Drawing.Point(221, 42);
             this.label74.Name = "label74";
-            this.label74.Size = new System.Drawing.Size(77, 12);
+            this.label74.Size = new System.Drawing.Size(65, 13);
             this.label74.TabIndex = 110;
             this.label74.Text = "Flow Control";
             // 
             // label75
             // 
             this.label75.AutoSize = true;
-            this.label75.Location = new System.Drawing.Point(15, 64);
+            this.label75.Location = new System.Drawing.Point(15, 69);
             this.label75.Name = "label75";
-            this.label75.Size = new System.Drawing.Size(41, 12);
+            this.label75.Size = new System.Drawing.Size(33, 13);
             this.label75.TabIndex = 109;
             this.label75.Text = "Parity";
             // 
             // label76
             // 
             this.label76.AutoSize = true;
-            this.label76.Location = new System.Drawing.Point(15, 39);
+            this.label76.Location = new System.Drawing.Point(15, 42);
             this.label76.Name = "label76";
-            this.label76.Size = new System.Drawing.Size(59, 12);
+            this.label76.Size = new System.Drawing.Size(58, 13);
             this.label76.TabIndex = 107;
             this.label76.Text = "Baud Rate";
             // 
             // label77
             // 
             this.label77.AutoSize = true;
-            this.label77.Location = new System.Drawing.Point(186, 13);
+            this.label77.Location = new System.Drawing.Point(186, 14);
             this.label77.Name = "label77";
-            this.label77.Size = new System.Drawing.Size(29, 12);
+            this.label77.Size = new System.Drawing.Size(30, 13);
             this.label77.TabIndex = 108;
             this.label77.Text = "FIFO";
             // 
             // label78
             // 
             this.label78.AutoSize = true;
-            this.label78.Location = new System.Drawing.Point(15, 13);
+            this.label78.Location = new System.Drawing.Point(15, 14);
             this.label78.Name = "label78";
-            this.label78.Size = new System.Drawing.Size(53, 12);
+            this.label78.Size = new System.Drawing.Size(46, 13);
             this.label78.TabIndex = 107;
             this.label78.Text = "Protocol";
             // 
@@ -7085,9 +7099,9 @@
             "RS232",
             "RS422",
             "RS485"});
-            this.protocolCB.Location = new System.Drawing.Point(92, 10);
+            this.protocolCB.Location = new System.Drawing.Point(92, 11);
             this.protocolCB.Name = "protocolCB";
-            this.protocolCB.Size = new System.Drawing.Size(64, 20);
+            this.protocolCB.Size = new System.Drawing.Size(64, 21);
             this.protocolCB.TabIndex = 83;
             // 
             // stopbitCB
@@ -7099,9 +7113,9 @@
             "1",
             "1.5",
             "2"});
-            this.stopbitCB.Location = new System.Drawing.Point(311, 61);
+            this.stopbitCB.Location = new System.Drawing.Point(311, 66);
             this.stopbitCB.Name = "stopbitCB";
-            this.stopbitCB.Size = new System.Drawing.Size(45, 20);
+            this.stopbitCB.Size = new System.Drawing.Size(45, 21);
             this.stopbitCB.TabIndex = 48;
             // 
             // parityCB
@@ -7115,9 +7129,9 @@
             "EVEN",
             "MARK",
             "SPACE"});
-            this.parityCB.Location = new System.Drawing.Point(92, 61);
+            this.parityCB.Location = new System.Drawing.Point(92, 66);
             this.parityCB.Name = "parityCB";
-            this.parityCB.Size = new System.Drawing.Size(88, 20);
+            this.parityCB.Size = new System.Drawing.Size(88, 21);
             this.parityCB.TabIndex = 47;
             // 
             // databitCB
@@ -7130,9 +7144,9 @@
             "6",
             "7",
             "8"});
-            this.databitCB.Location = new System.Drawing.Point(354, 10);
+            this.databitCB.Location = new System.Drawing.Point(354, 11);
             this.databitCB.Name = "databitCB";
-            this.databitCB.Size = new System.Drawing.Size(45, 20);
+            this.databitCB.Size = new System.Drawing.Size(45, 21);
             this.databitCB.TabIndex = 46;
             // 
             // baudrateCB
@@ -7159,9 +7173,9 @@
             "115200",
             "230400",
             "460800"});
-            this.baudrateCB.Location = new System.Drawing.Point(92, 35);
+            this.baudrateCB.Location = new System.Drawing.Point(92, 38);
             this.baudrateCB.Name = "baudrateCB";
-            this.baudrateCB.Size = new System.Drawing.Size(98, 20);
+            this.baudrateCB.Size = new System.Drawing.Size(98, 21);
             this.baudrateCB.TabIndex = 45;
             // 
             // flowCB
@@ -7173,9 +7187,9 @@
             "None",
             "Software",
             "Hardware"});
-            this.flowCB.Location = new System.Drawing.Point(311, 36);
+            this.flowCB.Location = new System.Drawing.Point(311, 39);
             this.flowCB.Name = "flowCB";
-            this.flowCB.Size = new System.Drawing.Size(88, 20);
+            this.flowCB.Size = new System.Drawing.Size(88, 21);
             this.flowCB.TabIndex = 44;
             // 
             // fifoCB
@@ -7187,27 +7201,27 @@
             "14",
             "8",
             "4"});
-            this.fifoCB.Location = new System.Drawing.Point(221, 10);
+            this.fifoCB.Location = new System.Drawing.Point(221, 11);
             this.fifoCB.Name = "fifoCB";
-            this.fifoCB.Size = new System.Drawing.Size(45, 20);
+            this.fifoCB.Size = new System.Drawing.Size(45, 21);
             this.fifoCB.TabIndex = 43;
             // 
             // groupBox47
             // 
             this.groupBox47.Controls.Add(this.btExitAT);
             this.groupBox47.Controls.Add(this.btGotoAT);
-            this.groupBox47.Location = new System.Drawing.Point(754, 340);
+            this.groupBox47.Location = new System.Drawing.Point(754, 368);
             this.groupBox47.Name = "groupBox47";
-            this.groupBox47.Size = new System.Drawing.Size(110, 85);
+            this.groupBox47.Size = new System.Drawing.Size(110, 92);
             this.groupBox47.TabIndex = 66;
             this.groupBox47.TabStop = false;
             this.groupBox47.Text = "AT Mode Change";
             // 
             // btExitAT
             // 
-            this.btExitAT.Location = new System.Drawing.Point(11, 49);
+            this.btExitAT.Location = new System.Drawing.Point(11, 53);
             this.btExitAT.Name = "btExitAT";
-            this.btExitAT.Size = new System.Drawing.Size(90, 23);
+            this.btExitAT.Size = new System.Drawing.Size(90, 25);
             this.btExitAT.TabIndex = 1;
             this.btExitAT.Text = "Exit";
             this.btExitAT.UseVisualStyleBackColor = true;
@@ -7215,9 +7229,9 @@
             // 
             // btGotoAT
             // 
-            this.btGotoAT.Location = new System.Drawing.Point(11, 19);
+            this.btGotoAT.Location = new System.Drawing.Point(11, 21);
             this.btGotoAT.Name = "btGotoAT";
-            this.btGotoAT.Size = new System.Drawing.Size(90, 23);
+            this.btGotoAT.Size = new System.Drawing.Size(90, 25);
             this.btGotoAT.TabIndex = 0;
             this.btGotoAT.Text = "Enter";
             this.btGotoAT.UseVisualStyleBackColor = true;
@@ -7232,7 +7246,7 @@
             this.tabPage8.Location = new System.Drawing.Point(4, 27);
             this.tabPage8.Name = "tabPage8";
             this.tabPage8.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage8.Size = new System.Drawing.Size(1064, 530);
+            this.tabPage8.Size = new System.Drawing.Size(1064, 577);
             this.tabPage8.TabIndex = 2;
             this.tabPage8.Text = "   TCP Server   ";
             this.tabPage8.UseVisualStyleBackColor = true;
@@ -7241,9 +7255,9 @@
             // label63
             // 
             this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(204, 125);
+            this.label63.Location = new System.Drawing.Point(204, 135);
             this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(113, 12);
+            this.label63.Size = new System.Drawing.Size(99, 13);
             this.label63.TabIndex = 3;
             this.label63.Text = "Receive data(Hex):";
             // 
@@ -7251,18 +7265,18 @@
             // 
             this.stcprecv.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.stcprecv.EnableAutoDragDrop = true;
-            this.stcprecv.Location = new System.Drawing.Point(202, 140);
+            this.stcprecv.Location = new System.Drawing.Point(202, 152);
             this.stcprecv.Name = "stcprecv";
-            this.stcprecv.Size = new System.Drawing.Size(617, 381);
+            this.stcprecv.Size = new System.Drawing.Size(617, 412);
             this.stcprecv.TabIndex = 2;
             this.stcprecv.Text = "";
             // 
             // groupBox25
             // 
             this.groupBox25.Controls.Add(this.listtcp);
-            this.groupBox25.Location = new System.Drawing.Point(512, 6);
+            this.groupBox25.Location = new System.Drawing.Point(512, 7);
             this.groupBox25.Name = "groupBox25";
-            this.groupBox25.Size = new System.Drawing.Size(307, 106);
+            this.groupBox25.Size = new System.Drawing.Size(307, 115);
             this.groupBox25.TabIndex = 1;
             this.groupBox25.TabStop = false;
             this.groupBox25.Text = "Client";
@@ -7270,10 +7284,9 @@
             // listtcp
             // 
             this.listtcp.FormattingEnabled = true;
-            this.listtcp.ItemHeight = 12;
-            this.listtcp.Location = new System.Drawing.Point(8, 20);
+            this.listtcp.Location = new System.Drawing.Point(8, 22);
             this.listtcp.Name = "listtcp";
-            this.listtcp.Size = new System.Drawing.Size(287, 76);
+            this.listtcp.Size = new System.Drawing.Size(287, 82);
             this.listtcp.TabIndex = 0;
             // 
             // groupBox24
@@ -7282,18 +7295,18 @@
             this.groupBox24.Controls.Add(this.btListen);
             this.groupBox24.Controls.Add(this.stcpport);
             this.groupBox24.Controls.Add(this.label62);
-            this.groupBox24.Location = new System.Drawing.Point(202, 6);
+            this.groupBox24.Location = new System.Drawing.Point(202, 7);
             this.groupBox24.Name = "groupBox24";
-            this.groupBox24.Size = new System.Drawing.Size(301, 106);
+            this.groupBox24.Size = new System.Drawing.Size(301, 115);
             this.groupBox24.TabIndex = 0;
             this.groupBox24.TabStop = false;
             this.groupBox24.Text = "Server Setting";
             // 
             // btStop
             // 
-            this.btStop.Location = new System.Drawing.Point(191, 63);
+            this.btStop.Location = new System.Drawing.Point(191, 68);
             this.btStop.Name = "btStop";
-            this.btStop.Size = new System.Drawing.Size(92, 33);
+            this.btStop.Size = new System.Drawing.Size(92, 36);
             this.btStop.TabIndex = 3;
             this.btStop.Text = "Stop";
             this.btStop.UseVisualStyleBackColor = true;
@@ -7301,9 +7314,9 @@
             // 
             // btListen
             // 
-            this.btListen.Location = new System.Drawing.Point(93, 63);
+            this.btListen.Location = new System.Drawing.Point(93, 68);
             this.btListen.Name = "btListen";
-            this.btListen.Size = new System.Drawing.Size(92, 33);
+            this.btListen.Size = new System.Drawing.Size(92, 36);
             this.btListen.TabIndex = 2;
             this.btListen.Text = "Listen";
             this.btListen.UseVisualStyleBackColor = true;
@@ -7311,9 +7324,9 @@
             // 
             // stcpport
             // 
-            this.stcpport.Location = new System.Drawing.Point(93, 25);
+            this.stcpport.Location = new System.Drawing.Point(93, 27);
             this.stcpport.Name = "stcpport";
-            this.stcpport.Size = new System.Drawing.Size(187, 21);
+            this.stcpport.Size = new System.Drawing.Size(187, 20);
             this.stcpport.TabIndex = 1;
             this.stcpport.Text = "6000";
             this.stcpport.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tb_Port_KeyPress);
@@ -7321,9 +7334,9 @@
             // label62
             // 
             this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(17, 32);
+            this.label62.Location = new System.Drawing.Point(17, 35);
             this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(65, 12);
+            this.label62.Size = new System.Drawing.Size(56, 13);
             this.label62.TabIndex = 0;
             this.label62.Text = " TCP Port:";
             // 
@@ -7338,7 +7351,7 @@
             this.tabPage9.Location = new System.Drawing.Point(4, 27);
             this.tabPage9.Name = "tabPage9";
             this.tabPage9.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage9.Size = new System.Drawing.Size(1064, 530);
+            this.tabPage9.Size = new System.Drawing.Size(1064, 577);
             this.tabPage9.TabIndex = 3;
             this.tabPage9.Text = "   TCP Client   ";
             this.tabPage9.UseVisualStyleBackColor = true;
@@ -7351,18 +7364,18 @@
             this.groupBox26.Controls.Add(this.label71);
             this.groupBox26.Controls.Add(this.tcpremoteIp);
             this.groupBox26.Controls.Add(this.label70);
-            this.groupBox26.Location = new System.Drawing.Point(209, 6);
+            this.groupBox26.Location = new System.Drawing.Point(209, 7);
             this.groupBox26.Name = "groupBox26";
-            this.groupBox26.Size = new System.Drawing.Size(617, 63);
+            this.groupBox26.Size = new System.Drawing.Size(617, 68);
             this.groupBox26.TabIndex = 9;
             this.groupBox26.TabStop = false;
             this.groupBox26.Text = "Setting";
             // 
             // bttcpdisconnect
             // 
-            this.bttcpdisconnect.Location = new System.Drawing.Point(521, 25);
+            this.bttcpdisconnect.Location = new System.Drawing.Point(521, 27);
             this.bttcpdisconnect.Name = "bttcpdisconnect";
-            this.bttcpdisconnect.Size = new System.Drawing.Size(90, 23);
+            this.bttcpdisconnect.Size = new System.Drawing.Size(90, 25);
             this.bttcpdisconnect.TabIndex = 26;
             this.bttcpdisconnect.Text = "Disconnect";
             this.bttcpdisconnect.UseVisualStyleBackColor = true;
@@ -7370,9 +7383,9 @@
             // 
             // bttcpconnect
             // 
-            this.bttcpconnect.Location = new System.Drawing.Point(415, 25);
+            this.bttcpconnect.Location = new System.Drawing.Point(415, 27);
             this.bttcpconnect.Name = "bttcpconnect";
-            this.bttcpconnect.Size = new System.Drawing.Size(90, 23);
+            this.bttcpconnect.Size = new System.Drawing.Size(90, 25);
             this.bttcpconnect.TabIndex = 25;
             this.bttcpconnect.Text = "Connect";
             this.bttcpconnect.UseVisualStyleBackColor = true;
@@ -7380,45 +7393,45 @@
             // 
             // remotePort
             // 
-            this.remotePort.Location = new System.Drawing.Point(268, 25);
+            this.remotePort.Location = new System.Drawing.Point(268, 27);
             this.remotePort.Name = "remotePort";
-            this.remotePort.Size = new System.Drawing.Size(94, 21);
+            this.remotePort.Size = new System.Drawing.Size(94, 20);
             this.remotePort.TabIndex = 24;
             this.remotePort.Text = "27011";
             // 
             // label71
             // 
             this.label71.AutoSize = true;
-            this.label71.Location = new System.Drawing.Point(227, 30);
+            this.label71.Location = new System.Drawing.Point(227, 33);
             this.label71.Name = "label71";
-            this.label71.Size = new System.Drawing.Size(35, 12);
+            this.label71.Size = new System.Drawing.Size(29, 13);
             this.label71.TabIndex = 23;
             this.label71.Text = "Port:";
             // 
             // tcpremoteIp
             // 
             this.tcpremoteIp.IpAddressStr = "192.168.0.250";
-            this.tcpremoteIp.Location = new System.Drawing.Point(85, 25);
+            this.tcpremoteIp.Location = new System.Drawing.Point(85, 27);
             this.tcpremoteIp.Name = "tcpremoteIp";
-            this.tcpremoteIp.Size = new System.Drawing.Size(121, 21);
+            this.tcpremoteIp.Size = new System.Drawing.Size(121, 23);
             this.tcpremoteIp.TabIndex = 22;
             this.tcpremoteIp.Tag = "";
             // 
             // label70
             // 
             this.label70.AutoSize = true;
-            this.label70.Location = new System.Drawing.Point(14, 30);
+            this.label70.Location = new System.Drawing.Point(14, 33);
             this.label70.Name = "label70";
-            this.label70.Size = new System.Drawing.Size(65, 12);
+            this.label70.Size = new System.Drawing.Size(54, 13);
             this.label70.TabIndex = 0;
             this.label70.Text = "Server IP:";
             // 
             // bttcpsend
             // 
             this.bttcpsend.Enabled = false;
-            this.bttcpsend.Location = new System.Drawing.Point(730, 79);
+            this.bttcpsend.Location = new System.Drawing.Point(730, 86);
             this.bttcpsend.Name = "bttcpsend";
-            this.bttcpsend.Size = new System.Drawing.Size(90, 23);
+            this.bttcpsend.Size = new System.Drawing.Size(90, 25);
             this.bttcpsend.TabIndex = 8;
             this.bttcpsend.Text = "Send";
             this.bttcpsend.UseVisualStyleBackColor = true;
@@ -7427,27 +7440,27 @@
             // label69
             // 
             this.label69.AutoSize = true;
-            this.label69.Location = new System.Drawing.Point(211, 86);
+            this.label69.Location = new System.Drawing.Point(211, 93);
             this.label69.Name = "label69";
-            this.label69.Size = new System.Drawing.Size(95, 12);
+            this.label69.Size = new System.Drawing.Size(84, 13);
             this.label69.TabIndex = 7;
             this.label69.Text = "Send data(Hex):";
             // 
             // ctctsend
             // 
-            this.ctctsend.Location = new System.Drawing.Point(209, 107);
+            this.ctctsend.Location = new System.Drawing.Point(209, 116);
             this.ctctsend.Multiline = true;
             this.ctctsend.Name = "ctctsend";
-            this.ctctsend.Size = new System.Drawing.Size(617, 86);
+            this.ctctsend.Size = new System.Drawing.Size(617, 93);
             this.ctctsend.TabIndex = 6;
             this.ctctsend.Text = "04 FF 21 19 95";
             // 
             // label68
             // 
             this.label68.AutoSize = true;
-            this.label68.Location = new System.Drawing.Point(211, 201);
+            this.label68.Location = new System.Drawing.Point(211, 218);
             this.label68.Name = "label68";
-            this.label68.Size = new System.Drawing.Size(113, 12);
+            this.label68.Size = new System.Drawing.Size(99, 13);
             this.label68.TabIndex = 5;
             this.label68.Text = "Receive data(Hex):";
             // 
@@ -7455,17 +7468,17 @@
             // 
             this.ctctrecv.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.ctctrecv.EnableAutoDragDrop = true;
-            this.ctctrecv.Location = new System.Drawing.Point(209, 216);
+            this.ctctrecv.Location = new System.Drawing.Point(209, 234);
             this.ctctrecv.Name = "ctctrecv";
-            this.ctctrecv.Size = new System.Drawing.Size(617, 304);
+            this.ctctrecv.Size = new System.Drawing.Size(617, 329);
             this.ctctrecv.TabIndex = 4;
             this.ctctrecv.Text = "";
             // 
             // btFlashCl
             // 
-            this.btFlashCl.Location = new System.Drawing.Point(939, 603);
+            this.btFlashCl.Location = new System.Drawing.Point(939, 653);
             this.btFlashCl.Name = "btFlashCl";
-            this.btFlashCl.Size = new System.Drawing.Size(100, 23);
+            this.btFlashCl.Size = new System.Drawing.Size(100, 25);
             this.btFlashCl.TabIndex = 5;
             this.btFlashCl.Text = "Refresh";
             this.btFlashCl.UseVisualStyleBackColor = true;
@@ -7504,30 +7517,18 @@
             this.ckClearOperationRec.AutoSize = true;
             this.ckClearOperationRec.Checked = true;
             this.ckClearOperationRec.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.ckClearOperationRec.Location = new System.Drawing.Point(134, 608);
+            this.ckClearOperationRec.Location = new System.Drawing.Point(134, 659);
             this.ckClearOperationRec.Name = "ckClearOperationRec";
-            this.ckClearOperationRec.Size = new System.Drawing.Size(84, 16);
+            this.ckClearOperationRec.Size = new System.Drawing.Size(75, 17);
             this.ckClearOperationRec.TabIndex = 18;
             this.ckClearOperationRec.Text = "Auto-Clear";
             this.ckClearOperationRec.UseVisualStyleBackColor = true;
             // 
-            // radioButton_band12
-            // 
-            this.radioButton_band12.AutoSize = true;
-            this.radioButton_band12.Location = new System.Drawing.Point(248, 44);
-            this.radioButton_band12.Name = "radioButton_band12";
-            this.radioButton_band12.Size = new System.Drawing.Size(71, 16);
-            this.radioButton_band12.TabIndex = 18;
-            this.radioButton_band12.TabStop = true;
-            this.radioButton_band12.Text = "US band3";
-            this.radioButton_band12.UseVisualStyleBackColor = true;
-            this.radioButton_band12.CheckedChanged += new System.EventHandler(this.radioButton_band12_CheckedChanged);
-            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1079, 723);
+            this.ClientSize = new System.Drawing.Size(1079, 783);
             this.Controls.Add(this.ckClearOperationRec);
             this.Controls.Add(this.btFlashCl);
             this.Controls.Add(this.Maintab);
@@ -7538,8 +7539,8 @@
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UHFReader288 Demo V2.2";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.Maintab.ResumeLayout(false);
             this.Main_Page1.ResumeLayout(false);
             this.tabControl1.ResumeLayout(false);

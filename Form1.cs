@@ -1262,13 +1262,13 @@ namespace UHFReader288Demo
                 lxLedControl4.Text = "0";
                 lxLedControl5.Text = "0";
                 lxLedControl6.Text = "0";
-                epclist.Clear();
-                tidlist.Clear();
-                dataGridView1.DataSource = null;
-                lrtxtLog.Clear();
-                comboBox_EPC.Items.Clear();
-                text_epc.Text = "";
-                AA_times = 0;
+                //epclist.Clear();
+                //tidlist.Clear();
+                //dataGridView1.DataSource = null;
+                //lrtxtLog.Clear();
+                //comboBox_EPC.Items.Clear();
+                //text_epc.Text = "";
+                //AA_times = 0;
                 Scantime = Convert.ToByte(com_scantime.SelectedIndex );
                 if (checkBox_rate.Checked)
                     Qvalue = Convert.ToByte(com_Q.SelectedIndex | 0x80);
@@ -1301,7 +1301,7 @@ namespace UHFReader288Demo
                 targettimes = Convert.ToInt32(text_target.Text);
                 total_time = System.Environment.TickCount;
                 fIsInventoryScan = false;
-                btIventoryG2.BackColor = Color.Indigo;
+                btIventoryG2.BackColor = Color.Red;
                 btIventoryG2.Text = "Stop";
                 Array.Clear(antlist, 0, 4);
                 if (check_ant1.Checked)
@@ -1865,6 +1865,7 @@ namespace UHFReader288Demo
             ValidDatalength = 0;
             DataGridViewRow rows = new DataGridViewRow();
             int xtime = System.Environment.TickCount;
+
             fCmdRet = RWDev.ReadActiveModeData(ScanModeData, ref ValidDatalength, frmcomportindex);
             if (fCmdRet == 0)
             {
@@ -6157,7 +6158,7 @@ namespace UHFReader288Demo
         private void rb_epc_CheckedChanged(object sender, EventArgs e)
         {
             gbp_MixRead.Enabled = false;
-            com_S.Items.Clear();
+            //com_S.Items.Clear();
             com_S.Items.Add("0");
             com_S.Items.Add("1");
             com_S.Items.Add("2");
