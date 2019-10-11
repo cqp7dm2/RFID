@@ -11,3 +11,17 @@ C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x8
 C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.csproj.CopyComplete
 C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.exe
 C:\Users\User\Desktop\English\demo\c#\Standard test demo\UHFReader288Demo\obj\x86\Release\UHFReader288Demo.pdb
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\bin\x86\Release\UHFReader288Demo.exe
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\bin\x86\Release\UHFReader288Demo.pdb
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\bin\x86\Release\CustomControl.dll
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.csprojAssemblyReference.cache
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.ConfigForm.resources
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.Form1.resources
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.LoginForm.resources
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.Properties.Resources.resources
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.csproj.GenerateResource.cache
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.csproj.CoreCompileInputs.cache
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.csproj.CopyComplete
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.exe
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.pdb
+D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UHFReader288Demo.Form2.resources

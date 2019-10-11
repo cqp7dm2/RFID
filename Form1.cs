@@ -1838,6 +1838,36 @@ namespace UHFReader288Demo
             
         }
 
+        public class AutoClosingMessageBox
+        {
+            System.Threading.Timer _timeoutTimer;
+            string _caption;
+            AutoClosingMessageBox(string text, string caption, int timeout)
+            {
+                _caption = caption;
+                _timeoutTimer = new System.Threading.Timer(OnTimerElapsed,
+                    null, timeout, System.Threading.Timeout.Infinite);
+                using (_timeoutTimer)
+                    MessageBox.Show(text, caption);
+            }
+            public static void Show(string text, string caption, int timeout)
+            {
+                new AutoClosingMessageBox(text, caption, timeout);
+            }
+            void OnTimerElapsed(object state)
+            {
+                IntPtr mbWnd = FindWindow("#32770", _caption); // lpClassName is #32770 for MessageBox
+                if (mbWnd != IntPtr.Zero)
+                    SendMessage(mbWnd, WM_CLOSE, IntPtr.Zero, IntPtr.Zero);
+                _timeoutTimer.Dispose();
+            }
+            const int WM_CLOSE = 0x0010;
+            [System.Runtime.InteropServices.DllImport("user32.dll", SetLastError = true)]
+            static extern IntPtr FindWindow(string lpClassName, string lpWindowName);
+            [System.Runtime.InteropServices.DllImport("user32.dll", CharSet = System.Runtime.InteropServices.CharSet.Auto)]
+            static extern IntPtr SendMessage(IntPtr hWnd, UInt32 Msg, IntPtr wParam, IntPtr lParam);
+        }
+        public static string x = "";
         private void GetData()
         {
             byte[] ScanModeData = new byte[40960];
@@ -1936,7 +1966,29 @@ namespace UHFReader288Demo
                            arr[3] = "20" + Lyear + "-" + Lmonth + "-" + Lday + " " + Lhour + ":" + Lmin + ":" + Lsec;
                            arr[4] = AntStr;
                            arr[5] = CountStr;
-                           dataGridView2.Rows.Insert(dataGridView2.RowCount, arr);
+
+                            //HEREHERE
+                            if (EPCStr == "020000")
+                            {
+                                x = "Assoc. Prof. Dr. Thang Ka Fei";
+                            }
+                            else if(EPCStr == "020001")
+                            {
+                                x = "Dr. Thomas Ooi Wei Min";
+                            }
+                            else if (EPCStr == "020002")
+                            {
+                                x = "EDDIE CHONG VUN WEI";
+                            }
+                            else
+                            {
+                                x = "Invalid ID";
+                            }
+
+                            Form2 frm2 = new Form2();
+                            frm2.Show();
+                            //AutoClosingMessageBox.Show(x, "Welcome", 1000);
+                            dataGridView2.Rows.Insert(dataGridView2.RowCount, arr);
                        }
                        total_tagnum = total_tagnum + 1;////每解析一条记录加一
                        lxLed_toltag.Text = total_tagnum.ToString();
