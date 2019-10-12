@@ -1882,6 +1882,7 @@ namespace UHFReader288Demo
         {
             Form2 frm2 = new Form2();
             frm2.Show();
+            this.WindowState = FormWindowState.Minimized;
         }
 
 
