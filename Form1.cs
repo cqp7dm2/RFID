@@ -1971,7 +1971,12 @@ namespace UHFReader288Demo
                                rows.Cells[4].Value = AntStr;
                                rows.Cells[5].Value = CountStr;
                                isonlistview = true;
-                                dataGridView2.Rows.Clear();
+
+                                if (CountStr == "30" || CountStr == "100" || CountStr == "150")
+                                {
+                                    dataGridView2.Rows.Clear();
+                                }
+                               //
                                 break;
                            }
                        }

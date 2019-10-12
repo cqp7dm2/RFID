@@ -28,7 +28,7 @@ namespace UHFReader288Demo
             tmr.Tick += delegate {
                 this.Close();
             };
-            tmr.Interval = (int)TimeSpan.FromMinutes(0.1).TotalMilliseconds;
+            tmr.Interval = (int)TimeSpan.FromMinutes(0.09).TotalMilliseconds;
             tmr.Start();
         }
 
