@@ -22,7 +22,33 @@ namespace UHFReader288Demo
             label3.Text = Form1.position;
             label4.Text = Form1.industry;
             picture = Form1.pic;
-            //pictureBox1.Image = picture;
+            
+            switch (picture)
+            {
+                case "UHFReader288Demo.Properties.Resources._0":
+                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._0;
+                    break;
+                case "UHFReader288Demo.Properties.Resources._1":
+                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._1;
+                    break;
+                case "UHFReader288Demo.Properties.Resources._2":
+                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._2;
+                    break;
+                case "UHFReader288Demo.Properties.Resources._3":
+                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._3;
+                    break;
+                case "UHFReader288Demo.Properties.Resources._4":
+                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._4;
+                    break;
+                case "UHFReader288Demo.Properties.Resources._5":
+                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._5;
+                    break;
+                default:
+                    //Console.WriteLine("Default case");
+                    break;
+            }
+            pictureBox1.Visible = true;
+
 
             tmr = new System.Windows.Forms.Timer();
             tmr.Tick += delegate {

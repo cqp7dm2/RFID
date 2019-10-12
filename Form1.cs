@@ -1912,7 +1912,7 @@ namespace UHFReader288Demo
             ValidDatalength = 0;
             DataGridViewRow rows = new DataGridViewRow();
             int xtime = System.Environment.TickCount;
-
+            int times;
             fCmdRet = RWDev.ReadActiveModeData(ScanModeData, ref ValidDatalength, frmcomportindex);
             if (fCmdRet == 0)
             {
@@ -1972,9 +1972,11 @@ namespace UHFReader288Demo
                                rows.Cells[5].Value = CountStr;
                                isonlistview = true;
 
-                                if (CountStr == "30" || CountStr == "100" || CountStr == "150")
+                                times = int.Parse(CountStr);
+                                if (times >= 300)
                                 {
-                                    dataGridView2.Rows.Clear();
+                                    //dataGridView2.Rows.Clear();
+                                    dataGridView2.Rows.Remove(rows);
                                 }
                                //
                                 break;
