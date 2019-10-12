@@ -1867,7 +1867,24 @@ namespace UHFReader288Demo
             [System.Runtime.InteropServices.DllImport("user32.dll", CharSet = System.Runtime.InteropServices.CharSet.Auto)]
             static extern IntPtr SendMessage(IntPtr hWnd, UInt32 Msg, IntPtr wParam, IntPtr lParam);
         }
-        public static string x = "";
+
+
+
+
+        //-----------------------------------------------------
+        public static string fullname = "";
+        public static string position = "";
+        public static string industry = "";
+        public static string pic = "";
+
+        //private System.Windows.Forms.Timer myTimer = new System.Windows.Forms.Timer();
+        private void openForm()
+        {
+            Form2 frm2 = new Form2();
+            frm2.Show();
+        }
+
+
         private void GetData()
         {
             byte[] ScanModeData = new byte[40960];
@@ -1954,7 +1971,8 @@ namespace UHFReader288Demo
                                rows.Cells[4].Value = AntStr;
                                rows.Cells[5].Value = CountStr;
                                isonlistview = true;
-                               break;
+                                dataGridView2.Rows.Clear();
+                                break;
                            }
                        }
                        if (!isonlistview)
@@ -1968,28 +1986,94 @@ namespace UHFReader288Demo
                            arr[5] = CountStr;
 
                             //HEREHERE
-                            if (EPCStr == "020000")
+
+                            switch (EPCStr)
                             {
-                                x = "Assoc. Prof. Dr. Thang Ka Fei";
-                            }
-                            else if(EPCStr == "020001")
-                            {
-                                x = "Dr. Thomas Ooi Wei Min";
-                            }
-                            else if (EPCStr == "020002")
-                            {
-                                x = "EDDIE CHONG VUN WEI";
-                            }
-                            else
-                            {
-                                x = "Invalid ID";
+                                case "020000":
+                                    fullname = "Assoc. Prof. Dr. Thang Ka Fei";
+                                    position = "Associate Professor/Head of School Of Asia Pacific University";
+                                    industry = "Faculty of Computing, Engineering& Technology";
+                                    pic = "UHFReader288Demo.Properties.Resources._0";
+                                    
+                                    openForm();
+                                    break;
+                                case "020001":
+                                    fullname = "Dr. Thomas Ooi Wei Min";
+                                    position = "Chairperson for EEPN KS3 Accelerate Adoption of Industry 4.0";
+                                    pic = "UHFReader288Demo.Properties.Resources._1";
+                                    openForm();
+                                    break;
+                                case "020002":
+                                    fullname = "Ir. Dr. Alvin Yap Chee Wei";
+                                    position = "Senior Lecturer";
+                                    industry = "Faculty of Computing, Engineering& Technology";
+                                    pic = "UHFReader288Demo.Properties.Resources._2";
+                                    openForm();
+                                    break;
+                                case "020003":
+                                    fullname = "Dato' Seri Wong Siew Hai";
+                                    position = "Chairman of the E&E Productivity Nexus (EEPN)";
+                                    industry = "Malaysia Productivity Corporation (MPC)";
+                                    pic = "UHFReader288Demo.Properties.Resources._3";
+                                    openForm();
+                                    break;
+                                case "020004":
+                                    fullname = "Datuk Dr. Parmjit Singh";
+                                    position = "CEO of APIIT Education Group";
+                                    industry = "Faculty of Computing, Engineering& Technology";
+                                    pic = "UHFReader288Demo.Properties.Resources._4";
+                                    openForm();
+                                    break;
+                                case "020005":
+                                    fullname = "Prof. Ir. Ts. Dr. Vinesh Thiruchelvam";
+                                    position = "Deputy Vice Chancellor Asia Pacific University";
+                                    pic = "UHFReader288Demo.Properties.Resources._5";
+                                    openForm();
+                                    break;
+
+                                default:
+                                    //Console.WriteLine("Default case");
+                                    break;
                             }
 
-                            Form2 frm2 = new Form2();
-                            frm2.Show();
-                            //AutoClosingMessageBox.Show(x, "Welcome", 1000);
+                            //if (EPCStr == "020000")
+                            //{
+                            //    fullname = "Assoc. Prof. Dr. Thang Ka Fei";
+                            //    position = "Associate Professor/Head of School Of Asia Pacific University";
+                            //    industry = "Faculty of Computing, Engineering& Technology";
+                            //}
+                            //else if(EPCStr == "020001")
+                            //{
+                            //    fullname = "Dr. Thomas Ooi Wei Min";
+                            //    position = "Chairperson for EEPN KS3 Accelerate Adoption of Industry 4.0";
+                            //}
+                            //else if (EPCStr == "020002")
+                            //{
+                            //    fullname = "Ir. Dr. Alvin Yap Chee Wei";
+                            //    position = "Senior Lecturer";
+                            //    industry = "Faculty of Computing, Engineering& Technology";
+                            //}
+                            //else if (EPCStr == "020003")
+                            //{
+                            //    fullname = "Ir. Dr. Alvin Yap Chee Wei";
+                            //    position = "Senior Lecturer";
+                            //    industry = "Faculty of Computing, Engineering& Technology";
+                            //}
+                            //else if (EPCStr == "020004")
+                            //{
+                            //    fullname = "Ir. Dr. Alvin Yap Chee Wei";
+                            //    position = "Senior Lecturer";
+                            //    industry = "Faculty of Computing, Engineering& Technology";
+                            //}
+                            //else
+                            //{
+                            //    fullname = "";
+                            //}
+                            
                             dataGridView2.Rows.Insert(dataGridView2.RowCount, arr);
-                       }
+                            
+                        
+                        }
                        total_tagnum = total_tagnum + 1;////每解析一条记录加一
                        lxLed_toltag.Text = total_tagnum.ToString();
                        lxLed_toltime.Text = (System.Environment.TickCount - total_time).ToString();
