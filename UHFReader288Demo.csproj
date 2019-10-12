@@ -162,6 +162,7 @@
   <ItemGroup>
     <Content Include="Globe Connected.ico" />
     <Content Include="mainapp.ico" />
+    <Content Include="Resources\display.jpg" />
     <None Include="Resources\5.png" />
     <None Include="Resources\4.png" />
     <None Include="Resources\3.png" />
