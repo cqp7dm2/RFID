@@ -43,12 +43,14 @@ namespace UHFReader288Demo
                 case "UHFReader288Demo.Properties.Resources._5":
                     pictureBox1.Image = UHFReader288Demo.Properties.Resources._5;
                     break;
+                case "UHFReader288Demo.Properties.Resources._6":
+                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._6;
+                    break;
                 default:
                     //Console.WriteLine("Default case");
                     break;
             }
             pictureBox1.Visible = true;
-
 
             tmr = new System.Windows.Forms.Timer();
             tmr.Tick += delegate {

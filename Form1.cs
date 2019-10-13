@@ -1974,7 +1974,7 @@ namespace UHFReader288Demo
                                isonlistview = true;
 
                                 times = int.Parse(CountStr);
-                                if (times >= 300)
+                                if (times >= 500)
                                 {
                                     //dataGridView2.Rows.Clear();
                                     dataGridView2.Rows.Remove(rows);
@@ -2036,6 +2036,12 @@ namespace UHFReader288Demo
                                     fullname = "Prof. Ir. Ts. Dr. Vinesh Thiruchelvam";
                                     position = "Deputy Vice Chancellor Asia Pacific University";
                                     pic = "UHFReader288Demo.Properties.Resources._5";
+                                    openForm();
+                                    break;
+                                case "020006":
+                                    fullname = "En. Zahid Ismail";
+                                    position = "Director, DMO Division, MPC";
+                                    pic = "UHFReader288Demo.Properties.Resources._6";
                                     openForm();
                                     break;
 
