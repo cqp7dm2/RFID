@@ -163,6 +163,7 @@
     <Content Include="Globe Connected.ico" />
     <Content Include="mainapp.ico" />
     <Content Include="Resources\6.png" />
+    <None Include="Resources\Final IOY1.png" />
     <Content Include="Resources\openingSound.m4a" />
     <None Include="Resources\61.png" />
     <Content Include="Resources\display.jpg" />
