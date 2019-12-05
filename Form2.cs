@@ -18,45 +18,14 @@ namespace UHFReader288Demo
         public Form2()
         {
             InitializeComponent();
-            label1.Text = Form1.fullname;
-            label3.Text = Form1.position;
-            label4.Text = Form1.industry;
-            picture = Form1.pic;
-            
-            switch (picture)
-            {
-                case "UHFReader288Demo.Properties.Resources._0":
-                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._0;
-                    break;
-                case "UHFReader288Demo.Properties.Resources._1":
-                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._1;
-                    break;
-                case "UHFReader288Demo.Properties.Resources._2":
-                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._2;
-                    break;
-                case "UHFReader288Demo.Properties.Resources._3":
-                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._3;
-                    break;
-                case "UHFReader288Demo.Properties.Resources._4":
-                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._4;
-                    break;
-                case "UHFReader288Demo.Properties.Resources._5":
-                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._5;
-                    break;
-                case "UHFReader288Demo.Properties.Resources._6":
-                    pictureBox1.Image = UHFReader288Demo.Properties.Resources._6;
-                    break;
-                default:
-                    //Console.WriteLine("Default case");
-                    break;
-            }
+           
             pictureBox1.Visible = true;
 
             tmr = new System.Windows.Forms.Timer();
             tmr.Tick += delegate {
                 this.Close();
             };
-            tmr.Interval = (int)TimeSpan.FromMinutes(0.09).TotalMilliseconds;
+            tmr.Interval = (int)TimeSpan.FromMinutes(0.02).TotalMilliseconds;
             tmr.Start();
         }
 
