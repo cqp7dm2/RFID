@@ -19,7 +19,7 @@ namespace UHFReader288Demo
         {
             InitializeComponent();
            
-            pictureBox1.Visible = true;
+            
 
             tmr = new System.Windows.Forms.Timer();
             tmr.Tick += delegate {

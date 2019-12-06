@@ -28,7 +28,6 @@ D:\OneDrive - Asia Pacific University\APU\RFID\RFIDRepository\obj\x86\Release\UH
 D:\IA_Assignment_GitHUb\RFID\bin\x86\Release\UHFReader288Demo.exe
 D:\IA_Assignment_GitHUb\RFID\bin\x86\Release\UHFReader288Demo.pdb
 D:\IA_Assignment_GitHUb\RFID\bin\x86\Release\CustomControl.dll
-D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.csprojAssemblyReference.cache
 D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.ConfigForm.resources
 D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.Form1.resources
 D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.Form2.resources
@@ -39,3 +38,4 @@ D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.csproj.CoreCompile
 D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.csproj.CopyComplete
 D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.exe
 D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.pdb
+D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.csprojAssemblyReference.cache

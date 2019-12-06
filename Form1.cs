@@ -1973,8 +1973,9 @@ namespace UHFReader288Demo
                                rows.Cells[5].Value = CountStr;
                                isonlistview = true;
 
+                                
                                 times = int.Parse(CountStr);
-                                if (times >= 300)
+                                if (times >= 50)
                                 {
                                     //dataGridView2.Rows.Clear();
                                     dataGridView2.Rows.Remove(rows);
@@ -2036,6 +2037,7 @@ namespace UHFReader288Demo
                 btIventoryG2.BackColor = Color.Transparent;
                 btIventoryG2.Text = "Start";
             }
+
             if (fIsBuffScan)
             {
                 toStopThread = true;//标志，接收数据线程判断stop为true，正常情况下会自动退出线程                                
