@@ -18,55 +18,21 @@ namespace UHFReader288Demo
         public Form2()
         {
             InitializeComponent();
-           
-            
+
+            // StartPosition was set to FormStartPosition.Manual in the properties window.
+            Rectangle screen = Screen.PrimaryScreen.WorkingArea;
+            int w = Width >= screen.Width ? screen.Width : (screen.Width + Width) / 2;
+            int h = Height >= screen.Height ? screen.Height : (screen.Height + Height) / 2;
+            this.Location = new Point((screen.Width - w) / 2, (screen.Height - h) / 2);
+            this.Size = new Size(w, h);
 
             tmr = new System.Windows.Forms.Timer();
             tmr.Tick += delegate {
                 this.Close();
             };
-            tmr.Interval = (int)TimeSpan.FromMinutes(0.02).TotalMilliseconds;
+            tmr.Interval = (int)TimeSpan.FromMinutes(0.05).TotalMilliseconds;
             tmr.Start();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Form2_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click_1(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -190,6 +190,12 @@ namespace UHFReader288Demo
             });
 
         }
+        public void openForm2()
+        {
+            Form2 frm2 = new Form2();
+            frm2.Show();
+            //this.WindowState = FormWindowState.Minimized;
+        }
         protected override void DefWndProc(ref Message m)
         {
             if (m.Msg == WM_SENDTAG)
@@ -206,9 +212,10 @@ namespace UHFReader288Demo
                 sEPC = sEPC.Substring(2);
                 index++;
                 string RSSI = tagInfo.Substring(index);
-
+                bool bFormNameOpen = false;
                 DataTable dt = dataGridView1.DataSource as DataTable;
 
+                //ANSWERMODE HERE
                 if (dt == null)
                 {
                     dt = new DataTable();
@@ -224,6 +231,7 @@ namespace UHFReader288Demo
                     dr["Column4"] = RSSI;
                     dr["Column5"] = str_ant;
                     dt.Rows.Add(dr);
+                    
                     if (rb_fastid.Checked)
                     {
                         if ((epclen & 0x80) == 0)//只有EPC
@@ -254,7 +262,7 @@ namespace UHFReader288Demo
                     }
                     else if (rb_epc.Checked)
                     {
-                        lxLedControl1.Text = dt.Rows.Count.ToString();
+                        lxLedControl1.Text = dt.Rows.Count.ToString(); 
                     }
                     else if (rb_tid.Checked)
                     {
@@ -307,6 +315,8 @@ namespace UHFReader288Demo
                         else if (rb_epc.Checked)
                         {
                             lxLedControl1.Text = dt.Rows.Count.ToString();
+                            //openForm2();
+                            
                         }
                         else if (rb_tid.Checked)
                         {
@@ -322,6 +332,28 @@ namespace UHFReader288Demo
                         cnt++;
                         dt.Rows[dt.Rows.IndexOf(dr[0])]["Column3"] = cnt.ToString();
                         dt.Rows[dt.Rows.IndexOf(dr[0])]["Column4"] = RSSI;
+                        if(int.Parse(RSSI) > 60)
+                        {
+                            FormCollection fc = Application.OpenForms;
+                            
+                            foreach (Form frm in fc)
+                            {
+                                //iterate through
+                                if (frm.Name == "Form2")
+                                {
+                                    bFormNameOpen = true;
+                                }
+                            }
+                            if (bFormNameOpen == true)
+                            {
+
+                            }
+                            else
+                            {
+                                openForm2();
+                            }
+
+                        }
                         int ant1 = Convert.ToInt32(dr[0]["Column5"].ToString(), 2);
                         int ant2 = Convert.ToInt32(str_ant, 2);
                         dt.Rows[dt.Rows.IndexOf(dr[0])]["Column5"] = Convert.ToString((ant1 | ant2), 2).PadLeft(4, '0');
@@ -1256,6 +1288,7 @@ namespace UHFReader288Demo
                     ReadLen = Convert.ToByte(text_readLen.Text, 16);
                     Psd = HexStringToByteArray(text_readpsd.Text);
                 }
+                //Right Side Display
                 lxLedControl1.Text = "0";
                 lxLedControl2.Text = "0";
                 lxLedControl3.Text = "0";
@@ -1885,7 +1918,7 @@ namespace UHFReader288Demo
             this.WindowState = FormWindowState.Minimized;
         }
 
-
+        //AUTO RUNNING MODE
         private void GetData()
         {
             byte[] ScanModeData = new byte[40960];
@@ -1914,6 +1947,8 @@ namespace UHFReader288Demo
             DataGridViewRow rows = new DataGridViewRow();
             int xtime = System.Environment.TickCount;
             int times;
+
+
             fCmdRet = RWDev.ReadActiveModeData(ScanModeData, ref ValidDatalength, frmcomportindex);
             if (fCmdRet == 0)
             {
@@ -1962,6 +1997,7 @@ namespace UHFReader288Demo
                        CountStr = Convert.ToString(Convert.ToInt32(temp1.Substring(24, 4), 16), 10);
                        AntStr = Convert.ToString(Convert.ToInt32(temp1.Substring(28, 2), 16), 2).PadLeft(4, '0');
                        EPCStr = temp1.Substring(30, temp1.Length - 34);
+
                        bool isonlistview = false;
                        for (int i = 0; i < dataGridView2.RowCount; i++)
                        {
@@ -1996,7 +2032,7 @@ namespace UHFReader288Demo
 
                             //HEREHERE
 
-                            
+
                             dataGridView2.Rows.Insert(dataGridView2.RowCount, arr);
 
                             openForm();

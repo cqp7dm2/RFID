@@ -39,3 +39,17 @@ D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.csproj.CopyComplet
 D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.exe
 D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.pdb
 D:\IA_Assignment_GitHUb\RFID\obj\x86\Release\UHFReader288Demo.csprojAssemblyReference.cache
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\bin\x86\Release\UHFReader288Demo.exe.config
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\bin\x86\Release\UHFReader288Demo.exe
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\bin\x86\Release\UHFReader288Demo.pdb
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\bin\x86\Release\CustomControl.dll
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\obj\x86\Release\UHFReader288Demo.csprojAssemblyReference.cache
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\obj\x86\Release\UHFReader288Demo.ConfigForm.resources
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\obj\x86\Release\UHFReader288Demo.Form1.resources
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\obj\x86\Release\UHFReader288Demo.Form2.resources
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\obj\x86\Release\UHFReader288Demo.LoginForm.resources
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\obj\x86\Release\UHFReader288Demo.Properties.Resources.resources
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\obj\x86\Release\UHFReader288Demo.csproj.GenerateResource.cache
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\obj\x86\Release\UHFReader288Demo.csproj.CopyComplete
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\obj\x86\Release\UHFReader288Demo.exe
+D:\OneDrive - Asia Pacific University\APU\RFIDIOT\obj\x86\Release\UHFReader288Demo.pdb
