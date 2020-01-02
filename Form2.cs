@@ -15,7 +15,7 @@ namespace UHFReader288Demo
     {
         private System.Windows.Forms.Timer tmr;
         public static string picture = "";
-        public Form2()
+        public Form2(string epc)
         {
             InitializeComponent();
 
@@ -32,7 +32,30 @@ namespace UHFReader288Demo
             };
             tmr.Interval = (int)TimeSpan.FromMinutes(0.05).TotalMilliseconds;
             tmr.Start();
-        }
 
+            switch (epc)
+            {
+                case "2020":
+                    ulabel.Text = "Lim Wern Wei";
+                    break;
+
+                case "2021":
+                    ulabel.Text = "Nicholas Tan Ooi Kiat";
+                    break;
+
+                case "2022":
+                    ulabel.Text = " Lim Chin Eng";
+                    break;
+
+                case "2023":
+                    ulabel.Text = "Tan Kian Guan";
+                    break;
+                default:
+                    ulabel.Text = "";
+                    ulabel.Visible = false;
+                    break;
+            }
+            //ulabel.Text = epc;
+        }
     }
 }

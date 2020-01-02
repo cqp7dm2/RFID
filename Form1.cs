@@ -190,9 +190,9 @@ namespace UHFReader288Demo
             });
 
         }
-        public void openForm2()
+        public void openForm2(string epc)
         {
-            Form2 frm2 = new Form2();
+            Form2 frm2 = new Form2(epc);
             frm2.Show();
             //this.WindowState = FormWindowState.Minimized;
         }
@@ -350,7 +350,7 @@ namespace UHFReader288Demo
                             }
                             else
                             {
-                                openForm2();
+                                openForm2(sEPC);
                             }
 
                         }
@@ -1911,12 +1911,6 @@ namespace UHFReader288Demo
         public static string pic = "";
 
         //private System.Windows.Forms.Timer myTimer = new System.Windows.Forms.Timer();
-        private void openForm()
-        {
-            Form2 frm2 = new Form2();
-            frm2.Show();
-            this.WindowState = FormWindowState.Minimized;
-        }
 
         //AUTO RUNNING MODE
         private void GetData()
@@ -2035,7 +2029,6 @@ namespace UHFReader288Demo
 
                             dataGridView2.Rows.Insert(dataGridView2.RowCount, arr);
 
-                            openForm();
 
 
                         }
